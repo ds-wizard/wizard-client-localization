@@ -3,7 +3,7 @@
 [![LICENSE](https://img.shields.io/github/license/ds-wizard/wizard-client-locales)](LICENSE)
 [![Language](https://img.shields.io/badge/ISO%20639--1-cs-blue)](https://en.wikipedia.org/wiki/Czech_language)
 [![Translation status](https://img.shields.io/badge/translated-100%25-brightgreen)](https://localize.ds-wizard.org/engage/wizard-client/cs/)
-[![Translation status](https://localize.ds-wizard.org/widgets/wizard-client/cs/wizard-client-4-10-0/svg-badge.svg)](https://localize.ds-wizard.org/engage/wizard-client/cs/)
+[![Translation status](https://localize.ds-wizard.org/widgets/wizard-client/cs/wizard-client-4-11-0/svg-badge.svg)](https://localize.ds-wizard.org/engage/wizard-client/cs/)
 
 ## Contributors
 
@@ -16,9 +16,20 @@
 * **Jan Slifka** <[jan.slifka@ds-wizard.org](mailto:jan.slifka@ds-wizard.org)>
   * ORCID: [0000-0002-4941-0575](https://orcid.org/0000-0002-4941-0575)
   * GitHub: [@janslifka](https://github.com/janslifka)
+* **Jana Martínková** <[jana.martinkova@ds-wizard.org](mailto:jana.martinkova@ds-wizard.org)>
+  * ORCID: [0000-0001-8575-6533](https://orcid.org/0000-0001-8575-6533)
+  * GitHub: [@jmartinkova](https://github.com/jmartinkova)
+* **Veronika Novotná** <[veronika.novotna@mendelu.cz](mailto:veronika.novotna@mendelu.cz)>
+  * ORCID: [0009-0002-1618-5487](https://orcid.org/0009-0002-1618-5487)
 
 
 ## Changelog
+
+### 4.11.0
+
+* Updated for version 4.11.0
+* Fix the form of words in the sharing section of projects
+* Fix the welcome message for the researcher role to improve verb usage
 
 ### 4.10.0
 
