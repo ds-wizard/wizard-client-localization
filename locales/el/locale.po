@@ -1,17 +1,7 @@
 # Jana Martínková <j.martinkova@outlook.com>, 2024.
 # Georgia Koutentaki <koutegeo@cvut.cz>, 2024.
 msgid ""
-msgstr ""
-"Project-Id-Version: wizard-client:4.9.0\n"
-"POT-Creation-Date: 2024-11-07T09:32:42.414Z \n"
-"PO-Revision-Date: 2024-10-02 14:46+0000\n"
-"Last-Translator: Georgia Koutentaki <koutegeo@cvut.cz>\n"
-"Language-Team: Greek <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-11-0/el/>\n"
-"Language: el\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.18.2\n"
+msgstr "Project-Id-Version: wizard-client:4.9.0\nPOT-Creation-Date: 2024-11-07T09:32:42.414Z\nPO-Revision-Date: 2024-11-07 13:57+0000\nLast-Translator: Anonymous <noreply@weblate.org>\nLanguage-Team: Greek <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-12-0/el/>\nLanguage: el\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 4.18.2\n"
 
 #: engine-shared/elm/Shared/Auth/Role.elm:29
 msgid "Admin"
@@ -654,8 +644,9 @@ msgid "To"
 msgstr "Προς"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:919
+#, fuzzy
 msgid "Unable to delete file."
-msgstr ""
+msgstr "Αδυναμία διαγραφής αρχείου."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1025
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1034
@@ -1049,12 +1040,14 @@ msgid "The selected item was deleted."
 msgstr "Το επιλεγμένο στοιχείο διαγράφηκε."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3873
+#, fuzzy
 msgid "The file was deleted."
-msgstr ""
+msgstr "Το αρχείο διαγράφηκε."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3896
+#, fuzzy
 msgid "Upload File"
-msgstr ""
+msgstr "Ανέβασμα αρχείου"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3962
 msgid "This option leads to some follow up questions."
@@ -1112,8 +1105,9 @@ msgid "Remove"
 msgstr "Αφαίρεση"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4190
+#, fuzzy
 msgid "Delete File"
-msgstr ""
+msgstr "Διαγραφή αρχείου"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4192
 #: engine-wizard/elm/Wizard/Users/Edit/Components/ApiKeys.elm:280
@@ -1256,12 +1250,14 @@ msgid "Description"
 msgstr "Περιγραφή"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:174
+#, fuzzy
 msgid "Unable to upload the file."
-msgstr ""
+msgstr "Δεν είναι δυνατή η μεταφόρτωση του αρχείου."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:199
+#, fuzzy
 msgid "File upload is not available in the KM editor."
-msgstr ""
+msgstr "Η μεταφόρτωση αρχείων δεν είναι διαθέσιμη στον επεξεργαστή KM."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:207
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor.elm:926
@@ -1271,23 +1267,27 @@ msgid "Upload"
 msgstr "Ανέβασμα"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:237
+#, fuzzy
 msgid "Upload a file"
-msgstr ""
+msgstr "Ανεβάστε ένα αρχείο"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:275
+#, fuzzy
 msgid ""
 "**The file type is not allowed for this question.**\n"
 "\n"
 "Choose one of the following: %s"
-msgstr ""
+msgstr "**Ο τύπος αρχείου δεν επιτρέπεται για αυτή την ερώτηση.**\n\nΕπιλέξτε ένα από τα ακόλουθα: %s"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:288
+#, fuzzy
 msgid "The file cannot be larger than %s."
-msgstr ""
+msgstr "Το αρχείο δεν μπορεί να είναι μεγαλύτερο από %s."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:324
+#, fuzzy
 msgid "Choose file"
-msgstr ""
+msgstr "Επιλέξτε αρχεία"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:325
 #: engine-wizard/elm/Wizard/DocumentTemplates/Import/FileImport/View.elm:85
@@ -1328,8 +1328,9 @@ msgid "Revert to this version"
 msgstr "Επαναφορά σε αυτή την έκδοση"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/History.elm:498
+#, fuzzy
 msgid "Deleted file"
-msgstr ""
+msgstr "Διαγραμμένο αρχείο"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/History.elm:507
 msgid "Cleared reply of"
@@ -3404,20 +3405,24 @@ msgid "Go to list question"
 msgstr "Πηγαίνετε στην ερώτηση λίστας"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1229
+#, fuzzy
 msgid "File Types"
-msgstr ""
+msgstr "Τύποι αρχείων"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1237
+#, fuzzy
 msgid "Max Size (bytes)"
-msgstr ""
+msgstr "Μέγιστο μέγεθος (bytes)"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1244
+#, fuzzy
 msgid "You can limit file type selection by providing comma separated list of extensions, mime types, or combination. For example, `application/pdf` or `.xls,.xlsx`."
-msgstr ""
+msgstr "Μπορείτε να περιορίσετε την επιλογή τύπου αρχείου παρέχοντας λίστα επεκτάσεων, τύπων mime με διαχωρισμό κόμματος ή συνδυασμό αυτών. Για παράδειγμα, `application/pdf` ή `.xls,.xlsx`."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1246
+#, fuzzy
 msgid "Uploaded files cannot be larger than %s, but you can set a smaller limit."
-msgstr ""
+msgstr "Τα αρχεία που μεταφορτώνονται δεν μπορούν να είναι μεγαλύτερα από %s, αλλά μπορείτε να ορίσετε ένα μικρότερο όριο."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1254
 msgid "Item select questions using this list question"
@@ -4488,42 +4493,50 @@ msgstr "ενεργοποιημένο"
 
 #: engine-wizard/elm/Wizard/ProjectFiles/Index/Update.elm:64
 #: engine-wizard/elm/Wizard/Projects/Detail/Files/Update.elm:66
+#, fuzzy
 msgid "File could not be deleted."
-msgstr ""
+msgstr "Το αρχείο δεν μπόρεσε να διαγραφεί."
 
 #: engine-wizard/elm/Wizard/ProjectFiles/Index/Update.elm:83
 #: engine-wizard/elm/Wizard/Projects/Detail/Files/Update.elm:85
+#, fuzzy
 msgid "Unable to get project files."
-msgstr ""
+msgstr "Αδυναμία λήψης αρχείων έργου."
 
 #: engine-wizard/elm/Wizard/ProjectFiles/Index/View.elm:31
+#, fuzzy
 msgid "Project Files"
-msgstr ""
+msgstr "Αρχεία έργου"
 
 #: engine-wizard/elm/Wizard/ProjectFiles/Index/View.elm:44
 #: engine-wizard/elm/Wizard/Projects/Detail/Files/View.elm:45
+#, fuzzy
 msgid "There are no project files."
-msgstr ""
+msgstr "Δεν υπάρχουν αρχεία έργου."
 
 #: engine-wizard/elm/Wizard/ProjectFiles/Index/View.elm:52
 #: engine-wizard/elm/Wizard/Projects/Detail/Files/View.elm:53
+#, fuzzy
 msgid "Search files..."
-msgstr ""
+msgstr "Αναζήτηση αρχείων..."
 
 #: engine-wizard/elm/Wizard/ProjectFiles/Index/View.elm:55
 #: engine-wizard/elm/Wizard/Projects/Detail/Files/View.elm:56
+#, fuzzy
 msgid "File name"
-msgstr ""
+msgstr "Όνομα αρχείου"
 
 #: engine-wizard/elm/Wizard/ProjectFiles/Index/View.elm:56
 #: engine-wizard/elm/Wizard/Projects/Detail/Files/View.elm:57
+#, fuzzy
 msgid "File size"
-msgstr ""
+msgstr "Μέγεθος αρχείου"
 
 #: engine-wizard/elm/Wizard/ProjectFiles/Index/View.elm:158
 #: engine-wizard/elm/Wizard/Projects/Detail/Files/View.elm:162
+#, fuzzy
 msgid "Delete file"
-msgstr ""
+msgstr "Διαγραφή αρχείου"
 
 #: engine-wizard/elm/Wizard/ProjectImporters/Index/Update.elm:43
 msgid "Unable to change project importer."
@@ -4843,8 +4856,9 @@ msgid "Unable to get project tags."
 msgstr "Αδυναμία λήψης ετικετών έργου."
 
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/Settings.elm:341
+#, fuzzy
 msgid "The used version of the document template is no longer supported. Select a newer version or another supported template."
-msgstr ""
+msgstr "Η χρησιμοποιούμενη έκδοση του προτύπου εγγράφου δεν υποστηρίζεται πλέον. Επιλέξτε μια νεότερη έκδοση ή ένα άλλο υποστηριζόμενο πρότυπο."
 
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/Settings.elm:344
 msgid "This document template is now deprecated."
@@ -4970,24 +4984,29 @@ msgid "You are not allowed to view this page."
 msgstr "Δεν έχετε άδεια προβολής αυτής της σελίδας."
 
 #: engine-wizard/elm/Wizard/Projects/FileDownload/Update.elm:50
+#, fuzzy
 msgid "You do not have permission to access this file"
-msgstr ""
+msgstr "Δεν έχετε δικαίωμα πρόσβασης σε αυτό το αρχείο"
 
 #: engine-wizard/elm/Wizard/Projects/FileDownload/Update.elm:53
+#, fuzzy
 msgid "File not found"
-msgstr ""
+msgstr "Το αρχείο δεν βρέθηκε"
 
 #: engine-wizard/elm/Wizard/Projects/FileDownload/Update.elm:56
+#, fuzzy
 msgid "Unable to get file"
-msgstr ""
+msgstr "Αδυναμία λήψης αρχείου"
 
 #: engine-wizard/elm/Wizard/Projects/FileDownload/View.elm:21
+#, fuzzy
 msgid "Downloading"
-msgstr ""
+msgstr "Λήψη"
 
 #: engine-wizard/elm/Wizard/Projects/FileDownload/View.elm:22
+#, fuzzy
 msgid "Your download should start shortly."
-msgstr ""
+msgstr "Η λήψη θα ξεκινήσει σύντομα."
 
 #: engine-wizard/elm/Wizard/Projects/Import/Update.elm:98
 msgid "Unable to get importer."
@@ -5039,8 +5058,9 @@ msgid "Added item"
 msgstr "Προστέθηκε στοιχείο"
 
 #: engine-wizard/elm/Wizard/Projects/Import/View.elm:286
+#, fuzzy
 msgid "Added file"
-msgstr ""
+msgstr "Προστέθηκε αρχείο"
 
 #: engine-wizard/elm/Wizard/Projects/Index/Update.elm:296
 msgid "Project migration was successfully canceled."
