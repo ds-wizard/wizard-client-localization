@@ -3,17 +3,7 @@
 # Jan Slifka <jan.slifka@ds-wizard.org>, 2023.
 # Jana Martínková <j.martinkova@outlook.com>, 2024.
 msgid ""
-msgstr ""
-"Project-Id-Version: wizard-client:3.17.1\n"
-"POT-Creation-Date: 2024-11-07T09:32:42.414Z \n"
-"PO-Revision-Date: 2024-10-02 14:46+0000\n"
-"Last-Translator: Jana Martínková <j.martinkova@outlook.com>\n"
-"Language-Team: Czech <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-11-0/cs/>\n"
-"Language: cs\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.18.2\n"
+msgstr "Project-Id-Version: wizard-client:3.17.1\nPOT-Creation-Date: 2024-11-07T09:32:42.414Z\nPO-Revision-Date: 2024-11-07 13:57+0000\nLast-Translator: Anonymous <noreply@weblate.org>\nLanguage-Team: Czech <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-12-0/cs/>\nLanguage: cs\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\nX-Generator: Weblate 4.18.2\n"
 
 #: engine-shared/elm/Shared/Auth/Role.elm:29
 msgid "Admin"
@@ -656,8 +646,9 @@ msgid "To"
 msgstr "Do"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:919
+#, fuzzy
 msgid "Unable to delete file."
-msgstr ""
+msgstr "Nelze odstranit soubor."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1025
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1034
@@ -1052,12 +1043,14 @@ msgid "The selected item was deleted."
 msgstr "Vybraná položka byla odstraněna."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3873
+#, fuzzy
 msgid "The file was deleted."
-msgstr ""
+msgstr "Soubor byl odstraněn."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3896
+#, fuzzy
 msgid "Upload File"
-msgstr ""
+msgstr "Nahrát soubor"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3962
 msgid "This option leads to some follow up questions."
@@ -1116,8 +1109,9 @@ msgid "Remove"
 msgstr "Odstranit"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4190
+#, fuzzy
 msgid "Delete File"
-msgstr ""
+msgstr "Odstranit soubor"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4192
 #: engine-wizard/elm/Wizard/Users/Edit/Components/ApiKeys.elm:280
@@ -1260,12 +1254,14 @@ msgid "Description"
 msgstr "Popis"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:174
+#, fuzzy
 msgid "Unable to upload the file."
-msgstr ""
+msgstr "Soubor nelze nahrát."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:199
+#, fuzzy
 msgid "File upload is not available in the KM editor."
-msgstr ""
+msgstr "V editoru KM není k dispozici nahrávání souborů."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:207
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor.elm:926
@@ -1275,19 +1271,22 @@ msgid "Upload"
 msgstr "Nahrát"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:237
+#, fuzzy
 msgid "Upload a file"
-msgstr ""
+msgstr "Nahrát soubor"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:275
+#, fuzzy
 msgid ""
 "**The file type is not allowed for this question.**\n"
 "\n"
 "Choose one of the following: %s"
-msgstr ""
+msgstr "**Typ souboru není pro tuto otázku povolen.**\n\nVyberte jednu z následujících možností: %s"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:288
+#, fuzzy
 msgid "The file cannot be larger than %s."
-msgstr ""
+msgstr "Soubor nemůže být větší než %s."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:324
 msgid "Choose file"
@@ -1332,8 +1331,9 @@ msgid "Revert to this version"
 msgstr "Vrátit se k této verzi"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/History.elm:498
+#, fuzzy
 msgid "Deleted file"
-msgstr ""
+msgstr "Odstraněný soubor"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/History.elm:507
 msgid "Cleared reply of"
@@ -3417,20 +3417,24 @@ msgid "Go to list question"
 msgstr "Přejít na otázku pro seznam položek"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1229
+#, fuzzy
 msgid "File Types"
-msgstr ""
+msgstr "Typy souborů"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1237
+#, fuzzy
 msgid "Max Size (bytes)"
-msgstr ""
+msgstr "Maximální velikost (bajty)"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1244
+#, fuzzy
 msgid "You can limit file type selection by providing comma separated list of extensions, mime types, or combination. For example, `application/pdf` or `.xls,.xlsx`."
-msgstr ""
+msgstr "Výběr typu souboru můžete omezit zadáním seznamu přípon, typů mime oddělených čárkou nebo jejich kombinací. Například `application/pdf` nebo `.xls,.xlsx`."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1246
+#, fuzzy
 msgid "Uploaded files cannot be larger than %s, but you can set a smaller limit."
-msgstr ""
+msgstr "Nahrané soubory nemohou být větší než %s, ale můžete nastavit menší limit."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1254
 msgid "Item select questions using this list question"
@@ -4501,42 +4505,50 @@ msgstr "povoleno"
 
 #: engine-wizard/elm/Wizard/ProjectFiles/Index/Update.elm:64
 #: engine-wizard/elm/Wizard/Projects/Detail/Files/Update.elm:66
+#, fuzzy
 msgid "File could not be deleted."
-msgstr ""
+msgstr "Soubor se nepodařilo odstranit."
 
 #: engine-wizard/elm/Wizard/ProjectFiles/Index/Update.elm:83
 #: engine-wizard/elm/Wizard/Projects/Detail/Files/Update.elm:85
+#, fuzzy
 msgid "Unable to get project files."
-msgstr ""
+msgstr "Nelze získat soubory projektu."
 
 #: engine-wizard/elm/Wizard/ProjectFiles/Index/View.elm:31
+#, fuzzy
 msgid "Project Files"
-msgstr ""
+msgstr "Soubory projektu"
 
 #: engine-wizard/elm/Wizard/ProjectFiles/Index/View.elm:44
 #: engine-wizard/elm/Wizard/Projects/Detail/Files/View.elm:45
+#, fuzzy
 msgid "There are no project files."
-msgstr ""
+msgstr "Neexistují žádné projektové soubory."
 
 #: engine-wizard/elm/Wizard/ProjectFiles/Index/View.elm:52
 #: engine-wizard/elm/Wizard/Projects/Detail/Files/View.elm:53
+#, fuzzy
 msgid "Search files..."
-msgstr ""
+msgstr "Vyhledávání souborů..."
 
 #: engine-wizard/elm/Wizard/ProjectFiles/Index/View.elm:55
 #: engine-wizard/elm/Wizard/Projects/Detail/Files/View.elm:56
+#, fuzzy
 msgid "File name"
-msgstr ""
+msgstr "Název souboru"
 
 #: engine-wizard/elm/Wizard/ProjectFiles/Index/View.elm:56
 #: engine-wizard/elm/Wizard/Projects/Detail/Files/View.elm:57
+#, fuzzy
 msgid "File size"
-msgstr ""
+msgstr "Velikost souboru"
 
 #: engine-wizard/elm/Wizard/ProjectFiles/Index/View.elm:158
 #: engine-wizard/elm/Wizard/Projects/Detail/Files/View.elm:162
+#, fuzzy
 msgid "Delete file"
-msgstr ""
+msgstr "Smazat soubor"
 
 #: engine-wizard/elm/Wizard/ProjectImporters/Index/Update.elm:43
 msgid "Unable to change project importer."
@@ -4860,8 +4872,9 @@ msgid "Unable to get project tags."
 msgstr "Nelze získat projektové štítky."
 
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/Settings.elm:341
+#, fuzzy
 msgid "The used version of the document template is no longer supported. Select a newer version or another supported template."
-msgstr ""
+msgstr "Použitá verze šablony dokumentu již není podporována. Vyberte novější verzi nebo jinou podporovanou šablonu."
 
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/Settings.elm:344
 msgid "This document template is now deprecated."
@@ -4987,24 +5000,29 @@ msgid "You are not allowed to view this page."
 msgstr "Nemáte oprávnění vidět tuto stránku."
 
 #: engine-wizard/elm/Wizard/Projects/FileDownload/Update.elm:50
+#, fuzzy
 msgid "You do not have permission to access this file"
-msgstr ""
+msgstr "Nemáte oprávnění k přístupu k tomuto souboru"
 
 #: engine-wizard/elm/Wizard/Projects/FileDownload/Update.elm:53
+#, fuzzy
 msgid "File not found"
-msgstr ""
+msgstr "Soubor nebyl nalezen"
 
 #: engine-wizard/elm/Wizard/Projects/FileDownload/Update.elm:56
+#, fuzzy
 msgid "Unable to get file"
-msgstr ""
+msgstr "Nelze získat soubor"
 
 #: engine-wizard/elm/Wizard/Projects/FileDownload/View.elm:21
+#, fuzzy
 msgid "Downloading"
-msgstr ""
+msgstr "Stahování"
 
 #: engine-wizard/elm/Wizard/Projects/FileDownload/View.elm:22
+#, fuzzy
 msgid "Your download should start shortly."
-msgstr ""
+msgstr "Stahování by mělo být brzy zahájeno."
 
 #: engine-wizard/elm/Wizard/Projects/Import/Update.elm:98
 msgid "Unable to get importer."
@@ -5058,8 +5076,9 @@ msgid "Added item"
 msgstr "Přidaná položka"
 
 #: engine-wizard/elm/Wizard/Projects/Import/View.elm:286
+#, fuzzy
 msgid "Added file"
-msgstr ""
+msgstr "Přidaný soubor"
 
 #: engine-wizard/elm/Wizard/Projects/Index/Update.elm:296
 msgid "Project migration was successfully canceled."
