@@ -1,7 +1,7 @@
 # Marek Suchánek <marek.suchanek@ds-wizard.org>, 2023.
 # Paulette Lieby <paulette.lieby@france-bioinformatique.fr>, 2023, 2024.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2024-11-07T09:32:42.414Z\nPO-Revision-Date: 2024-11-07 13:57+0000\nLast-Translator: Anonymous <noreply@weblate.org>\nLanguage-Team: French <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-12-0/fr/>\nLanguage: fr\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n > 1;\nX-Generator: Weblate 4.18.2\n"
+msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2024-11-07T09:32:42.414Z\nPO-Revision-Date: 2024-11-09 10:47+0000\nLast-Translator: Paulette Lieby <paulette.lieby@france-bioinformatique.fr>\nLanguage-Team: French <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-12-0/fr/>\nLanguage: fr\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n > 1;\nX-Generator: Weblate 4.18.2\n"
 
 #: engine-shared/elm/Shared/Auth/Role.elm:29
 msgid "Admin"
@@ -644,7 +644,6 @@ msgid "To"
 msgstr "À"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:919
-#, fuzzy
 msgid "Unable to delete file."
 msgstr "Impossible de supprimer le fichier."
 
@@ -1040,14 +1039,12 @@ msgid "The selected item was deleted."
 msgstr "L'élément sélectionné a été supprimé."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3873
-#, fuzzy
 msgid "The file was deleted."
 msgstr "Le fichier a été supprimé."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3896
-#, fuzzy
 msgid "Upload File"
-msgstr "Télécharger le fichier"
+msgstr "Téléverser le fichier"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3962
 msgid "This option leads to some follow up questions."
@@ -1105,7 +1102,6 @@ msgid "Remove"
 msgstr "Supprimer"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4190
-#, fuzzy
 msgid "Delete File"
 msgstr "Supprimer le fichier"
 
@@ -1250,14 +1246,12 @@ msgid "Description"
 msgstr "Description"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:174
-#, fuzzy
 msgid "Unable to upload the file."
-msgstr "Impossible de télécharger le fichier."
+msgstr "Impossible de téléverser le fichier."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:199
-#, fuzzy
 msgid "File upload is not available in the KM editor."
-msgstr "Le téléchargement de fichiers n'est pas disponible dans l'éditeur KM."
+msgstr "Le téléversement de fichiers n'est pas disponible dans l'éditeur KM."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:207
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor.elm:926
@@ -1267,20 +1261,17 @@ msgid "Upload"
 msgstr "Téléverser"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:237
-#, fuzzy
 msgid "Upload a file"
-msgstr "Télécharger un fichier"
+msgstr "Téléverser un fichier"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:275
-#, fuzzy
 msgid ""
 "**The file type is not allowed for this question.**\n"
 "\n"
 "Choose one of the following: %s"
-msgstr "**Le type de fichier n'est pas autorisé pour cette question.\n\nChoisissez l'un des éléments suivants : %s"
+msgstr "**Cette question n'accepte pas le type de fichier.\n\nChoisissez l'un des types : %s"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:288
-#, fuzzy
 msgid "The file cannot be larger than %s."
 msgstr "Le fichier ne peut pas être plus grand que %s."
 
@@ -1327,7 +1318,6 @@ msgid "Revert to this version"
 msgstr "Revenir à cette version"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/History.elm:498
-#, fuzzy
 msgid "Deleted file"
 msgstr "Fichier supprimé"
 
@@ -3404,24 +3394,20 @@ msgid "Go to list question"
 msgstr "Aller à la question de type liste"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1229
-#, fuzzy
 msgid "File Types"
 msgstr "Types de fichiers"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1237
-#, fuzzy
 msgid "Max Size (bytes)"
 msgstr "Taille maximale (octets)"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1244
-#, fuzzy
 msgid "You can limit file type selection by providing comma separated list of extensions, mime types, or combination. For example, `application/pdf` or `.xls,.xlsx`."
-msgstr "Vous pouvez limiter la sélection du type de fichier en fournissant une liste d'extensions, de types mime ou de combinaisons séparées par des virgules. Par exemple, `application/pdf` ou `.xls, .xlsx`."
+msgstr "Vous pouvez limiter la sélection du type de fichier en fournissant une liste d'extensions, une liste de types MIME ou une combinaison des deux. Par exemple, `application/pdf` ou `.xls, .xlsx`."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1246
-#, fuzzy
 msgid "Uploaded files cannot be larger than %s, but you can set a smaller limit."
-msgstr "Les fichiers téléchargés ne peuvent pas dépasser %s, mais vous pouvez fixer une limite inférieure."
+msgstr "Les fichiers téléversés ne peuvent pas dépasser %s, mais vous pouvez fixer une limite inférieure."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1254
 msgid "Item select questions using this list question"
@@ -4492,48 +4478,40 @@ msgstr "activé"
 
 #: engine-wizard/elm/Wizard/ProjectFiles/Index/Update.elm:64
 #: engine-wizard/elm/Wizard/Projects/Detail/Files/Update.elm:66
-#, fuzzy
 msgid "File could not be deleted."
 msgstr "Le fichier n'a pas pu être supprimé."
 
 #: engine-wizard/elm/Wizard/ProjectFiles/Index/Update.elm:83
 #: engine-wizard/elm/Wizard/Projects/Detail/Files/Update.elm:85
-#, fuzzy
 msgid "Unable to get project files."
 msgstr "Impossible d'obtenir les fichiers de projet."
 
 #: engine-wizard/elm/Wizard/ProjectFiles/Index/View.elm:31
-#, fuzzy
 msgid "Project Files"
-msgstr "Dossiers de projets"
+msgstr "Fichiers de projets"
 
 #: engine-wizard/elm/Wizard/ProjectFiles/Index/View.elm:44
 #: engine-wizard/elm/Wizard/Projects/Detail/Files/View.elm:45
-#, fuzzy
 msgid "There are no project files."
 msgstr "Il n'y a pas de fichiers de projet."
 
 #: engine-wizard/elm/Wizard/ProjectFiles/Index/View.elm:52
 #: engine-wizard/elm/Wizard/Projects/Detail/Files/View.elm:53
-#, fuzzy
 msgid "Search files..."
 msgstr "Rechercher des fichiers..."
 
 #: engine-wizard/elm/Wizard/ProjectFiles/Index/View.elm:55
 #: engine-wizard/elm/Wizard/Projects/Detail/Files/View.elm:56
-#, fuzzy
 msgid "File name"
 msgstr "Nom du fichier"
 
 #: engine-wizard/elm/Wizard/ProjectFiles/Index/View.elm:56
 #: engine-wizard/elm/Wizard/Projects/Detail/Files/View.elm:57
-#, fuzzy
 msgid "File size"
 msgstr "Taille du fichier"
 
 #: engine-wizard/elm/Wizard/ProjectFiles/Index/View.elm:158
 #: engine-wizard/elm/Wizard/Projects/Detail/Files/View.elm:162
-#, fuzzy
 msgid "Delete file"
 msgstr "Supprimer le fichier"
 
@@ -4855,9 +4833,8 @@ msgid "Unable to get project tags."
 msgstr "Impossible d'obtenir les étiquettes du projet."
 
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/Settings.elm:341
-#, fuzzy
 msgid "The used version of the document template is no longer supported. Select a newer version or another supported template."
-msgstr "La version utilisée du modèle de document n'est plus prise en charge. Sélectionnez une version plus récente ou un autre modèle pris en charge."
+msgstr "La version du modèle de document utilisée est obsolète. Sélectionnez une version plus récente ou un autre modèle de document."
 
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/Settings.elm:344
 msgid "This document template is now deprecated."
@@ -4983,27 +4960,22 @@ msgid "You are not allowed to view this page."
 msgstr "Vous n'êtes pas autorisé·e à lire cette page."
 
 #: engine-wizard/elm/Wizard/Projects/FileDownload/Update.elm:50
-#, fuzzy
 msgid "You do not have permission to access this file"
 msgstr "Vous n'avez pas l'autorisation d'accéder à ce fichier"
 
 #: engine-wizard/elm/Wizard/Projects/FileDownload/Update.elm:53
-#, fuzzy
 msgid "File not found"
 msgstr "Fichier non trouvé"
 
 #: engine-wizard/elm/Wizard/Projects/FileDownload/Update.elm:56
-#, fuzzy
 msgid "Unable to get file"
 msgstr "Impossible d'obtenir le fichier"
 
 #: engine-wizard/elm/Wizard/Projects/FileDownload/View.elm:21
-#, fuzzy
 msgid "Downloading"
 msgstr "Téléchargement"
 
 #: engine-wizard/elm/Wizard/Projects/FileDownload/View.elm:22
-#, fuzzy
 msgid "Your download should start shortly."
 msgstr "Le téléchargement devrait commencer sous peu."
 
@@ -5057,7 +5029,6 @@ msgid "Added item"
 msgstr "Élément ajouté"
 
 #: engine-wizard/elm/Wizard/Projects/Import/View.elm:286
-#, fuzzy
 msgid "Added file"
 msgstr "Fichier ajouté"
 
