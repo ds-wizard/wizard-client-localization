@@ -1,7 +1,17 @@
 # Jana Martínková <j.martinkova@outlook.com>, 2024.
 # Georgia Koutentaki <koutegeo@cvut.cz>, 2024.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:4.9.0\nPOT-Creation-Date: 2024-10-01T07:40:19.213Z\nPO-Revision-Date: 2024-10-02 14:46+0000\nLast-Translator: Georgia Koutentaki <koutegeo@cvut.cz>\nLanguage-Team: Greek <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-11-0/el/>\nLanguage: el\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 4.18.2\n"
+msgstr ""
+"Project-Id-Version: wizard-client:4.9.0\n"
+"POT-Creation-Date: 2024-11-07T09:32:42.414Z \n"
+"PO-Revision-Date: 2024-10-02 14:46+0000\n"
+"Last-Translator: Georgia Koutentaki <koutegeo@cvut.cz>\n"
+"Language-Team: Greek <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-11-0/el/>\n"
+"Language: el\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.18.2\n"
 
 #: engine-shared/elm/Shared/Auth/Role.elm:29
 msgid "Admin"
@@ -165,13 +175,13 @@ msgstr "σχόλιο"
 msgid "edit"
 msgstr "επεξεργασία"
 
-#: engine-shared/elm/Shared/Data/QuestionnaireQuestionnaire.elm:416
+#: engine-shared/elm/Shared/Data/QuestionnaireQuestionnaire.elm:422
 msgid "Item"
 msgstr "Στοιχείο"
 
-#: engine-shared/elm/Shared/Data/QuestionnaireQuestionnaire.elm:430
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3321
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3647
+#: engine-shared/elm/Shared/Data/QuestionnaireQuestionnaire.elm:436
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3457
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3783
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/NavigationTree.elm:251
 msgid "Item %s"
 msgstr "Στοιχείο %s"
@@ -407,7 +417,7 @@ msgid "Comma (,) is not allowed in project tags."
 msgstr "Το κόμμα (,) δεν επιτρέπεται στις ετικέτες έργου."
 
 #: engine-wizard/elm/Wizard/Comments/Update.elm:35
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1249
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1364
 msgid "Unable to get comments."
 msgstr "Αδυναμία λήψης σχολίων."
 
@@ -417,7 +427,7 @@ msgstr "Σχόλια που έχουν ανατεθεί"
 
 #: engine-wizard/elm/Wizard/Comments/View.elm:34
 #: engine-wizard/elm/Wizard/Comments/View.elm:70
-#: engine-wizard/elm/Wizard/Projects/Migration/View.elm:198
+#: engine-wizard/elm/Wizard/Projects/Migration/View.elm:199
 msgid "Resolved"
 msgstr "Επιλύθηκε"
 
@@ -467,14 +477,14 @@ msgid "Close and Accept"
 msgstr "Κλείσιμο και αποδοχή"
 
 #: engine-wizard/elm/Wizard/Common/Components/CopyableCodeBlock.elm:48
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3905
-#: engine-wizard/elm/Wizard/Common/Menu/View.elm:785
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4100
+#: engine-wizard/elm/Wizard/Common/Menu/View.elm:790
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/ShareModal.elm:424
 msgid "Copied!"
 msgstr "Αντιγράφηκε!"
 
 #: engine-wizard/elm/Wizard/Common/Components/CopyableCodeBlock.elm:61
-#: engine-wizard/elm/Wizard/Common/Menu/View.elm:796
+#: engine-wizard/elm/Wizard/Common/Menu/View.elm:801
 msgid "Copy"
 msgstr "Αντιγραφή"
 
@@ -622,7 +632,7 @@ msgstr "Σχέδιο"
 
 #: engine-wizard/elm/Wizard/Common/Components/PlansList.elm:97
 #: engine-wizard/elm/Wizard/Common/Components/UsageTable.elm:16
-#: engine-wizard/elm/Wizard/Common/Menu/View.elm:209
+#: engine-wizard/elm/Wizard/Common/Menu/View.elm:214
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/ShareModal.elm:541
 #: engine-wizard/elm/Wizard/Projects/Index/View.elm:500
 #: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:197
@@ -643,173 +653,178 @@ msgstr "Από"
 msgid "To"
 msgstr "Προς"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:910
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:919
+msgid "Unable to delete file."
+msgstr ""
+
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1025
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1034
 msgid "Unable to get version history."
 msgstr "Αδυναμία λήψης ιστορικού εκδόσεων."
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1260
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1375
 #: engine-wizard/elm/Wizard/ProjectActions/Index/Update.elm:70
 msgid "Unable to get project actions."
 msgstr "Αδυναμία λήψης ενεργειών έργου."
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1272
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1387
 #: engine-wizard/elm/Wizard/ProjectImporters/Index/Update.elm:70
 msgid "Unable to get project importers."
 msgstr "Αδυναμία λήψης εισαγωγέων έργων."
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1465
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1580
 msgid "Unable to get type hints."
 msgstr "Αδυναμία λήψης συμβουλών κειμένου."
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1642
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1775
 msgid "View"
 msgstr "Προβολή"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1646
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1779
 #: engine-wizard/elm/Wizard/DocumentTemplates/Detail/View.elm:330
 #: engine-wizard/elm/Wizard/KnowledgeModels/Detail/View.elm:216
 msgid "Show all"
 msgstr "Προβολή όλων"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1649
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1782
 msgid "Hide all"
 msgstr "Απόκρυψη όλων"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1653
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1786
 msgid "Answered by"
 msgstr "Απαντήθηκε από"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1658
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:565
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1791
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:568
 #: engine-wizard/elm/Wizard/KMEditor/Editor/View.elm:176
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:436
 msgid "Phases"
 msgstr "Φάσεις"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1663
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1796
 msgid "Question tags"
 msgstr "Ετικέτες ερωτήσεων"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1668
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1801
 msgid "Non-desirable questions"
 msgstr "Μη επιθυμητές ερωτήσεις"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1673
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1806
 msgid "Metric values"
 msgstr "Μετρικές τιμές"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1686
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1819
 msgid "Import replies"
 msgstr "Εισαγωγή απαντήσεων"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1709
-#: engine-wizard/elm/Wizard/Common/Menu/View.elm:152
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1842
+#: engine-wizard/elm/Wizard/Common/Menu/View.elm:157
 msgid "Actions"
 msgstr "Ενέργειες"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1782
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1915
 msgid "TODOs"
 msgstr "TODOs"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1803
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2387
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2388
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3833
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1936
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2520
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2521
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4028
 msgid "Comments"
 msgstr "Σχόλια"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1814
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:333
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1947
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:336
 msgid "Warnings"
 msgstr "Προειδοποιήσεις"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1828
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1961
 msgid "Version history"
 msgstr "Ιστορικό εκδόσεων"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1862
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1995
 msgid "Action succeeded!"
 msgstr "Η ενέργεια πέτυχε!"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1867
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2000
 msgid "Action failed!"
 msgstr "Η ενέργεια απέτυχε!"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1880
-#: engine-wizard/elm/Wizard/Common/Menu/View.elm:767
-#: engine-wizard/elm/Wizard/Common/Menu/View.elm:820
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2013
+#: engine-wizard/elm/Wizard/Common/Menu/View.elm:772
+#: engine-wizard/elm/Wizard/Common/Menu/View.elm:825
 #: engine-wizard/elm/Wizard/Common/View/Modal.elm:155
 msgid "OK"
 msgstr "OK"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1939
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2072
 msgid "Current Phase"
 msgstr "Τρέχουσα φάση"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1998
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2131
 msgid "Select phase"
 msgstr "Επιλέξτε φάση"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2123
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2256
 msgid "All TODOs have been completed."
 msgstr "Όλα τα TODOs έχουν ολοκληρωθεί."
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2241
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2374
 msgid "Click the %s icon to add new comments to a question."
 msgstr "Κάντε κλικ στο εικονίδιο %s για να προσθέσετε νέα σχόλια σε μια ερώτηση."
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2261
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2394
 msgid "View resolved comments (%s)"
 msgstr "Προβολή επιλυμένων σχολίων (%s)"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2294
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2427
 msgid "Editor notes are only visible to project Editors and Owners."
 msgstr "Οι σημειώσεις συντάκτη είναι ορατές μόνο στους συντάκτες και τους ιδιοκτήτες του έργου."
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2319
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2452
 msgid "Comment"
 msgstr "Σχόλιο"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2320
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2453
 msgid "Create a new comment..."
 msgstr "Δημιουργήστε ένα νέο σχόλιο..."
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2400
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2401
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2533
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2534
 msgid "Editor notes"
 msgstr "Σημειώσεις συντάκτη"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2419
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2552
 msgid "Delete this comment thread?"
 msgstr "Διαγραφή αυτού του thread σχολίων;"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2432
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2565
 msgid "Reply"
 msgstr "Απάντηση"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2433
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2566
 msgid "Reply..."
 msgstr "Απάντηση..."
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2450
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2583
 msgid "Assigned to you"
 msgstr "Σας έχει ανατεθεί"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2455
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2588
 msgid "Assigned to %s"
 msgstr "Ανατέθηκε σε %s"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2507
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2590
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2640
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2723
 #: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:58
 #: engine-wizard/elm/Wizard/Users/Index/View.elm:147
 msgid "Edit"
 msgstr "Επεξεργασία"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2512
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2720
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2747
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2645
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2853
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2880
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:225
 #: engine-wizard/elm/Wizard/Common/View/FormActions.elm:23
 #: engine-wizard/elm/Wizard/Common/View/FormActions.elm:31
 #: engine-wizard/elm/Wizard/Common/View/FormActions.elm:39
@@ -818,8 +833,8 @@ msgstr "Επεξεργασία"
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1281
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor/AssetUploadModal.elm:266
 #: engine-wizard/elm/Wizard/DocumentTemplates/Import/FileImport/View.elm:72
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2464
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2541
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2509
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2586
 #: engine-wizard/elm/Wizard/KnowledgeModels/Import/FileImport/View.elm:76
 #: engine-wizard/elm/Wizard/Locales/Import/FileImport/View.elm:72
 #: engine-wizard/elm/Wizard/Projects/Detail/Documents/View.elm:393
@@ -828,25 +843,27 @@ msgstr "Επεξεργασία"
 msgid "Cancel"
 msgstr "Ακύρωση"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2523
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2656
 msgid "Delete this comment?"
 msgstr "Διαγραφή αυτού του σχολίου;"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2547
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2680
 msgid "Resolve comment thread"
 msgstr "Επίλυση thread σχολίου"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2574
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2707
 msgid "Remove assignment"
 msgstr "Κατάργηση ανάθεσης"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2582
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2715
 msgid "Reopen"
 msgstr "Ανοίξτε ξανά"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2600
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2746
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3286
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2733
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2879
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3422
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3865
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4196
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/DeleteVersionModal.elm:131
 #: engine-wizard/elm/Wizard/Documents/Index/View.elm:238
 #: engine-wizard/elm/Wizard/Documents/Index/View.elm:351
@@ -858,8 +875,8 @@ msgstr "Ανοίξτε ξανά"
 #: engine-wizard/elm/Wizard/DocumentTemplates/Detail/View.elm:364
 #: engine-wizard/elm/Wizard/DocumentTemplates/Index/View.elm:195
 #: engine-wizard/elm/Wizard/KMEditor/Common/DeleteModal.elm:104
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2310
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2458
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2355
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2503
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/Settings.elm:248
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:224
 #: engine-wizard/elm/Wizard/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:145
@@ -868,10 +885,14 @@ msgstr "Ανοίξτε ξανά"
 #: engine-wizard/elm/Wizard/Locales/Common/LocaleActionsDropdown.elm:109
 #: engine-wizard/elm/Wizard/Locales/Detail/View.elm:246
 #: engine-wizard/elm/Wizard/Locales/Index/View.elm:189
+#: engine-wizard/elm/Wizard/ProjectFiles/Index/View.elm:125
+#: engine-wizard/elm/Wizard/ProjectFiles/Index/View.elm:162
 #: engine-wizard/elm/Wizard/Projects/Common/DeleteProjectModal/View.elm:36
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/Settings/DeleteModal.elm:123
 #: engine-wizard/elm/Wizard/Projects/Detail/Documents/View.elm:238
 #: engine-wizard/elm/Wizard/Projects/Detail/Documents/View.elm:353
+#: engine-wizard/elm/Wizard/Projects/Detail/Files/View.elm:129
+#: engine-wizard/elm/Wizard/Projects/Detail/Files/View.elm:166
 #: engine-wizard/elm/Wizard/Projects/Index/View.elm:671
 #: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:271
 #: engine-wizard/elm/Wizard/Users/Edit/Components/ApiKeys.elm:284
@@ -881,131 +902,133 @@ msgstr "Ανοίξτε ξανά"
 msgid "Delete"
 msgstr "Διαγραφή"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2638
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2771
 msgid "edited"
 msgstr "επεξεργάστηκε"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2659
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire/History.elm:527
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2792
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire/History.elm:541
+#: engine-wizard/elm/Wizard/ProjectFiles/Index/View.elm:95
+#: engine-wizard/elm/Wizard/Projects/Detail/Files/View.elm:96
 msgid "Anonymous user"
 msgstr "Ανώνυμος χρήστης"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2796
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2929
 msgid "This chapter contains no questions."
 msgstr "Αυτό το κεφάλαιο δεν περιέχει ερωτήσεις."
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2806
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3266
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2939
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3402
 msgid "There are no questions in this phase."
 msgstr "Δεν υπάρχουν ερωτήσεις σε αυτή τη φάση."
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2860
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2993
 msgid "Previous Chapter"
 msgstr "Προηγούμενο κεφάλαιο"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2865
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2998
 msgid "Next Chapter"
 msgstr "Επόμενο κεφάλαιο"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2973
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3109
 msgid "anonymous user"
 msgstr "ανώνυμος χρήστης"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2985
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3121
 msgid "Answered %s by %s."
 msgstr "Απάντηση %s από %s."
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3010
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3146
 msgid "This question has been answered"
 msgstr "Αυτό το ερώτημα έχει απαντηθεί"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3013
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3149
 msgid "This question should be answered now"
 msgstr "Το ερώτημα αυτό πρέπει να απαντηθεί τώρα"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3016
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3152
 msgid "This question can be answered later"
 msgstr "Αυτό το ερώτημα μπορεί να απαντηθεί αργότερα"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3088
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3224
 msgid "Clear answer"
 msgstr "Εκκαθάριση απάντησης"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3121
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3257
 msgid "There are no follow up questions in this phase."
 msgstr "Δεν υπάρχουν περαιτέρω ερωτήσεις σε αυτή τη φάση."
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3137
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3273
 msgid "Expand"
 msgstr "Επέκταση"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3142
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3278
 msgid "%s %s follow up question"
 msgid_plural "%s %s follow up questions"
 msgstr[0] "%s %s επακόλουθη ερώτηση"
 msgstr[1] "%s %s επακόλουθες ερωτήσεις"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3152
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3288
 msgid "Collapse"
 msgstr "Κλείσιμο"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3187
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3323
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Tree.elm:66
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/TreeInput.elm:101
 msgid "Expand all"
 msgstr "Επέκταση όλων"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3194
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3330
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Tree.elm:70
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/TreeInput.elm:108
 msgid "Collapse all"
 msgstr "Κλείσιμο όλων"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3210
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3346
 msgid "There are no answers yet."
 msgstr "Δεν υπάρχουν απαντήσεις ακόμα."
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3234
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3370
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor.elm:906
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:677
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:742
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/Settings.elm:497
 #: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:211
 msgid "Add"
 msgstr "Προσθέστε"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3258
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3394
 msgid "This item contains no questions."
 msgstr "Αυτό το στοιχείο δεν περιέχει ερωτήσεις."
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3299
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3435
 msgid "Move Up"
 msgstr "Μετακίνηση προς τα πάνω"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3312
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3448
 msgid "Move Down"
 msgstr "Μετακίνηση προς τα κάτω"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3416
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3552
 msgid "This is not a valid email address."
 msgstr "Αυτή η διεύθυνση ηλεκτρονικού ταχυδρομείου δεν είναι έγκυρη."
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3421
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3557
 msgid "This is not a valid URL."
 msgstr "Αυτό το URL δεν είναι έγκυρο."
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3429
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3565
 msgid "This is not a valid color."
 msgstr "Αυτό το χρώμα δεν είναι έγκυρο ."
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3470
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3606
 msgid "Select"
 msgstr "Επιλέξτε"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3541
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3677
 msgid "There are no results for your search."
 msgstr "Δεν υπάρχουν αποτελέσματα για την αναζήτησή σας."
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3550
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3686
 #: engine-wizard/elm/Wizard/Common/Components/TypeHintInput.elm:283
 #: engine-wizard/elm/Wizard/Common/View/ActionResultBlock.elm:61
 #: engine-wizard/elm/Wizard/Common/View/Flash.elm:41
@@ -1013,65 +1036,73 @@ msgstr "Δεν υπάρχουν αποτελέσματα για την αναζ�
 msgid "Loading..."
 msgstr "Φόρτωση..."
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3674
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3810
 msgid "- select -"
 msgstr "- επιλέξτε -"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3681
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3817
 msgid "Go to item"
 msgstr "Πηγαίνετε στο στοιχείο"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3694
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3830
 msgid "The selected item was deleted."
 msgstr "Το επιλεγμένο στοιχείο διαγράφηκε."
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3767
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3873
+msgid "The file was deleted."
+msgstr ""
+
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3896
+msgid "Upload File"
+msgstr ""
+
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3962
 msgid "This option leads to some follow up questions."
 msgstr "Αυτή η επιλογή οδηγεί σε επακόλουθες ερωτήσεις."
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3824
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4019
 msgid "1 comment"
 msgid_plural "%s comments"
 msgstr[0] "1 σχόλιο"
 msgstr[1] "%s σχόλια"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3858
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4053
 msgid "TODO"
 msgstr "TODO"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3859
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4054
 msgid "Remove TODO"
 msgstr "Αφαίρεση TODO"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3869
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4064
 msgid "Add TODO"
 msgstr "Προσθήκη TODO"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3891
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4086
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FeedbackModal.elm:147
 #: engine-wizard/elm/Wizard/Settings/Projects/View.elm:98
 msgid "Feedback"
 msgstr "Αξιολόγηση"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3908
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4103
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/ShareModal.elm:446
-#: engine-wizard/elm/Wizard/Projects/Detail/View.elm:239
+#: engine-wizard/elm/Wizard/Projects/Detail/View.elm:240
 msgid "Copy link"
 msgstr "Αντιγραφή συνδέσμου"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3950
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4145
 msgid "There are some item select questions using this item:"
 msgstr "Υπάρχουν ορισμένες ερωτήσεις επιλογής στοιχείου που χρησιμοποιούν αυτό το στοιχείο:"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3961
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4156
 msgid "Remove Item"
 msgstr "Αφαίρεση στοιχείου"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3963
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4158
 msgid "Are you sure you want to remove this item?"
 msgstr "Είστε σίγουροι ότι θέλετε να αφαιρέσετε αυτό το στοιχείο;"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3968
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4163
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/Settings.elm:398
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/ShareModal.elm:509
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/ShareModal.elm:577
@@ -1079,6 +1110,16 @@ msgstr "Είστε σίγουροι ότι θέλετε να αφαιρέσετ�
 #: engine-wizard/elm/Wizard/Settings/Submission/View.elm:100
 msgid "Remove"
 msgstr "Αφαίρεση"
+
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4190
+msgid "Delete File"
+msgstr ""
+
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4192
+#: engine-wizard/elm/Wizard/Users/Edit/Components/ApiKeys.elm:280
+#: engine-wizard/elm/Wizard/Users/Edit/Components/AppKeys.elm:171
+msgid "Are you sure you want to delete %s?"
+msgstr "Σίγουρα θέλετε να διαγράψετε το %s;"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/DefaultQuestionnaireRenderer.elm:197
 msgid "Desirable"
@@ -1089,7 +1130,7 @@ msgid "External links"
 msgstr "Εξωτερικοί σύνδεσμοι"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/DefaultQuestionnaireRenderer.elm:295
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:941
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:955
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:1193
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:1301
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:1398
@@ -1153,12 +1194,12 @@ msgid "If you found something wrong with the question, you can send us your reco
 msgstr "Αν βρήκατε κάτι λάθος στην ερώτηση, μπορείτε να μας στείλετε την πρόταση σας για το πώς να τη βελτιώσουμε."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FeedbackModal.elm:183
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:678
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:887
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1268
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1332
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2128
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2189
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:681
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:901
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1313
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1377
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2173
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2234
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:484
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:505
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:530
@@ -1187,9 +1228,9 @@ msgstr "Τίτλος"
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/VersionModal.elm:157
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/PublishModal.elm:135
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/Settings.elm:283
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1284
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1340
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1392
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1329
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1385
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1437
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/PublishModal.elm:126
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/Settings.elm:187
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:486
@@ -1214,53 +1255,100 @@ msgstr "Τίτλος"
 msgid "Description"
 msgstr "Περιγραφή"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire/History.elm:169
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:174
+msgid "Unable to upload the file."
+msgstr ""
+
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:199
+msgid "File upload is not available in the KM editor."
+msgstr ""
+
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:207
+#: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor.elm:926
+#: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1222
+#: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor/AssetUploadModal.elm:257
+msgid "Upload"
+msgstr "Ανέβασμα"
+
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:237
+msgid "Upload a file"
+msgstr ""
+
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:275
+msgid ""
+"**The file type is not allowed for this question.**\n"
+"\n"
+"Choose one of the following: %s"
+msgstr ""
+
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:288
+msgid "The file cannot be larger than %s."
+msgstr ""
+
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:324
+msgid "Choose file"
+msgstr ""
+
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:325
+#: engine-wizard/elm/Wizard/DocumentTemplates/Import/FileImport/View.elm:85
+#: engine-wizard/elm/Wizard/KnowledgeModels/Import/FileImport/View.elm:89
+#: engine-wizard/elm/Wizard/KnowledgeModels/Import/OwlImport/View.elm:93
+#: engine-wizard/elm/Wizard/Locales/Create/View.elm:99
+#: engine-wizard/elm/Wizard/Locales/Import/FileImport/View.elm:85
+msgid "Or just drop it here"
+msgstr "Ή απλά σύρετε το εδώ"
+
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire/History.elm:170
 msgid "Named versions only"
 msgstr "Μόνο εκδόσεις με όνομα"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire/History.elm:287
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire/History.elm:288
 msgid "Rename this version"
 msgstr "Μετονομάστε αυτή την έκδοση"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire/History.elm:296
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire/History.elm:297
 msgid "Delete this version"
 msgstr "Διαγραφή αυτής της έκδοσης"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire/History.elm:308
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire/History.elm:309
 msgid "Name this version"
 msgstr "Ονομάστε αυτή την έκδοση"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire/History.elm:324
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire/History.elm:325
 #: engine-wizard/elm/Wizard/Projects/Detail/Documents/View.elm:209
 msgid "View questionnaire"
 msgstr "Προβολή ερωτηματολογίου"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire/History.elm:333
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire/History.elm:334
 msgid "Create document"
 msgstr "Δημιουργία εγγράφου"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire/History.elm:351
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire/History.elm:352
 msgid "Revert to this version"
 msgstr "Επαναφορά σε αυτή την έκδοση"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire/History.elm:493
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire/History.elm:498
+msgid "Deleted file"
+msgstr ""
+
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire/History.elm:507
 msgid "Cleared reply of"
 msgstr "Διεγραμμένη απάντηση από"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire/History.elm:502
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire/History.elm:516
 msgid "Unset phase"
 msgstr "Μη ρυθμισμένη φάση"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire/History.elm:510
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire/History.elm:524
 msgid "Unknown phase"
 msgstr "Άγνωστη φάση"
 
-#: engine-wizard/elm/Wizard/Common/Components/Questionnaire/History.elm:512
+#: engine-wizard/elm/Wizard/Common/Components/Questionnaire/History.elm:526
 msgid "Set phase to %s"
 msgstr "Ορισμός φάσης σε %s"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/NavigationTree.elm:83
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:531
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:534
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:409
 msgid "Chapters"
 msgstr "Κεφάλαια"
@@ -1299,9 +1387,9 @@ msgstr "Αναζήτηση χρηστών..."
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Index/View.elm:51
 #: engine-wizard/elm/Wizard/DocumentTemplates/Index/View.elm:73
 #: engine-wizard/elm/Wizard/KMEditor/Create/View.elm:92
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1384
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1525
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2071
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1429
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1570
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2116
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/PublishModal.elm:125
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/Settings.elm:186
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:69
@@ -1385,7 +1473,7 @@ msgstr "Η συνεδρία σας λήγει σε λιγότερο από %s λ
 
 #: engine-wizard/elm/Wizard/Common/Components/SessionModal.elm:39
 #: engine-wizard/elm/Wizard/Common/Components/SessionModal.elm:63
-#: engine-wizard/elm/Wizard/Common/Menu/View.elm:601
+#: engine-wizard/elm/Wizard/Common/Menu/View.elm:606
 msgid "Log in again"
 msgstr "Συνδεθείτε ξανά"
 
@@ -1411,19 +1499,19 @@ msgid "Answered (current phase): %s/%s"
 msgstr "Απαντήθηκε (τρέχουσα φάση): %s/%s"
 
 #: engine-wizard/elm/Wizard/Common/Components/SummaryReport.elm:162
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:548
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:558
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:551
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:623
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:421
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:1435
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:1486
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:1524
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:1562
-#: engine-wizard/elm/Wizard/Projects/Detail/View.elm:289
+#: engine-wizard/elm/Wizard/Projects/Detail/View.elm:298
 msgid "Metrics"
 msgstr "Μετρικές"
 
 #: engine-wizard/elm/Wizard/Common/Components/SummaryReport.elm:163
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:553
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:618
 msgid "Measure"
 msgstr "Μέτρο"
 
@@ -1480,14 +1568,14 @@ msgid "Projects"
 msgstr "Έργα"
 
 #: engine-wizard/elm/Wizard/Common/Components/UsageTable.elm:23
-#: engine-wizard/elm/Wizard/Common/Menu/View.elm:165
+#: engine-wizard/elm/Wizard/Common/Menu/View.elm:170
 #: engine-wizard/elm/Wizard/Documents/Index/View.elm:75
-#: engine-wizard/elm/Wizard/Projects/Detail/View.elm:307
+#: engine-wizard/elm/Wizard/Projects/Detail/View.elm:316
 msgid "Documents"
 msgstr "Έγγραφα"
 
 #: engine-wizard/elm/Wizard/Common/Components/UsageTable.elm:24
-#: engine-wizard/elm/Wizard/Common/Menu/View.elm:216
+#: engine-wizard/elm/Wizard/Common/Menu/View.elm:221
 #: engine-wizard/elm/Wizard/Locales/Index/View.elm:29
 msgid "Locales"
 msgstr "Τοπικές ρυθμίσεις"
@@ -1497,12 +1585,12 @@ msgid "Storage"
 msgstr "Αποθήκη"
 
 #: engine-wizard/elm/Wizard/Common/Menu/Update.elm:43
-#: engine-wizard/elm/Wizard/Common/Menu/View.elm:851
+#: engine-wizard/elm/Wizard/Common/Menu/View.elm:856
 msgid "Client"
 msgstr "Πελάτης"
 
 #: engine-wizard/elm/Wizard/Common/Menu/Update.elm:44
-#: engine-wizard/elm/Wizard/Common/Menu/View.elm:852
+#: engine-wizard/elm/Wizard/Common/Menu/View.elm:857
 msgid "Server"
 msgstr "Διακομιστής"
 
@@ -1533,106 +1621,112 @@ msgstr "Λίστα"
 msgid "Editors"
 msgstr "Συντάκτες"
 
-#: engine-wizard/elm/Wizard/Common/Menu/View.elm:157
+#: engine-wizard/elm/Wizard/Common/Menu/View.elm:152
+#: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/View.elm:137
+#: engine-wizard/elm/Wizard/Projects/Detail/View.elm:332
+msgid "Files"
+msgstr "Αρχεία"
+
+#: engine-wizard/elm/Wizard/Common/Menu/View.elm:162
 msgid "Importers"
 msgstr "Εισαγωγείς"
 
-#: engine-wizard/elm/Wizard/Common/Menu/View.elm:173
+#: engine-wizard/elm/Wizard/Common/Menu/View.elm:178
 msgid "Dev"
 msgstr "Ανάπτυξη"
 
-#: engine-wizard/elm/Wizard/Common/Menu/View.elm:180
+#: engine-wizard/elm/Wizard/Common/Menu/View.elm:185
 msgid "Operations"
 msgstr "Λειτουργίες"
 
-#: engine-wizard/elm/Wizard/Common/Menu/View.elm:185
+#: engine-wizard/elm/Wizard/Common/Menu/View.elm:190
 msgid "Persistent Commands"
 msgstr "Persistent Commands"
 
-#: engine-wizard/elm/Wizard/Common/Menu/View.elm:193
+#: engine-wizard/elm/Wizard/Common/Menu/View.elm:198
 msgid "Administration"
 msgstr "Διαχείριση"
 
-#: engine-wizard/elm/Wizard/Common/Menu/View.elm:200
+#: engine-wizard/elm/Wizard/Common/Menu/View.elm:205
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/PublishModal.elm:125
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/View.elm:155
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/PublishModal.elm:116
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/Settings.elm:183
 #: engine-wizard/elm/Wizard/KMEditor/Editor/View.elm:203
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/Settings.elm:315
-#: engine-wizard/elm/Wizard/Projects/Detail/View.elm:316
+#: engine-wizard/elm/Wizard/Projects/Detail/View.elm:341
 #: engine-wizard/elm/Wizard/Registry/RegistrySignupConfirmation/View.elm:32
 msgid "Settings"
 msgstr "Ρυθμίσεις"
 
-#: engine-wizard/elm/Wizard/Common/Menu/View.elm:338
+#: engine-wizard/elm/Wizard/Common/Menu/View.elm:343
 msgid "Switch to"
 msgstr "Μετάβαση σε"
 
-#: engine-wizard/elm/Wizard/Common/Menu/View.elm:342
+#: engine-wizard/elm/Wizard/Common/Menu/View.elm:347
 msgid "More"
 msgstr "Περισσότερα"
 
-#: engine-wizard/elm/Wizard/Common/Menu/View.elm:594
+#: engine-wizard/elm/Wizard/Common/Menu/View.elm:599
 msgid "Your session expires in %s"
 msgstr "Η συνεδρία σας λήγει σε %s"
 
-#: engine-wizard/elm/Wizard/Common/Menu/View.elm:661
-#: engine-wizard/elm/Wizard/Common/Menu/View.elm:928
+#: engine-wizard/elm/Wizard/Common/Menu/View.elm:666
+#: engine-wizard/elm/Wizard/Common/Menu/View.elm:933
 msgid "Change language"
 msgstr "Αλλαγή γλώσσας"
 
-#: engine-wizard/elm/Wizard/Common/Menu/View.elm:679
+#: engine-wizard/elm/Wizard/Common/Menu/View.elm:684
 #: engine-wizard/elm/Wizard/Users/Edit/Components/Profile.elm:239
 msgid "Edit profile"
 msgstr "Επεξεργασία προφίλ"
 
-#: engine-wizard/elm/Wizard/Common/Menu/View.elm:687
+#: engine-wizard/elm/Wizard/Common/Menu/View.elm:692
 msgid "Assigned comments"
 msgstr "Σχόλια που έχουν ανατεθεί"
 
-#: engine-wizard/elm/Wizard/Common/Menu/View.elm:697
+#: engine-wizard/elm/Wizard/Common/Menu/View.elm:702
 msgid "Log out"
 msgstr "Αποσύνδεση"
 
-#: engine-wizard/elm/Wizard/Common/Menu/View.elm:706
-#: engine-wizard/elm/Wizard/Common/Menu/View.elm:806
+#: engine-wizard/elm/Wizard/Common/Menu/View.elm:711
+#: engine-wizard/elm/Wizard/Common/Menu/View.elm:811
 msgid "About"
 msgstr "Σχετικά με"
 
-#: engine-wizard/elm/Wizard/Common/Menu/View.elm:715
+#: engine-wizard/elm/Wizard/Common/Menu/View.elm:720
 msgid "Report issue"
 msgstr "Αναφορά προβλήματος"
 
-#: engine-wizard/elm/Wizard/Common/Menu/View.elm:732
+#: engine-wizard/elm/Wizard/Common/Menu/View.elm:737
 msgid "Collapse sidebar"
 msgstr "Κλείσιμο πλαϊνής γραμμής"
 
-#: engine-wizard/elm/Wizard/Common/Menu/View.elm:747
+#: engine-wizard/elm/Wizard/Common/Menu/View.elm:752
 msgid "If you find any problem, you can report an issue here:"
 msgstr "Αν βρείτε κάποιο πρόβλημα, μπορείτε να το αναφέρετε εδώ:"
 
-#: engine-wizard/elm/Wizard/Common/Menu/View.elm:759
+#: engine-wizard/elm/Wizard/Common/Menu/View.elm:764
 msgid "You can also write us an email to %s."
 msgstr "Μπορείτε επίσης να μας στείλετε email στο %s."
 
-#: engine-wizard/elm/Wizard/Common/Menu/View.elm:763
+#: engine-wizard/elm/Wizard/Common/Menu/View.elm:768
 msgid "Report Issue"
 msgstr "Αναφορά προβλήματος"
 
-#: engine-wizard/elm/Wizard/Common/Menu/View.elm:803
+#: engine-wizard/elm/Wizard/Common/Menu/View.elm:808
 msgid "About %s"
 msgstr "Σχετικά με %s"
 
-#: engine-wizard/elm/Wizard/Common/Menu/View.elm:840
+#: engine-wizard/elm/Wizard/Common/Menu/View.elm:845
 msgid "API URL"
 msgstr "URL API"
 
-#: engine-wizard/elm/Wizard/Common/Menu/View.elm:841
+#: engine-wizard/elm/Wizard/Common/Menu/View.elm:846
 msgid "API Docs"
 msgstr "Έγγραφα API"
 
-#: engine-wizard/elm/Wizard/Common/Menu/View.elm:879
+#: engine-wizard/elm/Wizard/Common/Menu/View.elm:884
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/PublishModal.elm:137
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/Settings.elm:272
 #: engine-wizard/elm/Wizard/DocumentTemplates/Detail/View.elm:219
@@ -1644,11 +1738,11 @@ msgstr "Έγγραφα API"
 msgid "Version"
 msgstr "Έκδοση"
 
-#: engine-wizard/elm/Wizard/Common/Menu/View.elm:883
+#: engine-wizard/elm/Wizard/Common/Menu/View.elm:888
 msgid "Built at"
 msgstr "Δημιουργημένο στο"
 
-#: engine-wizard/elm/Wizard/Common/Menu/View.elm:908
+#: engine-wizard/elm/Wizard/Common/Menu/View.elm:913
 #: engine-wizard/elm/Wizard/Locales/Detail/View.elm:49
 #: engine-wizard/elm/Wizard/Locales/Index/View.elm:74
 msgid "default"
@@ -1725,7 +1819,7 @@ msgid "(optional)"
 msgstr "(προαιρετικό)"
 
 #: engine-wizard/elm/Wizard/Common/View/FormGroup.elm:462
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:261
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:326
 msgid "You can use %s and see the result in the preview tab."
 msgstr "Χρησιμοποιώντας %s μπορείτε να δείτε το αποτέλεσμα στην καρτέλα προεπισκόπησης."
 
@@ -1734,7 +1828,7 @@ msgid "You can use HTML or %s and see the result in the preview tab."
 msgstr "Μπορείτε να χρησιμοποιήσετε HTML ή %s και να δείτε το αποτέλεσμα στην καρτέλα προεπισκόπησης."
 
 #: engine-wizard/elm/Wizard/Common/View/FormGroup.elm:548
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:247
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:312
 #: engine-wizard/elm/Wizard/Projects/Common/QuestionnaireShareFormMemberPermType.elm:63
 msgid "Editor"
 msgstr "Συντάκτης"
@@ -1742,10 +1836,10 @@ msgstr "Συντάκτης"
 #: engine-wizard/elm/Wizard/Common/View/FormGroup.elm:556
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/Settings.elm:409
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/View.elm:146
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:255
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:320
 #: engine-wizard/elm/Wizard/KMEditor/Editor/View.elm:194
 #: engine-wizard/elm/Wizard/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:61
-#: engine-wizard/elm/Wizard/Projects/Detail/View.elm:298
+#: engine-wizard/elm/Wizard/Projects/Detail/View.elm:307
 msgid "Preview"
 msgstr "Προεπισκόπηση"
 
@@ -1807,8 +1901,8 @@ msgid "Untitled question tag"
 msgstr "Ετικέτα ερώτησης χωρίς τίτλο"
 
 #: engine-wizard/elm/Wizard/Common/View/Tag.elm:107
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:582
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:915
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:585
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:929
 #: engine-wizard/elm/Wizard/KMEditor/Editor/View.elm:185
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:451
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:993
@@ -2131,7 +2225,9 @@ msgstr "Αναζήτηση εγγράφων..."
 #: engine-wizard/elm/Wizard/DocumentTemplates/Index/View.elm:74
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:70
 #: engine-wizard/elm/Wizard/KnowledgeModels/Index/View.elm:73
+#: engine-wizard/elm/Wizard/ProjectFiles/Index/View.elm:54
 #: engine-wizard/elm/Wizard/Projects/Detail/Documents/View.elm:104
+#: engine-wizard/elm/Wizard/Projects/Detail/Files/View.elm:55
 #: engine-wizard/elm/Wizard/Projects/Index/View.elm:131
 #: engine-wizard/elm/Wizard/Users/Edit/Components/ApiKeys.elm:256
 #: engine-wizard/elm/Wizard/Users/Edit/Components/AppKeys.elm:158
@@ -2147,8 +2243,10 @@ msgstr "Κάντε κλικ για να κατεβάσετε το έγγραφο
 #: engine-wizard/elm/Wizard/Documents/Index/View.elm:202
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1209
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/Preview.elm:304
+#: engine-wizard/elm/Wizard/ProjectFiles/Index/View.elm:116
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/Preview.elm:169
 #: engine-wizard/elm/Wizard/Projects/Detail/Documents/View.elm:186
+#: engine-wizard/elm/Wizard/Projects/Detail/Files/View.elm:117
 msgid "Download"
 msgstr "Λήψη"
 
@@ -2200,9 +2298,11 @@ msgstr "Προβολή υποβολής"
 #: engine-wizard/elm/Wizard/KMEditor/Common/DeleteModal.elm:96
 #: engine-wizard/elm/Wizard/KnowledgeModels/Detail/View.elm:268
 #: engine-wizard/elm/Wizard/Locales/Detail/View.elm:236
+#: engine-wizard/elm/Wizard/ProjectFiles/Index/View.elm:152
 #: engine-wizard/elm/Wizard/Projects/Common/DeleteProjectModal/View.elm:26
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/Settings/DeleteModal.elm:113
 #: engine-wizard/elm/Wizard/Projects/Detail/Documents/View.elm:343
+#: engine-wizard/elm/Wizard/Projects/Detail/Files/View.elm:156
 msgid "Are you sure you want to permanently delete %s?"
 msgstr "Είστε σίγουροι ότι θέλετε να διαγράψετε οριστικά το %s;"
 
@@ -2302,15 +2402,10 @@ msgid "Folder"
 msgstr "Φάκελος"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor.elm:919
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:834
 #: engine-wizard/elm/Wizard/KnowledgeModels/Import/OwlImport/View.elm:35
 msgid "File"
 msgstr "Αρχείο"
-
-#: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor.elm:926
-#: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1222
-#: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor/AssetUploadModal.elm:257
-msgid "Upload"
-msgstr "Ανέβασμα"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor.elm:941
 msgid "Move to opposite group"
@@ -2512,7 +2607,7 @@ msgid "Add step"
 msgstr "Προσθήκη βήματος"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/Settings.elm:461
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:815
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:828
 msgid "Options"
 msgstr "Επιλογές"
 
@@ -2522,8 +2617,8 @@ msgstr "Προσθήκη επιλογής"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/Settings.elm:477
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/Settings.elm:500
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:817
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:405
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:830
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:470
 #: engine-wizard/elm/Wizard/Settings/Authentication/View.elm:240
 #: engine-wizard/elm/Wizard/Settings/Authentication/View.elm:263
 #: engine-wizard/elm/Wizard/Settings/Submission/View.elm:253
@@ -2532,7 +2627,7 @@ msgid "Value"
 msgstr "Τιμή"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/Settings.elm:521
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1721
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1766
 #: engine-wizard/elm/Wizard/Settings/Authentication/View.elm:158
 msgid "Quick setup"
 msgstr "Γρήγορη ρύθμιση"
@@ -2553,10 +2648,6 @@ msgstr "Απόρριψη"
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/View.elm:100
 msgid "unsaved changes"
 msgstr "μη αποθηκευμένες αλλαγές"
-
-#: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/View.elm:137
-msgid "Files"
-msgstr "Αρχεία"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Index/Update.elm:62
 msgid "Document template editor could not be deleted."
@@ -2659,7 +2750,7 @@ msgid "This document template is not supported in the current version."
 msgstr "Αυτό το πρότυπο εγγράφου δεν υποστηρίζεται στην τρέχουσα έκδοση."
 
 #: engine-wizard/elm/Wizard/DocumentTemplates/Detail/View.elm:218
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1517
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1562
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:679
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:734
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:807
@@ -2727,14 +2818,6 @@ msgstr "Αυτό δεν μοιάζει με πρότυπο εγγράφου. Ε�
 #: engine-wizard/elm/Wizard/Locales/Import/FileImport/View.elm:82
 msgid "Choose a file"
 msgstr "Επιλέξτε ένα αρχείο"
-
-#: engine-wizard/elm/Wizard/DocumentTemplates/Import/FileImport/View.elm:85
-#: engine-wizard/elm/Wizard/KnowledgeModels/Import/FileImport/View.elm:89
-#: engine-wizard/elm/Wizard/KnowledgeModels/Import/OwlImport/View.elm:93
-#: engine-wizard/elm/Wizard/Locales/Create/View.elm:99
-#: engine-wizard/elm/Wizard/Locales/Import/FileImport/View.elm:85
-msgid "Or just drop it here"
-msgstr "Ή απλά σύρετε το εδώ"
 
 #: engine-wizard/elm/Wizard/DocumentTemplates/Import/RegistryImport/Update.elm:32
 msgid "Unable to import the document template."
@@ -2827,201 +2910,201 @@ msgstr "Το αναγνωριστικό Μοντέλου Γνώσης μπορε
 msgid "You can create a new Knowledge Model based on the existing one or start from scratch."
 msgstr "Μπορείτε να δημιουργήσετε ένα νέο Μοντέλο Γνώσης με βάση το υπάρχον ή να ξεκινήσετε από το μηδέν."
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:306
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:539
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:309
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:542
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Tree.elm:205
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/TreeInput.elm:164
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/PhaseEditor.elm:302
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/TagEditor.elm:313
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/PhaseEditor.elm:311
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/TagEditor.elm:322
 msgid "Untitled chapter"
 msgstr "Κεφάλαιο χωρίς τίτλο"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:309
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:705
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1019
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1828
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2334
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:312
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:708
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1033
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1873
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2379
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Tree.elm:350
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/TreeInput.elm:222
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/PhaseEditor.elm:249
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/TagEditor.elm:259
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/PhaseEditor.elm:258
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/TagEditor.elm:268
 msgid "Untitled question"
 msgstr "Ερώτηση χωρίς τίτλο"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:312
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:556
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:315
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:559
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Tree.elm:219
 msgid "Untitled metric"
 msgstr "Μετρική χωρίς τίτλο"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:315
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:573
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:318
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:576
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Tree.elm:233
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/PhaseEditor.elm:159
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/PhaseEditor.elm:165
 msgid "Untitled phase"
 msgstr "Φάση χωρίς τίτλο"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:318
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:590
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:321
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:593
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Tree.elm:247
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/TagEditor.elm:169
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/TagEditor.elm:175
 msgid "Untitled tag"
 msgstr "ετικέτα χωρίς τίτλο"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:321
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:607
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1078
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:324
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:610
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1092
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Tree.elm:261
 msgid "Untitled integration"
 msgstr "Ενοποίηση χωρίς τίτλο"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:324
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:987
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:327
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1001
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Tree.elm:376
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/TreeInput.elm:254
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/PhaseEditor.elm:311
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/TagEditor.elm:322
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/PhaseEditor.elm:320
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/TagEditor.elm:331
 msgid "Untitled answer"
 msgstr "Απάντηση χωρίς τίτλο"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:327
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1154
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:330
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1168
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Tree.elm:390
 msgid "Untitled choice"
 msgstr "Επιλογή χωρίς τίτλο"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:330
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:932
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:333
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:946
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Tree.elm:404
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/TreeInput.elm:296
 msgid "Untitled reference"
 msgstr "Αναφορά χωρίς τίτλο"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:333
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:949
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:336
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:963
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Tree.elm:418
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/TreeInput.elm:275
 msgid "Untitled expert"
 msgstr "Ειδικός χωρίς τίτλο"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:336
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:624
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:339
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:627
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Tree.elm:444
 msgid "Untitled resource collection"
 msgstr "Συλλογή πόρων χωρίς τίτλο"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:339
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1970
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2144
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:342
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2015
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2189
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Tree.elm:458
 msgid "Untitled resource page"
 msgstr "Σελίδα πόρων χωρίς τίτλο"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:905
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:908
 msgid "Empty title for chapter"
 msgstr "Κενός τίτλος για το κεφάλαιο"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:934
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:937
 msgid "Empty title for question"
 msgstr "Κενός τίτλος για την ερώτηση"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:943
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:946
 msgid "No answers for options question"
 msgstr "Δεν υπάρχουν απαντήσεις για την ερώτηση επιλογών"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:952
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:955
 msgid "No item questions for list question"
 msgstr "Δεν υπάρχουν ερωτήσεις στοιχείων για την ερώτηση λίστας"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:961
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:964
 msgid "No integration selected for integration question"
 msgstr "Δεν έχει επιλεγεί ενοποίηση για την ερώτηση ενοποίησης"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:968
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:971
 msgid "No choices for multi-choice question"
 msgstr "Δεν υπάρχουν επιλογές για την ερώτηση πολλαπλών επιλογών"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:986
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:989
 msgid "No list question selected for item select question"
 msgstr "Δεν έχει επιλεγεί \"ερώτηση λίστας\" για την ερώτηση επιλογής στοιχείου"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1013
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1016
 msgid "Empty label for answer"
 msgstr "Κενή ετικέτα για την απάντηση"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1032
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1035
 msgid "Empty label for choice"
 msgstr "Κενή ετικέτα για την επιλογή"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1052
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1055
 msgid "No resource page selected for resource page reference"
 msgstr "Δεν έχει επιλεγεί σελίδα πόρου για την αναφορά σελίδας πόρου"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1059
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1062
 msgid "Empty URL for URL reference"
 msgstr "Κενό URL για αναφορά URL"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1062
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1065
 msgid "Invalid URL for URL reference"
 msgstr "Μη έγκυρο URL για αναφορά URL"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1081
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1084
 msgid "Empty email for expert"
 msgstr "Κενό email για τον ειδικό"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1084
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1087
 msgid "Invalid email for expert"
 msgstr "Μη έγκυρο email για τον ειδικό"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1094
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1097
 msgid "Empty title for metric"
 msgstr "Κενός τίτλος για metric"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1106
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1109
 msgid "Empty title for phase"
 msgstr "Κενός τίτλος για τη φάση"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1118
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1121
 msgid "Empty name for tag"
 msgstr "Κενό όνομα για την ετικέτα"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1137
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1140
 msgid "Empty ID for integration"
 msgstr "Κενό αναγνωριστικό για την ενοποίηση"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1148
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1151
 msgid "Empty request URL for integration"
 msgstr "Εκκαθάριση αίτησης διεύθυνσης URL για ενοποίηση"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1155
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1158
 msgid "Empty request HTTP method for integration"
 msgstr "Εκκαθάριση αίτησης μεθόδου HTTP για ενοποίηση"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1162
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1165
 msgid "Empty response item template for integration"
 msgstr "Εκκαθάριση πρότυπου στοιχείου απάντησης για ενσωμάτωση"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1171
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1174
 msgid "Empty widget URL for integration"
 msgstr "Εκκαθάριση διεύθυνσης widget URL για ενσωμάτωση"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1185
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1188
 msgid "Empty title for resource collection"
 msgstr "Κενός τίτλος για τη συλλογή πόρων"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1206
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1209
 msgid "Empty title for resource page"
 msgstr "Κενός τίτλος για τη σελίδα πόρων"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1216
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1219
 msgid "Empty content for resource page"
 msgstr "Κενό περιεχόμενο για τη σελίδα πόρων"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:374
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:377
 msgid "There are no more warnings."
 msgstr "Δεν υπάρχουν άλλες προειδοποιήσεις."
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:490
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:493
 #: engine-wizard/elm/Wizard/KMEditor/Editor/View.elm:167
 #: engine-wizard/elm/Wizard/KMEditor/Publish/View.elm:69
 #: engine-wizard/elm/Wizard/KnowledgeModels/Detail/View.elm:178
@@ -3032,57 +3115,57 @@ msgstr "Δεν υπάρχουν άλλες προειδοποιήσεις."
 msgid "Knowledge Model"
 msgstr "Μοντέλο Γνώσης"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:540
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:543
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Tree.elm:98
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:226
 msgid "Add chapter"
 msgstr "Προσθήκη κεφαλαίου"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:557
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:560
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Tree.elm:110
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:162
 msgid "Add metric"
 msgstr "Προσθήκη metric"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:574
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:577
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Tree.elm:122
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:178
 msgid "Add phase"
 msgstr "Προσθήκη φάσης"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:591
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:594
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Tree.elm:134
 msgid "Add tag"
 msgstr "Προσθήκη ετικέτας"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:599
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:602
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:466
 msgid "Integrations"
 msgstr "Ενοποιήσεις"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:608
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:611
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Tree.elm:146
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:210
 msgid "Add integration"
 msgstr "Προσθήκη ενοποίησης"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:616
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:619
 msgid "Resource Collections"
 msgstr "Συλλογές πόρων"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:625
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:628
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Tree.elm:158
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:322
 msgid "Add resource collection"
 msgstr "Προσθήκη συλλογής πόρων"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:667
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:670
 msgid "Chapter"
 msgstr "Κεφάλαιο"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:686
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:895
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1049
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:689
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:909
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1063
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:863
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:882
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:919
@@ -3093,8 +3176,8 @@ msgstr "Κεφάλαιο"
 msgid "Text"
 msgstr "Κείμενο"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:697
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1011
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:700
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1025
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:901
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:932
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:1158
@@ -3106,9 +3189,9 @@ msgstr "Κείμενο"
 msgid "Questions"
 msgstr "Ερωτήσεις"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:706
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1020
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1829
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:709
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1034
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1874
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Tree.elm:198
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Tree.elm:295
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Tree.elm:369
@@ -3116,13 +3199,13 @@ msgstr "Ερωτήσεις"
 msgid "Add question"
 msgstr "Προσθήκη ερώτησης"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:816
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:829
 msgid "List of Items"
 msgstr "Κατάλογος στοιχείων"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:818
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1119
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1496
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:831
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1133
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1541
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:960
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:1067
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:1238
@@ -3130,24 +3213,24 @@ msgstr "Κατάλογος στοιχείων"
 msgid "Integration"
 msgstr "Ενοποίηση"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:819
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:832
 msgid "Multi-Choice"
 msgstr "Πολλαπλή επιλογή"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:820
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:833
 msgid "Item Select"
 msgstr "Επιλογή στοιχείου"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:827
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:841
 msgid "Never"
 msgstr "Ποτέ"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:831
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:845
 msgid "Question"
 msgstr "Ερώτηση"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:842
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1507
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:856
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1552
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:678
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:733
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:806
@@ -3158,82 +3241,82 @@ msgstr "Ερώτηση"
 msgid "Type"
 msgstr "Είδος"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:858
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:872
 msgid "Changing a question type will remove all answers."
 msgstr "Η αλλαγή ενός τύπου ερώτησης θα αφαιρέσει όλες τις απαντήσεις."
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:868
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:882
 msgid "Changing a question type will remove all item questions."
 msgstr "Η αλλαγή ενός τύπου ερώτησης θα αφαιρέσει όλες τις ερωτήσεις στοιχείων."
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:878
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:892
 msgid "Changing a question type will remove all choices."
 msgstr "Η αλλαγή ενός τύπου ερώτησης θα αφαιρέσει όλες τις επιλογές."
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:906
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:920
 msgid "When does this question become desirable?"
 msgstr "Πότε αυτό το ερώτημα γίνεται επιθυμητό;"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:924
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:938
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:1177
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:1294
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:1391
 msgid "References"
 msgstr "Αναφορές"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:933
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:947
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Tree.elm:319
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:290
 msgid "Add reference"
 msgstr "Προσθήκη αναφοράς"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:950
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:964
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Tree.elm:331
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:306
 msgid "Add expert"
 msgstr "Προσθέστε ειδικό"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:979
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:993
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:1125
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:1260
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:1357
 msgid "Answers"
 msgstr "Απαντήσεις"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:988
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1002
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Tree.elm:283
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:258
 msgid "Add answer"
 msgstr "Προσθέστε απάντηση"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1028
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/PhaseEditor.elm:319
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/TagEditor.elm:330
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1042
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/PhaseEditor.elm:328
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/TagEditor.elm:339
 msgid "Item Template"
 msgstr "Πρότυπο στοιχείου"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1044
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1058
 msgid "String"
 msgstr "Συμβολοσειρά"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1045
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1059
 msgid "Number"
 msgstr "Αριθμός"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1046
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1060
 msgid "Date"
 msgstr "Ημερομηνία"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1047
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1061
 msgid "Date Time"
 msgstr "Ημερομηνία Ώρα"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1048
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1062
 msgid "Time"
 msgstr "Ώρα"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1050
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2079
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1064
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2124
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:2016
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:2035
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:2057
@@ -3250,9 +3333,9 @@ msgstr "Ώρα"
 msgid "Email"
 msgstr "Ηλεκτρονικό ταχυδρομείο"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1051
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1930
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2011
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1065
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1975
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2056
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:1691
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:1694
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:1755
@@ -3271,15 +3354,15 @@ msgstr "Ηλεκτρονικό ταχυδρομείο"
 msgid "URL"
 msgstr "URL"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1052
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1400
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1066
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1445
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:613
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:635
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:660
 msgid "Color"
 msgstr "Χρώμα"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1058
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1072
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:957
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:1048
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:1235
@@ -3287,75 +3370,91 @@ msgstr "Χρώμα"
 msgid "Value Type"
 msgstr "Τύπος τιμής"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1079
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1093
 msgid "- select integration -"
 msgstr "- επιλέξτε ενοποίηση -"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1107
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1121
 msgid "Integration Configuration"
 msgstr "Διαμόρφωση ενοποίησης"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1146
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1160
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:1137
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:1271
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:1368
 msgid "Choices"
 msgstr "Επιλογές"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1155
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1169
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Tree.elm:307
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:274
 msgid "Add choice"
 msgstr "Προσθήκη επιλογής"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1176
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1190
 msgid "- select list question -"
 msgstr "- επιλέξτε ερώτηση λίστας -"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1181
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1195
 msgid "List Question"
 msgstr "Ερώτηση λίστας"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1194
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1208
 msgid "Go to list question"
 msgstr "Πηγαίνετε στην ερώτηση λίστας"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1209
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1229
+msgid "File Types"
+msgstr ""
+
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1237
+msgid "Max Size (bytes)"
+msgstr ""
+
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1244
+msgid "You can limit file type selection by providing comma separated list of extensions, mime types, or combination. For example, `application/pdf` or `.xls,.xlsx`."
+msgstr ""
+
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1246
+msgid "Uploaded files cannot be larger than %s, but you can set a smaller limit."
+msgstr ""
+
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1254
 msgid "Item select questions using this list question"
 msgstr "Ερωτήσεις επιλογής στοιχείου που χρησιμοποιούν αυτη τη λίστα ερώτησεων"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1257
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1302
 msgid "Metric"
 msgstr "Metric"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1276
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1321
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:485
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:506
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:531
 msgid "Abbreviation"
 msgstr "Συντομογραφία"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1321
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1366
 msgid "Phase"
 msgstr "Φάση"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1373
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1418
 msgid "Tag"
 msgstr "Ετικέτα"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1490
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1535
 msgid "API"
 msgstr "API"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1491
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1536
 msgid "Widget"
 msgstr "Widget"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1533
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1578
 msgid "Logo URL"
 msgstr "URL λογότυπου"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1540
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1585
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:681
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:736
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:809
@@ -3364,164 +3463,164 @@ msgstr "URL λογότυπου"
 msgid "Props"
 msgstr "Ιδιότητες"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1548
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1593
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:682
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:737
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:810
 msgid "Item URL"
 msgstr "URL στοιχείου"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1572
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1617
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:696
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:757
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:824
 msgid "Request URL"
 msgstr "Αίτηση URL"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1580
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1625
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:695
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:756
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:823
 msgid "Request HTTP Method"
 msgstr "Αίτηση μεθόδου HTTP"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1589
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1634
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:697
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:758
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:825
 msgid "Request HTTP Headers"
 msgstr "Αίτηση κεφαλίδων HTTP"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1597
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1642
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:698
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:759
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:826
 msgid "Request HTTP Body"
 msgstr "Αίτηση σώματος HTTP"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1605
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1650
 msgid "Allow Empty Search"
 msgstr "Επιτρέψτε την κενή αναζήτηση"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1613
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1658
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:700
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:761
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:828
 msgid "Response Item ID"
 msgstr "Αναγνωριστικό στοιχείου απάντησης"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1621
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1666
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:699
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:760
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:827
 msgid "Response List Field"
 msgstr "Πεδίο λίστας απαντήσεων"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1629
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1674
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:701
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:762
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:829
 msgid "Response Item Template"
 msgstr "Πρότυπο στοιχείου απάντησης"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1635
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1680
 #: engine-wizard/elm/Wizard/Settings/Submission/View.elm:225
 msgid "Request"
 msgstr "Αίτημα"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1637
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1682
 msgid "Use this section to configure the search request. The service you want to integrate has to provide a search HTTP API where you send a search string and it returns a JSON with found items."
 msgstr "Χρησιμοποιήστε αυτήν την ενότητα για να ρυθμίσετε τις παραμέτρους του αιτήματος αναζήτησης. Η υπηρεσία που θέλετε να ενσωματώσετε πρέπει να παρέχει ένα HTTP API αναζήτησης όπου στέλνετε μια συμβολοσειρά αναζήτησης και επιστρέφει ένα JSON με τα στοιχεία που βρέθηκαν."
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1639
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1684
 msgid "A URL of the integrated service API that supports the search. Use `${q}` for the actual string that will be filled when users search for items, such as *ht&#8203;tps://example.com/search?q=${q}*."
 msgstr "Μια διεύθυνση URL της ολοκληρωμένης υπηρεσίας API που υποστηρίζει την αναζήτηση. Χρησιμοποιήστε `${q}` για την πραγματική συμβολοσειρά που θα συμπληρώνεται όταν οι χρήστες αναζητούν στοιχεία, όπως *https://example.com/search?q=${q}*."
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1644
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1689
 msgid "Turn this off if the API cannot handle empty search requests. In that case, the requests will be made only after users type something."
 msgstr "Απενεργοποιήστε το εάν το API δεν μπορεί να χειριστεί κενές αιτήσεις αναζήτησης. Σε αυτή την περίπτωση, οι αιτήσεις θα γίνονται μόνο αφού οι χρήστες πληκτρολογήσουν κάτι."
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1648
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1693
 msgid "Response"
 msgstr "Απάντηση"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1650
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1695
 msgid "Use this section to configure how to process the response returned from the search API."
 msgstr "Χρησιμοποιήστε αυτήν την ενότητα για να ρυθμίσετε τον τρόπο επεξεργασίας της απόκρισης που επιστρέφεται από το API αναζήτησης."
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1652
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1697
 msgid "If the returned JSON is not an array of items directly but the items are nested, use this to define the name or path to the field in the response that contains the list of items. Keep empty otherwise."
 msgstr "Εάν το επιστρεφόμενο JSON δεν είναι άμεσα ένας πίνακας στοιχείων αλλά τα στοιχεία είναι ένθετα, χρησιμοποιήστε το για να ορίσετε το όνομα ή τη διαδρομή προς το πεδίο της απόκρισης που περιέχει τη λίστα των στοιχείων. Διαφορετικά, διατηρήστε το κενό."
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1654
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1699
 msgid "Use this to define an identifier for the item. This will be used in **Item URL** as `${id}` to compose a URL to the found item. You can use properties from the returned item in Jinja2 notation. For example, if the item has a field `id` use `{{item.id}}` here. You can also compose multiple fields together, e.g., `{{item.field1}}-{{item.field2}}`."
 msgstr "Χρησιμοποιήστε το για να ορίσετε ένα αναγνωριστικό για το στοιχείο. Αυτό θα χρησιμοποιηθεί στο **Item URL** ως `${id}` για να συνθέσει ένα URL για το στοιχείο που βρέθηκε. Μπορείτε να χρησιμοποιήσετε ιδιότητες από το στοιχείο που επιστρέφεται στην σημειογραφία Jinja2. Για παράδειγμα, αν το στοιχείο έχει ένα πεδίο `id` χρησιμοποιήστε το `{{item.id}}` εδώ. Μπορείτε επίσης να συνθέσετε πολλά πεδία μαζί, π.χ. `{{item.field1}}-{{item.field2}}`."
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1656
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1701
 msgid "This defines how the found items will be displayed for the user. You can use properties from the returned item in Jinja2 notation, you can also use Markdown for some formatting. For example, if the returned item has a field called name, you can use `**{{item.name}}**` to display the name in bold."
 msgstr "Αυτό καθορίζει τον τρόπο με τον οποίο θα εμφανίζονται στον χρήστη τα στοιχεία που βρέθηκαν. Μπορείτε να χρησιμοποιήσετε ιδιότητες από το επιστρεφόμενο στοιχείο σε σημειογραφία Jinja2, μπορείτε επίσης να χρησιμοποιήσετε Markdown για κάποια μορφοποίηση. Για παράδειγμα, αν το επιστρεφόμενο στοιχείο έχει ένα πεδίο που ονομάζεται όνομα, μπορείτε να χρησιμοποιήσετε το `**{{item.name}}**` για να εμφανίσετε το όνομα με έντονη γραφή."
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1660
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1705
 msgid "Defines the URL to the selected item. Use `${id}` to get the value defined in **Response Item ID** field, for example `https://example.com/${id}`."
 msgstr "Καθορίζει τη διεύθυνση URL του επιλεγμένου στοιχείου. Χρησιμοποιήστε `${id}` για να λάβετε την τιμή που ορίζεται στο πεδίο **Response Item ID**, για παράδειγμα `https://example.com/${id}`."
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1674
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1719
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:714
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:783
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:842
 msgid "Widget URL"
 msgstr "URL του widget"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1680
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1725
 msgid "The URL of the widget implemented using [DSW Integration SDK](https://github.com/ds-wizard/dsw-integration-sdk)."
 msgstr "Η διεύθυνση URL του widget που υλοποιήθηκε χρησιμοποιώντας το [DSW Integration SDK](https://github.com/ds-wizard/dsw-integration-sdk)."
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1682
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1727
 msgid "Defines the URL to the selected item. Use `${id}` value returned from the widget, for example `https://example.com/${id}`."
 msgstr "Καθορίζει τη διεύθυνση URL του επιλεγμένου στοιχείου. Χρησιμοποιήστε την τιμή `${id}` που επιστρέφεται από το widget, για παράδειγμα `https://example.com/${id}`."
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1687
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2213
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1732
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2258
 msgid "No questions"
 msgstr "Δεν υπάρχουν ερωτήσεις"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1737
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1782
 msgid "This integration was created from a template and now differs."
 msgstr "Αυτή η ενσωμάτωση δημιουργήθηκε από ένα πρότυπο και τώρα διαφέρει."
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1742
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1787
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/Settings.elm:217
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:197
 msgid "Update"
 msgstr "Ενημέρωση"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1756
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1801
 msgid "A string that identifies the integration. It has to be unique for each integration."
 msgstr "Μια συμβολοσειρά που προσδιορίζει την ενσωμάτωση. Πρέπει να είναι μοναδική για κάθε ενσωμάτωση."
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1758
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1803
 msgid "A name visible everywhere else in the KM Editor, such as when choosing the integration for a question."
 msgstr "Ένα όνομα ορατό οπουδήποτε αλλού στον Επεξεργαστή ΜΓ, όπως όταν επιλέγετε την ενσωμάτωση για μια ερώτηση."
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1760
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1805
 msgid "Logo is displayed next to the link to the selected item in questionnaires. It can be either URL or base64 image."
 msgstr "Το λογότυπο εμφανίζεται δίπλα στο σύνδεσμο του επιλεγμένου στοιχείου στα ερωτηματολόγια. Μπορεί να είναι είτε URL είτε εικόνα base64."
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1762
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1807
 msgid "Props can be used to parametrize the integration for each question. Use this to define the props whose value can be filled on the questions using this integration. The props can then be used in the URL configuration. For example, if you define prop named *type*, you can use it as `${type}`, such as *ht&#8203;tps://example.com/${type}*."
 msgstr "Τα Props μπορούν να χρησιμοποιηθούν για την παραμετροποίηση της ενοποίησης για κάθε ερώτηση. Χρησιμοποιήστε τα για να ορίσετε props των οποίων η τιμή μπορεί να συμπληρωθεί στις ερωτήσεις που χρησιμοποιούν αυτή την ολοκλήρωση. Τα props μπορούν στη συνέχεια να χρησιμοποιηθούν στη διαμόρφωση της διεύθυνσης URL. Για παράδειγμα, αν ορίσετε το prop με όνομα *type*, μπορείτε να το χρησιμοποιήσετε ως `${type}`, όπως *https://example.com/${type}*."
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1766
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1811
 msgid "Questions using this integration"
 msgstr "Ερωτήσεις που χρησιμοποιούν αυτή την ενσωμάτωση"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1790
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1835
 msgid "Answer"
 msgstr "Απάντηση"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1801
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1890
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2019
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1846
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1935
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2064
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:1427
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:1453
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:1504
@@ -3538,7 +3637,7 @@ msgstr "Απάντηση"
 msgid "Label"
 msgstr "Ετικέτα"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1809
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1854
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:1428
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:1454
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:1505
@@ -3546,17 +3645,17 @@ msgstr "Ετικέτα"
 msgid "Advice"
 msgstr "Συμβουλή"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1820
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1865
 msgid "Follow-Up Questions"
 msgstr "Επακόλουθες Ερωτήσεις"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1879
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1924
 msgid "Choice"
 msgstr "Επιλογή"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1929
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1985
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2178
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1974
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2030
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2223
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:1674
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:1737
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:1740
@@ -3566,11 +3665,11 @@ msgstr "Επιλογή"
 msgid "Resource Page"
 msgstr "Σελίδα πόρων"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1935
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1980
 msgid "Reference"
 msgstr "Παραπομπή"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1946
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1991
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:1671
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:1690
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:1711
@@ -3589,31 +3688,31 @@ msgstr "Παραπομπή"
 msgid "Reference Type"
 msgstr "Τύπος παραπομπής"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1987
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2032
 msgid "- select resource page -"
 msgstr "- επιλέξτε σελίδα πόρων -"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2060
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2105
 msgid "Expert"
 msgstr "Ειδικός"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2117
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2162
 msgid "Resource Collection"
 msgstr "Συλλογή πόρων"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2136
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2181
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:2128
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:2157
 msgid "Resource Pages"
 msgstr "Σελίδες πόρων"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2145
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2190
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Tree.elm:437
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:338
 msgid "Add resource page"
 msgstr "Προσθήκη σελίδας πόρων"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2197
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2242
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:2172
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:2191
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:2213
@@ -3621,128 +3720,128 @@ msgstr "Προσθήκη σελίδας πόρων"
 msgid "Content"
 msgstr "Περιεχόμενο"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2237
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2282
 msgid "Questions using this resource page"
 msgstr "Ερωτήσεις που χρησιμοποιούν αυτή τη σελίδα πόρων"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2244
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2289
 msgid "The knowledge model entity you are trying to open does not exist."
 msgstr "Η οντότητα του μοντέλου γνώσης που προσπαθείτε να ανοίξετε δεν υπάρχει."
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2277
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2322
 msgid "Click to copy UUID"
 msgstr "Κάντε κλικ για να αντιγράψετε το UUID"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2295
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2522
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2535
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2340
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2567
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2580
 msgid "Move"
 msgstr "Μετακίνηση"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2362
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2407
 msgid "Are you sure you want to delete this chapter?"
 msgstr "Σίγουρα θέλετε να διαγράψετε αυτό το κεφάλαιο;"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2369
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2414
 msgid "Are you sure you want to delete this question?"
 msgstr "Σίγουρα θέλετε να διαγράψετε αυτή την ερώτηση;"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2376
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2421
 msgid "Are you sure you want to delete this metric?"
 msgstr "Είστε σίγουροι ότι θέλετε να διαγράψετε αυτή τη μετρική;"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2383
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2428
 msgid "Are you sure you want to delete this phase?"
 msgstr "Σίγουρα θέλετε να διαγράψετε αυτή τη φάση;"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2390
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2435
 msgid "Are you sure you want to delete this question tag?"
 msgstr "Είστε σίγουροι ότι θέλετε να διαγράψετε αυτή την ετικέτα ερώτησης;"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2397
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2442
 msgid "Are you sure you want to delete this integration?"
 msgstr "Είστε σίγουροι ότι θέλετε να διαγράψετε αυτή την ενσωμάτωση;"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2404
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2449
 msgid "Are you sure you want to delete this resource collection?"
 msgstr "Είστε σίγουροι ότι θέλετε να διαγράψετε αυτή τη συλλογή πόρων;"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2411
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2456
 msgid "Are you sure you want to delete this resource page?"
 msgstr "Είστε σίγουροι ότι θέλετε να διαγράψετε αυτή τη σελίδα πόρων;"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2418
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2463
 msgid "Are you sure you want to delete this answer?"
 msgstr "Σίγουρα θέλετε να διαγράψετε αυτή την απάντηση;"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2425
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2470
 msgid "Are you sure you want to delete this choice?"
 msgstr "Σίγουρα θέλετε να διαγράψετε αυτή την επιλογή;"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2432
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2477
 msgid "Are you sure you want to delete this reference?"
 msgstr "Σίγουρα θέλετε να διαγράψετε αυτή την παραπομπή;"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2439
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2484
 msgid "Are you sure you want to delete this expert?"
 msgstr "Είστε σίγουροι ότι θέλετε να διαγράψετε αυτόν τον ειδικό;"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2448
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2493
 msgid "Heads up!"
 msgstr "Προσοχή!"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2525
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2570
 msgid "Select a new parent"
 msgstr "Επιλέξτε έναν νέο γονέα"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:397
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:462
 msgid "Key"
 msgstr "Βασικό"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:429
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:494
 msgid "Add annotation"
 msgstr "Προσθήκη σχολίου"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:433
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:498
 #: engine-wizard/elm/Wizard/KMEditor/Migration/View.elm:2458
 msgid "Annotations"
 msgstr "Σχολιασμοί"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:552
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:617
 msgid "Weight"
 msgstr "Βάρος"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:728
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:793
 msgid "Header Name"
 msgstr "Όνομα επικεφαλίδας"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:737
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:802
 msgid "Header Value"
 msgstr "Τιμή επικεφαλίδας"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:758
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:823
 #: engine-wizard/elm/Wizard/Settings/Submission/View.elm:229
 msgid "Add header"
 msgstr "Προσθήκη επικεφαλίδας"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/PhaseEditor.elm:102
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/PhaseEditor.elm:108
 msgid "There are no phases, create them first."
 msgstr "Δεν υπάρχουν φάσεις, δημιουργήστε τις πρώτα."
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/PhaseEditor.elm:105
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/TagEditor.elm:113
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/PhaseEditor.elm:111
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/TagEditor.elm:119
 msgid "There are no questions, create them first."
 msgstr "Δεν υπάρχουν ερωτήσεις, δημιουργήστε τις πρώτα."
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/Preview.elm:238
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/Preview.elm:239
 msgid "Tags"
 msgstr "Ετικέτες"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/Preview.elm:239
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/Preview.elm:240
 msgid "Select all"
 msgstr "Επιλογή όλων"
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/Preview.elm:240
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/Preview.elm:241
 msgid "Select none"
 msgstr "Μην επιλέξετε κανένα"
 
@@ -3780,46 +3879,46 @@ msgstr "Διαγραφή αυτού του συντάκτη Μοντέλου Γ�
 msgid "Deleted knowledge model editors cannot be recovered."
 msgstr "Οι διαγραμμένοι συντάκτες Μοντέλων Γνώσης δεν μπορούν να ανακτηθούν."
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/TagEditor.elm:110
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Components/TagEditor.elm:116
 msgid "There are no question tags, create them first."
 msgstr "Δεν υπάρχουν ετικέτες ερωτήσεων, δημιουργήστε τις πρώτα."
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Update.elm:151
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Update.elm:341
-#: engine-wizard/elm/Wizard/Projects/Detail/Update.elm:115
-#: engine-wizard/elm/Wizard/Projects/Detail/Update.elm:226
-#: engine-wizard/elm/Wizard/Projects/Detail/Update.elm:250
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Update.elm:153
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Update.elm:328
+#: engine-wizard/elm/Wizard/Projects/Detail/Update.elm:130
+#: engine-wizard/elm/Wizard/Projects/Detail/Update.elm:241
+#: engine-wizard/elm/Wizard/Projects/Detail/Update.elm:265
 msgid "Some changes are still saving."
 msgstr "Ορισμένες αλλαγές είναι ακόμα σε διαδικασία αποθήκευσης."
 
-#: engine-wizard/elm/Wizard/KMEditor/Editor/Update.elm:211
+#: engine-wizard/elm/Wizard/KMEditor/Editor/Update.elm:213
 msgid "Unable to get the knowledge model editor."
 msgstr "Δεν είναι δυνατή η εμφάνιση του συντάκτη Μοντέλου Γνώσης."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/View.elm:49
-#: engine-wizard/elm/Wizard/Projects/Detail/View.elm:66
+#: engine-wizard/elm/Wizard/Projects/Detail/View.elm:67
 msgid "Disconnected"
 msgstr "Αποσυνδέθηκε"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/View.elm:51
-#: engine-wizard/elm/Wizard/Projects/Detail/View.elm:68
+#: engine-wizard/elm/Wizard/Projects/Detail/View.elm:69
 msgid "You have been disconnected, try to refresh the page."
 msgstr "Έχετε αποσυνδεθεί, προσπαθήστε να ανανεώσετε τη σελίδα."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/View.elm:52
 #: engine-wizard/elm/Wizard/KMEditor/Editor/View.elm:65
-#: engine-wizard/elm/Wizard/Projects/Detail/View.elm:69
-#: engine-wizard/elm/Wizard/Projects/Detail/View.elm:82
+#: engine-wizard/elm/Wizard/Projects/Detail/View.elm:70
+#: engine-wizard/elm/Wizard/Projects/Detail/View.elm:83
 msgid "Refresh"
 msgstr "Ανανέωση"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/View.elm:62
-#: engine-wizard/elm/Wizard/Projects/Detail/View.elm:79
+#: engine-wizard/elm/Wizard/Projects/Detail/View.elm:80
 msgid "Oops!"
 msgstr "Ουπς!"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/View.elm:64
-#: engine-wizard/elm/Wizard/Projects/Detail/View.elm:81
+#: engine-wizard/elm/Wizard/Projects/Detail/View.elm:82
 msgid "Something went wrong, try to refresh the page."
 msgstr "Κάτι πήγε στραβά, προσπαθήστε να ανανεώσετε τη σελίδα."
 
@@ -4132,7 +4231,7 @@ msgid "Fork KM"
 msgstr "Διακλάδωση ΜΓ"
 
 #: engine-wizard/elm/Wizard/KnowledgeModels/Common/KnowledgeModelActionsDropdown.elm:109
-#: engine-wizard/elm/Wizard/KnowledgeModels/Preview/View.elm:67
+#: engine-wizard/elm/Wizard/KnowledgeModels/Preview/View.elm:68
 msgid "Create project"
 msgstr "Δημιουργία έργου"
 
@@ -4217,7 +4316,7 @@ msgstr "Το ερωτηματολόγιο δεν μπόρεσε να δημιο�
 #: engine-wizard/elm/Wizard/KnowledgeModels/Preview/Update.elm:140
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/Settings.elm:192
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/ShareModal.elm:343
-#: engine-wizard/elm/Wizard/Projects/Detail/Update.elm:799
+#: engine-wizard/elm/Wizard/Projects/Detail/Update.elm:824
 msgid "Questionnaire could not be saved."
 msgstr "Το ερωτηματολόγιο δεν μπόρεσε να αποθηκευτεί."
 
@@ -4386,6 +4485,45 @@ msgstr "Αναζήτησης ενεργειών..."
 #: engine-wizard/elm/Wizard/ProjectImporters/Index/View.elm:63
 msgid "enabled"
 msgstr "ενεργοποιημένο"
+
+#: engine-wizard/elm/Wizard/ProjectFiles/Index/Update.elm:64
+#: engine-wizard/elm/Wizard/Projects/Detail/Files/Update.elm:66
+msgid "File could not be deleted."
+msgstr ""
+
+#: engine-wizard/elm/Wizard/ProjectFiles/Index/Update.elm:83
+#: engine-wizard/elm/Wizard/Projects/Detail/Files/Update.elm:85
+msgid "Unable to get project files."
+msgstr ""
+
+#: engine-wizard/elm/Wizard/ProjectFiles/Index/View.elm:31
+msgid "Project Files"
+msgstr ""
+
+#: engine-wizard/elm/Wizard/ProjectFiles/Index/View.elm:44
+#: engine-wizard/elm/Wizard/Projects/Detail/Files/View.elm:45
+msgid "There are no project files."
+msgstr ""
+
+#: engine-wizard/elm/Wizard/ProjectFiles/Index/View.elm:52
+#: engine-wizard/elm/Wizard/Projects/Detail/Files/View.elm:53
+msgid "Search files..."
+msgstr ""
+
+#: engine-wizard/elm/Wizard/ProjectFiles/Index/View.elm:55
+#: engine-wizard/elm/Wizard/Projects/Detail/Files/View.elm:56
+msgid "File name"
+msgstr ""
+
+#: engine-wizard/elm/Wizard/ProjectFiles/Index/View.elm:56
+#: engine-wizard/elm/Wizard/Projects/Detail/Files/View.elm:57
+msgid "File size"
+msgstr ""
+
+#: engine-wizard/elm/Wizard/ProjectFiles/Index/View.elm:158
+#: engine-wizard/elm/Wizard/Projects/Detail/Files/View.elm:162
+msgid "Delete file"
+msgstr ""
 
 #: engine-wizard/elm/Wizard/ProjectImporters/Index/Update.elm:43
 msgid "Unable to change project importer."
@@ -4563,7 +4701,7 @@ msgid "Knowledge models are templates for questionnaires. You can select questio
 msgstr "Τα μοντέλα γνώσης είναι πρότυπα για ερωτηματολόγια. Μπορείτε τώρα να επιλέξετε ετικέτες ερωτήσεων και να διαμορφώσετε το πρότυπο εγγράφου και άλλες ρυθμίσεις αργότερα."
 
 #: engine-wizard/elm/Wizard/Projects/CreateMigration/Update.elm:113
-#: engine-wizard/elm/Wizard/Projects/Detail/Update.elm:172
+#: engine-wizard/elm/Wizard/Projects/Detail/Update.elm:187
 #: engine-wizard/elm/Wizard/Projects/Import/Update.elm:67
 #: engine-wizard/elm/Wizard/Projects/Import/Update.elm:107
 msgid "Unable to get the project."
@@ -4705,8 +4843,8 @@ msgid "Unable to get project tags."
 msgstr "Αδυναμία λήψης ετικετών έργου."
 
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/Settings.elm:341
-msgid "This document template is no longer supported."
-msgstr "Αυτό το πρότυπο εγγράφου δεν υποστηρίζεται πλέον."
+msgid "The used version of the document template is no longer supported. Select a newer version or another supported template."
+msgstr ""
 
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/Settings.elm:344
 msgid "This document template is now deprecated."
@@ -4802,34 +4940,54 @@ msgstr "Συνδεθείτε για να προσθέσετε ένα νέο έγ
 msgid "New document"
 msgstr "Νέο έγγραφο"
 
-#: engine-wizard/elm/Wizard/Projects/Detail/View.elm:100
+#: engine-wizard/elm/Wizard/Projects/Detail/View.elm:101
 msgid "project migration"
 msgstr "μετάβαση έργου"
 
-#: engine-wizard/elm/Wizard/Projects/Detail/View.elm:103
+#: engine-wizard/elm/Wizard/Projects/Detail/View.elm:104
 msgid "There is an ongoing %s. Finish it before you can continue editing this project."
 msgstr "Υπάρχει ένα %s σε εξέλιξη. Ολοκληρώστε τo πριν συνεχίσετε την επεξεργασία του έργου."
 
-#: engine-wizard/elm/Wizard/Projects/Detail/View.elm:182
+#: engine-wizard/elm/Wizard/Projects/Detail/View.elm:183
 #: engine-wizard/elm/Wizard/Projects/Index/View.elm:717
 msgid "Template"
 msgstr "Πρότυπο"
 
-#: engine-wizard/elm/Wizard/Projects/Detail/View.elm:202
+#: engine-wizard/elm/Wizard/Projects/Detail/View.elm:203
 msgid "Add to my projects"
 msgstr "Προσθήκη στα έργα μου"
 
-#: engine-wizard/elm/Wizard/Projects/Detail/View.elm:227
+#: engine-wizard/elm/Wizard/Projects/Detail/View.elm:228
 msgid "Share"
 msgstr "Μοιραστείτε το"
 
-#: engine-wizard/elm/Wizard/Projects/Detail/View.elm:280
+#: engine-wizard/elm/Wizard/Projects/Detail/View.elm:289
 msgid "Questionnaire"
 msgstr "Ερωτηματολόγιο"
 
-#: engine-wizard/elm/Wizard/Projects/Detail/View.elm:348
+#: engine-wizard/elm/Wizard/Projects/Detail/View.elm:374
 msgid "You are not allowed to view this page."
 msgstr "Δεν έχετε άδεια προβολής αυτής της σελίδας."
+
+#: engine-wizard/elm/Wizard/Projects/FileDownload/Update.elm:50
+msgid "You do not have permission to access this file"
+msgstr ""
+
+#: engine-wizard/elm/Wizard/Projects/FileDownload/Update.elm:53
+msgid "File not found"
+msgstr ""
+
+#: engine-wizard/elm/Wizard/Projects/FileDownload/Update.elm:56
+msgid "Unable to get file"
+msgstr ""
+
+#: engine-wizard/elm/Wizard/Projects/FileDownload/View.elm:21
+msgid "Downloading"
+msgstr ""
+
+#: engine-wizard/elm/Wizard/Projects/FileDownload/View.elm:22
+msgid "Your download should start shortly."
+msgstr ""
 
 #: engine-wizard/elm/Wizard/Projects/Import/Update.elm:98
 msgid "Unable to get importer."
@@ -4863,22 +5021,26 @@ msgid_plural "%s errors encountered"
 msgstr[0] "Παρουσιάστηκε %s σφάλμα"
 msgstr[1] "Παρουσιάστηκαν %s σφάλματα"
 
-#: engine-wizard/elm/Wizard/Projects/Import/View.elm:175
+#: engine-wizard/elm/Wizard/Projects/Import/View.elm:176
 msgid "Questionnaire Changes"
 msgstr "Αλλαγές ερωτηματολογίου"
 
-#: engine-wizard/elm/Wizard/Projects/Import/View.elm:178
+#: engine-wizard/elm/Wizard/Projects/Import/View.elm:179
 msgid "Errors"
 msgstr "Σφάλματα"
 
-#: engine-wizard/elm/Wizard/Projects/Import/View.elm:184
+#: engine-wizard/elm/Wizard/Projects/Import/View.elm:185
 msgid "No changes to be imported"
 msgstr "Δεν υπάρχουν αλλαγές προς εισαγωγή"
 
-#: engine-wizard/elm/Wizard/Projects/Import/View.elm:269
-#: engine-wizard/elm/Wizard/Projects/Import/View.elm:281
+#: engine-wizard/elm/Wizard/Projects/Import/View.elm:270
+#: engine-wizard/elm/Wizard/Projects/Import/View.elm:282
 msgid "Added item"
 msgstr "Προστέθηκε στοιχείο"
+
+#: engine-wizard/elm/Wizard/Projects/Import/View.elm:286
+msgid "Added file"
+msgstr ""
 
 #: engine-wizard/elm/Wizard/Projects/Index/Update.elm:296
 msgid "Project migration was successfully canceled."
@@ -4986,15 +5148,15 @@ msgstr "Επίλυση όλων"
 msgid "Resolved changes %s/%s"
 msgstr "Επιλυμένες αλλαγές %s/%s"
 
-#: engine-wizard/elm/Wizard/Projects/Migration/View.elm:188
+#: engine-wizard/elm/Wizard/Projects/Migration/View.elm:189
 msgid "New Question"
 msgstr "Νέα Ερώτηση"
 
-#: engine-wizard/elm/Wizard/Projects/Migration/View.elm:191
+#: engine-wizard/elm/Wizard/Projects/Migration/View.elm:192
 msgid "Question Changed"
 msgstr "Η ερώτηση άλλαξε"
 
-#: engine-wizard/elm/Wizard/Projects/Migration/View.elm:194
+#: engine-wizard/elm/Wizard/Projects/Migration/View.elm:195
 msgid "Moved Question"
 msgstr "Μεταφερμένη Ερώτηση"
 
@@ -5965,11 +6127,6 @@ msgstr "Ενεργά κλειδιά API (%s)"
 msgid "Delete API Key"
 msgstr "Διαγραφή κλειδιού API"
 
-#: engine-wizard/elm/Wizard/Users/Edit/Components/ApiKeys.elm:280
-#: engine-wizard/elm/Wizard/Users/Edit/Components/AppKeys.elm:171
-msgid "Are you sure you want to delete %s?"
-msgstr "Σίγουρα θέλετε να διαγράψετε το %s;"
-
 #: engine-wizard/elm/Wizard/Users/Edit/Components/AppKeys.elm:74
 msgid "Unable to get app keys."
 msgstr "Αδυναμία λήψης κλειδιών εφαρμογής."
@@ -6086,21 +6243,24 @@ msgstr "Είστε σίγουροι ότι θέλετε να διαγράψετ�
 msgid "Delete user"
 msgstr "Διαγραφή χρήστη"
 
-#: engine-wizard/elm/Wizard/View.elm:149
+#: engine-wizard/elm/Wizard/View.elm:156
 msgid "Not Found"
 msgstr "Δεν βρέθηκε"
 
-#: engine-wizard/elm/Wizard/View.elm:150
+#: engine-wizard/elm/Wizard/View.elm:157
 msgid "The page you are looking for was not found."
 msgstr "Η σελίδα δεν βρέθηκε."
 
-#: engine-wizard/elm/Wizard/View.elm:159
+#: engine-wizard/elm/Wizard/View.elm:166
 msgid "Not Allowed"
 msgstr "Δεν επιτρέπεται"
 
-#: engine-wizard/elm/Wizard/View.elm:160
+#: engine-wizard/elm/Wizard/View.elm:167
 msgid "You don't have permission to view this page."
 msgstr "Δεν έχετε την άδεια προβολής αυτής της σελίδα."
+
+#~ msgid "This document template is no longer supported."
+#~ msgstr "Αυτό το πρότυπο εγγράφου δεν υποστηρίζεται πλέον."
 
 #~ msgid "You can use Markdown and see the result in the preview tab."
 #~ msgstr "Μπορείτε να χρησιμοποιήσετε Markdown και να δείτε το αποτέλεσμα στην καρτέλα προεπισκόπησης."
