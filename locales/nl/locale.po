@@ -2,17 +2,7 @@
 # Marek Suchánek <marek.suchanek@ds-wizard.org>, 2023, 2024.
 # Jana Martínková <j.martinkova@outlook.com>, 2024.
 msgid ""
-msgstr ""
-"Project-Id-Version: wizard-client:3.18.3\n"
-"POT-Creation-Date: 2024-11-07T09:32:42.414Z \n"
-"PO-Revision-Date: 2024-10-06 15:46+0000\n"
-"Last-Translator: Rob Hooft <rob.hooft@health-ri.nl>\n"
-"Language-Team: Dutch <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-11-0/nl/>\n"
-"Language: nl\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.18.2\n"
+msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2024-11-07T09:32:42.414Z\nPO-Revision-Date: 2024-11-07 13:57+0000\nLast-Translator: Anonymous <noreply@weblate.org>\nLanguage-Team: Dutch <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-12-0/nl/>\nLanguage: nl\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 4.18.2\n"
 
 #: engine-shared/elm/Shared/Auth/Role.elm:29
 msgid "Admin"
@@ -655,8 +645,9 @@ msgid "To"
 msgstr "Naar"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:919
+#, fuzzy
 msgid "Unable to delete file."
-msgstr ""
+msgstr "Kan bestand niet verwijderen."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1025
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1034
@@ -1050,12 +1041,14 @@ msgid "The selected item was deleted."
 msgstr "Het geselecteerde item is verwijderd."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3873
+#, fuzzy
 msgid "The file was deleted."
-msgstr ""
+msgstr "Het bestand is verwijderd."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3896
+#, fuzzy
 msgid "Upload File"
-msgstr ""
+msgstr "Bestand uploaden"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3962
 msgid "This option leads to some follow up questions."
@@ -1113,8 +1106,9 @@ msgid "Remove"
 msgstr "Verwijder"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4190
+#, fuzzy
 msgid "Delete File"
-msgstr ""
+msgstr "Bestand verwijderen"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4192
 #: engine-wizard/elm/Wizard/Users/Edit/Components/ApiKeys.elm:280
@@ -1257,12 +1251,14 @@ msgid "Description"
 msgstr "Beschrijving"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:174
+#, fuzzy
 msgid "Unable to upload the file."
-msgstr ""
+msgstr "Kan het bestand niet uploaden."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:199
+#, fuzzy
 msgid "File upload is not available in the KM editor."
-msgstr ""
+msgstr "Bestanden uploaden is niet beschikbaar in de KM-editor."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:207
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor.elm:926
@@ -1272,19 +1268,22 @@ msgid "Upload"
 msgstr "Upload"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:237
+#, fuzzy
 msgid "Upload a file"
-msgstr ""
+msgstr "Een bestand uploaden"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:275
+#, fuzzy
 msgid ""
 "**The file type is not allowed for this question.**\n"
 "\n"
 "Choose one of the following: %s"
-msgstr ""
+msgstr "**Het bestandstype is niet toegestaan voor deze vraag.**\n\nKies een van de volgende: %s"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:288
+#, fuzzy
 msgid "The file cannot be larger than %s."
-msgstr ""
+msgstr "Het bestand kan niet groter zijn dan %s."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:324
 msgid "Choose file"
@@ -1329,8 +1328,9 @@ msgid "Revert to this version"
 msgstr "Ga terug naar deze versie"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/History.elm:498
+#, fuzzy
 msgid "Deleted file"
-msgstr ""
+msgstr "Verwijderde bestand"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/History.elm:507
 msgid "Cleared reply of"
@@ -3405,20 +3405,24 @@ msgid "Go to list question"
 msgstr "Ga naar \"lijst\"-vraag"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1229
+#, fuzzy
 msgid "File Types"
-msgstr ""
+msgstr "Bestandstypen"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1237
+#, fuzzy
 msgid "Max Size (bytes)"
-msgstr ""
+msgstr "Max. grootte (bytes)"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1244
+#, fuzzy
 msgid "You can limit file type selection by providing comma separated list of extensions, mime types, or combination. For example, `application/pdf` or `.xls,.xlsx`."
-msgstr ""
+msgstr "Je kunt de bestandstypeselectie beperken door een door komma's gescheiden lijst van extensies, mime-types of combinaties op te geven. Bijvoorbeeld `applicatie/pdf` of `.xls,.xlsx`."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1246
+#, fuzzy
 msgid "Uploaded files cannot be larger than %s, but you can set a smaller limit."
-msgstr ""
+msgstr "Geüploade bestanden kunnen niet groter zijn dan %s, maar u kunt een kleinere limiet instellen."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1254
 msgid "Item select questions using this list question"
@@ -4489,42 +4493,50 @@ msgstr "ingeschakeld"
 
 #: engine-wizard/elm/Wizard/ProjectFiles/Index/Update.elm:64
 #: engine-wizard/elm/Wizard/Projects/Detail/Files/Update.elm:66
+#, fuzzy
 msgid "File could not be deleted."
-msgstr ""
+msgstr "Bestand kon niet worden verwijderd."
 
 #: engine-wizard/elm/Wizard/ProjectFiles/Index/Update.elm:83
 #: engine-wizard/elm/Wizard/Projects/Detail/Files/Update.elm:85
+#, fuzzy
 msgid "Unable to get project files."
-msgstr ""
+msgstr "Kan projectbestanden niet ophalen."
 
 #: engine-wizard/elm/Wizard/ProjectFiles/Index/View.elm:31
+#, fuzzy
 msgid "Project Files"
-msgstr ""
+msgstr "Projectbestanden"
 
 #: engine-wizard/elm/Wizard/ProjectFiles/Index/View.elm:44
 #: engine-wizard/elm/Wizard/Projects/Detail/Files/View.elm:45
+#, fuzzy
 msgid "There are no project files."
-msgstr ""
+msgstr "Er zijn geen projectbestanden."
 
 #: engine-wizard/elm/Wizard/ProjectFiles/Index/View.elm:52
 #: engine-wizard/elm/Wizard/Projects/Detail/Files/View.elm:53
+#, fuzzy
 msgid "Search files..."
-msgstr ""
+msgstr "Zoek bestanden..."
 
 #: engine-wizard/elm/Wizard/ProjectFiles/Index/View.elm:55
 #: engine-wizard/elm/Wizard/Projects/Detail/Files/View.elm:56
+#, fuzzy
 msgid "File name"
-msgstr ""
+msgstr "Bestandsnaam"
 
 #: engine-wizard/elm/Wizard/ProjectFiles/Index/View.elm:56
 #: engine-wizard/elm/Wizard/Projects/Detail/Files/View.elm:57
+#, fuzzy
 msgid "File size"
-msgstr ""
+msgstr "Bestandsgrootte"
 
 #: engine-wizard/elm/Wizard/ProjectFiles/Index/View.elm:158
 #: engine-wizard/elm/Wizard/Projects/Detail/Files/View.elm:162
+#, fuzzy
 msgid "Delete file"
-msgstr ""
+msgstr "Bestand verwijderen"
 
 #: engine-wizard/elm/Wizard/ProjectImporters/Index/Update.elm:43
 msgid "Unable to change project importer."
@@ -4844,8 +4856,9 @@ msgid "Unable to get project tags."
 msgstr "Kan projecttags niet ophalen."
 
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/Settings.elm:341
+#, fuzzy
 msgid "The used version of the document template is no longer supported. Select a newer version or another supported template."
-msgstr ""
+msgstr "De gebruikte versie van de documentsjabloon wordt niet langer ondersteund. Selecteer een nieuwere versie of een andere ondersteunde sjabloon."
 
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/Settings.elm:344
 msgid "This document template is now deprecated."
@@ -4971,24 +4984,29 @@ msgid "You are not allowed to view this page."
 msgstr "Deze pagina mag je niet bekijken."
 
 #: engine-wizard/elm/Wizard/Projects/FileDownload/Update.elm:50
+#, fuzzy
 msgid "You do not have permission to access this file"
-msgstr ""
+msgstr "U heeft geen toestemming om dit bestand te openen"
 
 #: engine-wizard/elm/Wizard/Projects/FileDownload/Update.elm:53
+#, fuzzy
 msgid "File not found"
-msgstr ""
+msgstr "Bestand niet gevonden"
 
 #: engine-wizard/elm/Wizard/Projects/FileDownload/Update.elm:56
+#, fuzzy
 msgid "Unable to get file"
-msgstr ""
+msgstr "Kan bestand niet ophalen"
 
 #: engine-wizard/elm/Wizard/Projects/FileDownload/View.elm:21
+#, fuzzy
 msgid "Downloading"
-msgstr ""
+msgstr "Downloaden"
 
 #: engine-wizard/elm/Wizard/Projects/FileDownload/View.elm:22
+#, fuzzy
 msgid "Your download should start shortly."
-msgstr ""
+msgstr "Het downloaden zou binnenkort moeten beginnen."
 
 #: engine-wizard/elm/Wizard/Projects/Import/Update.elm:98
 msgid "Unable to get importer."
@@ -5040,8 +5058,9 @@ msgid "Added item"
 msgstr "Item toegevoegd"
 
 #: engine-wizard/elm/Wizard/Projects/Import/View.elm:286
+#, fuzzy
 msgid "Added file"
-msgstr ""
+msgstr "Bestand toegevoegd"
 
 #: engine-wizard/elm/Wizard/Projects/Index/Update.elm:296
 msgid "Project migration was successfully canceled."
