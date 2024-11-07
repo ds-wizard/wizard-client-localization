@@ -3,17 +3,7 @@
 # Marek Suchánek <marek.suchanek@ds-wizard.org>, 2024.
 # Jana Martínková <j.martinkova@outlook.com>, 2024.
 msgid ""
-msgstr ""
-"Project-Id-Version: wizard-client:4.1.0\n"
-"POT-Creation-Date: 2024-11-07T09:32:42.414Z \n"
-"PO-Revision-Date: 2024-11-05 12:51+0000\n"
-"Last-Translator: Jana Martínková <j.martinkova@outlook.com>\n"
-"Language-Team: Slovenian <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-11-0/sl/>\n"
-"Language: sl\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;\n"
-"X-Generator: Weblate 4.18.2\n"
+msgstr "Project-Id-Version: wizard-client:4.1.0\nPOT-Creation-Date: 2024-11-07T09:32:42.414Z\nPO-Revision-Date: 2024-11-07 13:57+0000\nLast-Translator: Anonymous <noreply@weblate.org>\nLanguage-Team: Slovenian <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-12-0/sl/>\nLanguage: sl\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;\nX-Generator: Weblate 4.18.2\n"
 
 #: engine-shared/elm/Shared/Auth/Role.elm:29
 msgid "Admin"
@@ -656,8 +646,9 @@ msgid "To"
 msgstr "Na naslov"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:919
+#, fuzzy
 msgid "Unable to delete file."
-msgstr ""
+msgstr "Datoteke ni mogoče izbrisati."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1025
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1034
@@ -1053,12 +1044,14 @@ msgid "The selected item was deleted."
 msgstr "Izbrani element je bil izbrisan."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3873
+#, fuzzy
 msgid "The file was deleted."
-msgstr ""
+msgstr "Datoteka je bila izbrisana."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3896
+#, fuzzy
 msgid "Upload File"
-msgstr ""
+msgstr "Prenesite datoteko"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3962
 msgid "This option leads to some follow up questions."
@@ -1118,8 +1111,9 @@ msgid "Remove"
 msgstr "Odstranite"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4190
+#, fuzzy
 msgid "Delete File"
-msgstr ""
+msgstr "Izbriši datoteko"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4192
 #: engine-wizard/elm/Wizard/Users/Edit/Components/ApiKeys.elm:280
@@ -1262,12 +1256,14 @@ msgid "Description"
 msgstr "Opis"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:174
+#, fuzzy
 msgid "Unable to upload the file."
-msgstr ""
+msgstr "Datoteke ni mogoče naložiti."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:199
+#, fuzzy
 msgid "File upload is not available in the KM editor."
-msgstr ""
+msgstr "Prenos datotek ni na voljo v urejevalniku KM."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:207
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor.elm:926
@@ -1277,23 +1273,27 @@ msgid "Upload"
 msgstr "Naložite"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:237
+#, fuzzy
 msgid "Upload a file"
-msgstr ""
+msgstr "Naloži datoteko"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:275
+#, fuzzy
 msgid ""
 "**The file type is not allowed for this question.**\n"
 "\n"
 "Choose one of the following: %s"
-msgstr ""
+msgstr "**Ta vrsta datoteke ni dovoljena za to vprašanje.**\n\nIzberite eno od naslednjih možnosti: %s"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:288
+#, fuzzy
 msgid "The file cannot be larger than %s."
-msgstr ""
+msgstr "Datoteka ne more biti večja od %s."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:324
+#, fuzzy
 msgid "Choose file"
-msgstr ""
+msgstr "Izberite datoteke"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:325
 #: engine-wizard/elm/Wizard/DocumentTemplates/Import/FileImport/View.elm:85
@@ -1334,8 +1334,9 @@ msgid "Revert to this version"
 msgstr "Vrnitev na to različico"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/History.elm:498
+#, fuzzy
 msgid "Deleted file"
-msgstr ""
+msgstr "Izbrisana datoteka"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/History.elm:507
 msgid "Cleared reply of"
@@ -3428,20 +3429,24 @@ msgid "Go to list question"
 msgstr "Pojdi na vprašanje iz seznama"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1229
+#, fuzzy
 msgid "File Types"
-msgstr ""
+msgstr "Vrste datotek"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1237
+#, fuzzy
 msgid "Max Size (bytes)"
-msgstr ""
+msgstr "Največja velikost (bajti)"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1244
+#, fuzzy
 msgid "You can limit file type selection by providing comma separated list of extensions, mime types, or combination. For example, `application/pdf` or `.xls,.xlsx`."
-msgstr ""
+msgstr "Izbiro vrste datoteke lahko omejite tako, da navedete seznam razširitev, vrst mime ali kombinacije, ločenih z vejico. Na primer `aplikacija/pdf` ali `.xls,.xlsx`."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1246
+#, fuzzy
 msgid "Uploaded files cannot be larger than %s, but you can set a smaller limit."
-msgstr ""
+msgstr "Prenesene datoteke ne smejo biti večje od %s, lahko pa nastavite manjšo omejitev."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1254
 msgid "Item select questions using this list question"
@@ -4512,42 +4517,50 @@ msgstr "omogočeno"
 
 #: engine-wizard/elm/Wizard/ProjectFiles/Index/Update.elm:64
 #: engine-wizard/elm/Wizard/Projects/Detail/Files/Update.elm:66
+#, fuzzy
 msgid "File could not be deleted."
-msgstr ""
+msgstr "Datoteke ni bilo mogoče izbrisati."
 
 #: engine-wizard/elm/Wizard/ProjectFiles/Index/Update.elm:83
 #: engine-wizard/elm/Wizard/Projects/Detail/Files/Update.elm:85
+#, fuzzy
 msgid "Unable to get project files."
-msgstr ""
+msgstr "Ni mogoče pridobiti projektnih datotek."
 
 #: engine-wizard/elm/Wizard/ProjectFiles/Index/View.elm:31
+#, fuzzy
 msgid "Project Files"
-msgstr ""
+msgstr "Datoteke projekta"
 
 #: engine-wizard/elm/Wizard/ProjectFiles/Index/View.elm:44
 #: engine-wizard/elm/Wizard/Projects/Detail/Files/View.elm:45
+#, fuzzy
 msgid "There are no project files."
-msgstr ""
+msgstr "Projektnih datotek ni."
 
 #: engine-wizard/elm/Wizard/ProjectFiles/Index/View.elm:52
 #: engine-wizard/elm/Wizard/Projects/Detail/Files/View.elm:53
+#, fuzzy
 msgid "Search files..."
-msgstr ""
+msgstr "Iskanje datotek..."
 
 #: engine-wizard/elm/Wizard/ProjectFiles/Index/View.elm:55
 #: engine-wizard/elm/Wizard/Projects/Detail/Files/View.elm:56
+#, fuzzy
 msgid "File name"
-msgstr ""
+msgstr "Ime datoteke"
 
 #: engine-wizard/elm/Wizard/ProjectFiles/Index/View.elm:56
 #: engine-wizard/elm/Wizard/Projects/Detail/Files/View.elm:57
+#, fuzzy
 msgid "File size"
-msgstr ""
+msgstr "Velikost datoteke"
 
 #: engine-wizard/elm/Wizard/ProjectFiles/Index/View.elm:158
 #: engine-wizard/elm/Wizard/Projects/Detail/Files/View.elm:162
+#, fuzzy
 msgid "Delete file"
-msgstr ""
+msgstr "Izbriši datoteko"
 
 #: engine-wizard/elm/Wizard/ProjectImporters/Index/Update.elm:43
 msgid "Unable to change project importer."
@@ -4875,8 +4888,9 @@ msgid "Unable to get project tags."
 msgstr "Ni mogoče pridobiti oznak projekta."
 
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/Settings.elm:341
+#, fuzzy
 msgid "The used version of the document template is no longer supported. Select a newer version or another supported template."
-msgstr ""
+msgstr "Uporabljena različica predloge dokumenta ni več podprta. Izberite novejšo različico ali drugo podprto predlogo."
 
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/Settings.elm:344
 msgid "This document template is now deprecated."
@@ -5002,24 +5016,29 @@ msgid "You are not allowed to view this page."
 msgstr "Te strani si ne smete ogledati."
 
 #: engine-wizard/elm/Wizard/Projects/FileDownload/Update.elm:50
+#, fuzzy
 msgid "You do not have permission to access this file"
-msgstr ""
+msgstr "Nimate dovoljenja za dostop do te datoteke"
 
 #: engine-wizard/elm/Wizard/Projects/FileDownload/Update.elm:53
+#, fuzzy
 msgid "File not found"
-msgstr ""
+msgstr "Datoteka ni bila najdena"
 
 #: engine-wizard/elm/Wizard/Projects/FileDownload/Update.elm:56
+#, fuzzy
 msgid "Unable to get file"
-msgstr ""
+msgstr "Ni mogoče dobiti datoteke"
 
 #: engine-wizard/elm/Wizard/Projects/FileDownload/View.elm:21
+#, fuzzy
 msgid "Downloading"
-msgstr ""
+msgstr "Prenašanje spletne strani"
 
 #: engine-wizard/elm/Wizard/Projects/FileDownload/View.elm:22
+#, fuzzy
 msgid "Your download should start shortly."
-msgstr ""
+msgstr "Prenos se bo kmalu začel."
 
 #: engine-wizard/elm/Wizard/Projects/Import/Update.elm:98
 msgid "Unable to get importer."
@@ -5075,8 +5094,9 @@ msgid "Added item"
 msgstr "Dodan element"
 
 #: engine-wizard/elm/Wizard/Projects/Import/View.elm:286
+#, fuzzy
 msgid "Added file"
-msgstr ""
+msgstr "Dodana datoteka"
 
 #: engine-wizard/elm/Wizard/Projects/Index/Update.elm:296
 msgid "Project migration was successfully canceled."
