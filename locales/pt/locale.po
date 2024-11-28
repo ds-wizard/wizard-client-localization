@@ -1,7 +1,7 @@
 # Marek Suchánek <marek.suchanek@ds-wizard.org>, 2024.
 # Gil Poiares-Oliveira <gpo@biodata.pt>, 2024.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:4.2.0\nPOT-Creation-Date: 2024-09-03T07:17:36.540Z\nPO-Revision-Date: 2024-10-30 04:47+0000\nLast-Translator: Anonymous <noreply@weblate.org>\nLanguage-Team: Portuguese <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-10-0/pt/>\nLanguage: pt\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n > 1;\nX-Generator: Weblate 4.18.2\n"
+msgstr "Project-Id-Version: wizard-client:4.2.0\nPOT-Creation-Date: 2024-09-03T07:17:36.540Z\nPO-Revision-Date: 2024-11-30 04:47+0000\nLast-Translator: Gil Poiares-Oliveira <gpo@biodata.pt>\nLanguage-Team: Portuguese <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-10-0/pt/>\nLanguage: pt\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n > 1;\nX-Generator: Weblate 4.18.2\n"
 
 #: engine-shared/elm/Shared/Auth/Role.elm:29
 msgid "Admin"
@@ -166,7 +166,6 @@ msgid "edit"
 msgstr "editar"
 
 #: engine-shared/elm/Shared/Data/QuestionnaireQuestionnaire.elm:416
-#, fuzzy
 msgid "Item"
 msgstr "Artigo"
 
@@ -223,7 +222,6 @@ msgid "Asset \"%s\" was not found in archive."
 msgstr "O recurso \"%s\" não foi encontrado no arquivo."
 
 #: engine-shared/elm/Shared/Error/ServerError.elm:150
-#, fuzzy
 msgid "Invalid credentials."
 msgstr "Credenciais inválidas."
 
@@ -410,39 +408,32 @@ msgstr "A vírgula (,) não é permitida nas etiquetas do projeto."
 
 #: engine-wizard/elm/Wizard/Comments/Update.elm:35
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1249
-#, fuzzy
 msgid "Unable to get comments."
 msgstr "Não é possível obter comentários."
 
 #: engine-wizard/elm/Wizard/Comments/View.elm:24
-#, fuzzy
 msgid "Assigned Comments"
 msgstr "Comentários atribuídos"
 
 #: engine-wizard/elm/Wizard/Comments/View.elm:34
 #: engine-wizard/elm/Wizard/Comments/View.elm:70
 #: engine-wizard/elm/Wizard/Projects/Migration/View.elm:198
-#, fuzzy
 msgid "Resolved"
 msgstr "Resolvido"
 
 #: engine-wizard/elm/Wizard/Comments/View.elm:36
-#, fuzzy
 msgid "Resolved only"
-msgstr "Resolvido apenas"
+msgstr "Apenas resolvidos"
 
 #: engine-wizard/elm/Wizard/Comments/View.elm:37
-#, fuzzy
 msgid "Unresolved only"
-msgstr "Apenas não resolvido"
+msgstr "Apenas não resolvidos"
 
 #: engine-wizard/elm/Wizard/Comments/View.elm:46
-#, fuzzy
 msgid "No comments have been assigned to you."
 msgstr "Não lhe foram atribuídos comentários."
 
 #: engine-wizard/elm/Wizard/Comments/View.elm:54
-#, fuzzy
 msgid "Search comments..."
 msgstr "Procurar comentários..."
 
@@ -456,7 +447,6 @@ msgstr "Projeto"
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Index/View.elm:53
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:71
 #: engine-wizard/elm/Wizard/Projects/Index/View.elm:132
-#, fuzzy
 msgid "Updated"
 msgstr "Atualizado"
 
@@ -614,7 +604,6 @@ msgstr "Cowboy anónimo"
 #: engine-wizard/elm/Wizard/Common/Components/PlansList.elm:28
 #: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:200
 #: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:231
-#, fuzzy
 msgid "Trial"
 msgstr "Ensaio"
 
@@ -661,15 +650,13 @@ msgstr "Não foi possível obter o histórico de versões."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1260
 #: engine-wizard/elm/Wizard/ProjectActions/Index/Update.elm:70
-#, fuzzy
 msgid "Unable to get project actions."
-msgstr "Não é possível obter acções de projeto."
+msgstr "Não é possível obter ações do projeto."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1272
 #: engine-wizard/elm/Wizard/ProjectImporters/Index/Update.elm:70
-#, fuzzy
 msgid "Unable to get project importers."
-msgstr "Não é possível obter importadores de projectos."
+msgstr "Não é possível obter importadores de projetos."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:1465
 msgid "Unable to get type hints."
@@ -773,7 +760,6 @@ msgid "Click the %s icon to add new comments to a question."
 msgstr "Clique no ícone %s para adicionar novos comentários a uma pergunta."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2261
-#, fuzzy
 msgid "View resolved comments (%s)"
 msgstr "Ver comentários resolvidos (%s)"
 
@@ -807,12 +793,10 @@ msgid "Reply..."
 msgstr "Resposta.."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2450
-#, fuzzy
 msgid "Assigned to you"
 msgstr "Atribuído a si"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2455
-#, fuzzy
 msgid "Assigned to %s"
 msgstr "Atribuído a %s"
 
@@ -853,7 +837,6 @@ msgid "Resolve comment thread"
 msgstr "Resolver fio de comentários"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2574
-#, fuzzy
 msgid "Remove assignment"
 msgstr "Remover atribuição"
 
@@ -953,21 +936,18 @@ msgid "There are no follow up questions in this phase."
 msgstr "Não há perguntas complementares nesta fase."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3137
-#, fuzzy
 msgid "Expand"
 msgstr "Expandir"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3142
-#, fuzzy
 msgid "%s %s follow up question"
 msgid_plural "%s %s follow up questions"
-msgstr[0] ""
+msgstr[0] "%s %s pergunta complementar"
 msgstr[1] "%s %s perguntas complementares"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3152
-#, fuzzy
 msgid "Collapse"
-msgstr "Colapso"
+msgstr "Colapsar"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3187
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Tree.elm:66
@@ -1034,17 +1014,14 @@ msgid "Loading..."
 msgstr "A carregar..."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3674
-#, fuzzy
 msgid "- select -"
 msgstr "- selecionar -"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3681
-#, fuzzy
 msgid "Go to item"
 msgstr "Ir para o item"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3694
-#, fuzzy
 msgid "The selected item was deleted."
 msgstr "O item selecionado foi eliminado."
 
@@ -1083,9 +1060,8 @@ msgid "Copy link"
 msgstr "Copiar ligação"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3950
-#, fuzzy
 msgid "There are some item select questions using this item:"
-msgstr "Existem algumas perguntas de seleção de item que utilizam este item:"
+msgstr "Existem algumas perguntas de seleção que utilizam este item:"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3961
 msgid "Remove Item"
@@ -1144,7 +1120,6 @@ msgid "Feedback could not be sent."
 msgstr "Não foi possível enviar o feedback."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FeedbackModal.elm:129
-#, fuzzy
 msgid "Issue %s"
 msgstr "Problema %s"
 
@@ -1170,7 +1145,6 @@ msgid "Your feedback has been sent."
 msgstr "O seu feedback foi enviado."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FeedbackModal.elm:170
-#, fuzzy
 msgid "There are already some issues reported with this question."
 msgstr "Já foram registados alguns problemas com esta pergunta."
 
@@ -1270,9 +1244,8 @@ msgid "Revert to this version"
 msgstr "Reverter para esta versão"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/History.elm:493
-#, fuzzy
 msgid "Cleared reply of"
-msgstr "Resposta limpa de"
+msgstr "Foi limpa a resposta de"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/History.elm:502
 msgid "Unset phase"
@@ -1297,24 +1270,20 @@ msgstr "Capítulos"
 #: engine-wizard/elm/Wizard/Projects/Index/Update.elm:189
 #: engine-wizard/elm/Wizard/Projects/Index/Update.elm:220
 #: engine-wizard/elm/Wizard/Users/Index/Update.elm:82
-#, fuzzy
 msgid "Unable to get users."
 msgstr "Não é possível obter utilizadores."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/UserSuggestionDropdown.elm:150
-#, fuzzy
 msgid "No users found."
 msgstr "Não foram encontrados utilizadores."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/UserSuggestionDropdown.elm:170
-#, fuzzy
 msgid "Assign comment thread"
-msgstr "Atribuir linha de comentários"
+msgstr "Atribuir tópico de comentários"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/UserSuggestionDropdown.elm:179
 #: engine-wizard/elm/Wizard/Projects/Index/View.elm:448
 #: engine-wizard/elm/Wizard/Users/Index/View.elm:56
-#, fuzzy
 msgid "Search users..."
 msgstr "Procurar utilizadores..."
 
@@ -1619,9 +1588,8 @@ msgid "Edit profile"
 msgstr "Editar perfil"
 
 #: engine-wizard/elm/Wizard/Common/Menu/View.elm:670
-#, fuzzy
 msgid "Assigned comments"
-msgstr "Observações atribuídas"
+msgstr "Comentários atribuídas"
 
 #: engine-wizard/elm/Wizard/Common/Menu/View.elm:680
 msgid "Log out"
@@ -1863,9 +1831,8 @@ msgid "Filter by question tags"
 msgstr "Filtrar por etiquetas de pergunta"
 
 #: engine-wizard/elm/Wizard/Common/View/Tag.elm:158
-#, fuzzy
 msgid "No need to choose question tags for this knowledge model."
-msgstr "Não é necessário escolher etiquetas de perguntas para este modelo de conhecimento."
+msgstr "Não é necessário escolher etiquetas de pergunta para este modelo de conhecimento."
 
 #: engine-wizard/elm/Wizard/Common/View/Tag.elm:166
 msgid "There are no question tags for this knowledge model."
