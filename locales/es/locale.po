@@ -1,6 +1,6 @@
 # Remedios Melero <rmelero@iata.csic.es>, 2023.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2024-11-07T09:32:42.414Z\nPO-Revision-Date: 2024-11-07 13:57+0000\nLast-Translator: Anonymous <noreply@weblate.org>\nLanguage-Team: Spanish <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-12-0/es/>\nLanguage: es\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 4.18.2\n"
+msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2024-11-07T09:32:42.414Z\nPO-Revision-Date: 2024-12-02 04:47+0000\nLast-Translator: Anonymous <noreply@weblate.org>\nLanguage-Team: Spanish <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-12-0/es/>\nLanguage: es\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 4.18.2\n"
 
 #: engine-shared/elm/Shared/Auth/Role.elm:29
 msgid "Admin"
@@ -1267,7 +1267,7 @@ msgstr "(Sus respuestas no cambiarán)"
 #: engine-wizard/elm/Wizard/Locales/Detail/View.elm:242
 #, fuzzy
 msgid "Delete version"
-msgstr "Borrar versión"
+msgstr "Eliminar versión"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FeedbackModal.elm:82
 #, fuzzy
@@ -2462,7 +2462,7 @@ msgstr "Bienvenido."
 #: engine-wizard/elm/Wizard/Dashboard/Widgets/WelcomeWidget.elm:25
 #, fuzzy
 msgid "As an admin, you configure the instance and manage user accounts."
-msgstr "Como administrador, configura la instancia y gestiona las cuentas de usuario."
+msgstr "Como administrador, configuras la instancia y gestionas las cuentas de usuario."
 
 #: engine-wizard/elm/Wizard/Dashboard/Widgets/WelcomeWidget.elm:26
 #, fuzzy
@@ -4324,7 +4324,7 @@ msgstr "¿Está seguro de que desea eliminar esta métrica?"
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2428
 #, fuzzy
 msgid "Are you sure you want to delete this phase?"
-msgstr "¿Estás seguro de que quieres eliminar esta fase?"
+msgstr "¿Seguro que quieres eliminar esta fase?"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:2435
 #, fuzzy
@@ -4550,7 +4550,7 @@ msgstr "No se pueden obtener editores de modelos de conocimiento."
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:59
 #, fuzzy
 msgid "Click \"Create\" button to add a new Knowledge Model Editor."
-msgstr "Haga clic en el botón \"Crear\" para añadir un nuevo Editor de modelos de conocimiento."
+msgstr "Haga clic en el botón \"Crear\" para añadir un nuevo Editor de Modelos de Conocimiento."
 
 #: engine-wizard/elm/Wizard/KMEditor/Index/View.elm:67
 #, fuzzy
@@ -5643,7 +5643,7 @@ msgstr "Atención. Esta acción no se puede deshacer."
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/RevertModal.elm:112
 #, fuzzy
 msgid "Are you sure you want to revert the projects to its state from %s?"
-msgstr "¿Está seguro de que desea revertir los proyectos a su estado de %s?"
+msgstr "¿Estás seguro de que quieres revertir los proyectos a su estado de %s?"
 
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/RevertModal.elm:118
 #, fuzzy
@@ -6524,7 +6524,7 @@ msgstr "Modelos de conocimiento público"
 #: engine-wizard/elm/Wizard/Settings/KnowledgeModels/View.elm:63
 #, fuzzy
 msgid "If enabled, you can define knowledge models that are publicly available for reading."
-msgstr "Si se activa, puede definir modelos de conocimiento que estén disponibles públicamente para su lectura."
+msgstr "Si está activada, puede definir modelos de conocimiento que estén disponibles públicamente para su lectura."
 
 #: engine-wizard/elm/Wizard/Settings/KnowledgeModels/View.elm:66
 #, fuzzy
@@ -6576,7 +6576,7 @@ msgstr "Enlaces de menú personalizados"
 #: engine-wizard/elm/Wizard/Settings/LookAndFeel/View.elm:108
 #, fuzzy
 msgid "Configure additional links in the menu. Choose any free icon from the [Font Awesome](%s), e.g. *fas fa-magic*. Check *New window* if you want to open the link in a new window."
-msgstr "Configura enlaces adicionales en el menú. Elija cualquier icono libre del [Font Awesome](%s), por ejemplo *fas fa-magic*. Marque *Nueva ventana* si desea abrir el enlace en una nueva ventana."
+msgstr "Configura enlaces adicionales en el menú. Elija cualquier icono libre del [Font Awesome](%s), por ejemplo *fas fa-magic*. Marque *Nueva ventana* si desea abrir el enlace en una ventana nueva."
 
 #: engine-wizard/elm/Wizard/Settings/LookAndFeel/View.elm:118
 #, fuzzy
@@ -7204,7 +7204,7 @@ msgstr "Nombre de la clave API"
 #: engine-wizard/elm/Wizard/Users/Edit/Components/ApiKeys.elm:214
 #, fuzzy
 msgid "Give the API key a name to identify it, such as the name of the application using it or the purpose of the key."
-msgstr "Asigne un nombre a la clave API para identificarla, como el nombre de la aplicación que la utiliza o la finalidad de la clave."
+msgstr "Asigne un nombre a la clave API para identificarla, como el nombre de la aplicación que la utiliza o el propósito de la clave."
 
 #: engine-wizard/elm/Wizard/Users/Edit/Components/ApiKeys.elm:216
 #, fuzzy
@@ -7338,7 +7338,7 @@ msgstr "No hay ajustes para %s."
 #: engine-wizard/elm/Wizard/Users/Edit/View.elm:63
 #, fuzzy
 msgid "User Settings"
-msgstr "Configuración del usuario"
+msgstr "Configuración de usuario"
 
 #: engine-wizard/elm/Wizard/Users/Index/Update.elm:63
 #, fuzzy
