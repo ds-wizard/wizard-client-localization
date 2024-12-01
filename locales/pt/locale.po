@@ -1,7 +1,7 @@
 # Marek Suchánek <marek.suchanek@ds-wizard.org>, 2024.
 # Gil Poiares-Oliveira <gpo@biodata.pt>, 2024.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:4.2.0\nPOT-Creation-Date: 2024-11-07T09:32:42.414Z\nPO-Revision-Date: 2024-11-29 14:47+0000\nLast-Translator: Gil Poiares-Oliveira <gpo@biodata.pt>\nLanguage-Team: Portuguese <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-12-0/pt/>\nLanguage: pt\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n > 1;\nX-Generator: Weblate 4.18.2\n"
+msgstr "Project-Id-Version: wizard-client:4.2.0\nPOT-Creation-Date: 2024-11-07T09:32:42.414Z\nPO-Revision-Date: 2024-12-02 04:47+0000\nLast-Translator: Anonymous <noreply@weblate.org>\nLanguage-Team: Portuguese <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-12-0/pt/>\nLanguage: pt\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n > 1;\nX-Generator: Weblate 4.18.2\n"
 
 #: engine-shared/elm/Shared/Auth/Role.elm:29
 msgid "Admin"
@@ -3188,7 +3188,7 @@ msgstr "Modelo de item de resposta em branco para integração"
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1174
 #, fuzzy
 msgid "Empty widget URL for integration"
-msgstr "URL de widget vazio para integração"
+msgstr "URL do widget vazio para integração"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Common/EditorBranch.elm:1188
 #, fuzzy
@@ -5148,7 +5148,7 @@ msgstr "Criar migração"
 #: engine-wizard/elm/Wizard/Projects/CreateMigration/View.elm:81
 #, fuzzy
 msgid "A new Project is created for the migration. The original will remain unchanged until the migration is finished."
-msgstr "É criado um novo projeto para a migração. O original permanecerá inalterado até que a migração seja concluída."
+msgstr "É criado um novo projeto para a migração. O original permanecerá inalterado até a migração estar concluída."
 
 #: engine-wizard/elm/Wizard/Projects/CreateMigration/View.elm:88
 #, fuzzy
@@ -5310,7 +5310,7 @@ msgstr "Modelo de documento predefinido"
 #: engine-wizard/elm/Wizard/Projects/Index/View.elm:257
 #, fuzzy
 msgid "Project Tags"
-msgstr "Etiquetas de projeto"
+msgstr "Etiquetas de projectos"
 
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/Settings.elm:511
 #, fuzzy
@@ -5485,7 +5485,7 @@ msgstr "Importar para %s"
 #: engine-wizard/elm/Wizard/Projects/Import/View.elm:79
 #, fuzzy
 msgid "Import status:"
-msgstr "Estado da importação:"
+msgstr "Estado de importação:"
 
 #: engine-wizard/elm/Wizard/Projects/Import/View.elm:90
 #, fuzzy
@@ -5587,7 +5587,7 @@ msgstr "Não foram encontrados modelos de conhecimento"
 #: engine-wizard/elm/Wizard/Projects/Index/View.elm:488
 #, fuzzy
 msgid "No users found"
-msgstr "Nenhum utilizador encontrado"
+msgstr "Não foram encontrados utilizadores."
 
 #: engine-wizard/elm/Wizard/Projects/Index/View.elm:606
 #, fuzzy
@@ -5751,7 +5751,7 @@ msgstr "Introduza o e-mail que utiliza para iniciar sessão e enviar-lhe-emos um
 #: engine-wizard/elm/Wizard/Public/ForgottenPasswordConfirmation/View.elm:42
 #, fuzzy
 msgid "Password Recovery"
-msgstr "Recuperação da palavra-passe"
+msgstr "Recuperação de palavras-passe"
 
 #: engine-wizard/elm/Wizard/Public/ForgottenPasswordConfirmation/View.elm:56
 #, fuzzy
@@ -6407,7 +6407,7 @@ msgstr "Partilha de projectos por defeito"
 #: engine-wizard/elm/Wizard/Settings/Projects/View.elm:90
 #, fuzzy
 msgid "If *Project Sharing* is enabled, this value is pre-selected when creating a new project. If *Project Sharing* is disabled, this value is used implicitly for new projects."
-msgstr "Se a *Partilha de projectos* estiver activada, este valor é pré-selecionado ao criar um novo projeto. Se a *Partilha de Projectos* estiver desactivada, este valor é utilizado implicitamente para novos projectos."
+msgstr "Se a *Partilha de Projectos* estiver activada, este valor é pré-selecionado ao criar um novo projeto. Se a *Partilha de Projectos* estiver desactivada, este valor é utilizado implicitamente para novos projectos."
 
 #: engine-wizard/elm/Wizard/Settings/Projects/View.elm:94
 #, fuzzy
@@ -6761,7 +6761,7 @@ msgstr "atual"
 #: engine-wizard/elm/Wizard/Users/Edit/Components/ActiveSessions.elm:227
 #, fuzzy
 msgid "Logged in on %s"
-msgstr "Registado em %s"
+msgstr "Iniciou sessão em %s"
 
 #: engine-wizard/elm/Wizard/Users/Edit/Components/ActiveSessions.elm:233
 #, fuzzy
