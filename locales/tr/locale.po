@@ -2,7 +2,7 @@
 # Marek Suchánek <marek.suchanek@ds-wizard.org>, 2023, 2024.
 # Jana Martínková <j.martinkova@outlook.com>, 2024.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2024-11-07T09:32:42.414Z\nPO-Revision-Date: 2024-11-07 13:57+0000\nLast-Translator: Anonymous <noreply@weblate.org>\nLanguage-Team: Turkish <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-12-0/tr/>\nLanguage: tr\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 4.18.2\n"
+msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2024-11-07T09:32:42.414Z\nPO-Revision-Date: 2024-12-03 09:34+0000\nLast-Translator: Jana Martínková <j.martinkova@outlook.com>\nLanguage-Team: Turkish <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-12-0/tr/>\nLanguage: tr\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 4.18.2\n"
 
 #: engine-shared/elm/Shared/Auth/Role.elm:29
 msgid "Admin"
@@ -645,7 +645,6 @@ msgid "To"
 msgstr "Kime"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:919
-#, fuzzy
 msgid "Unable to delete file."
 msgstr "Dosya silinemiyor."
 
@@ -1041,12 +1040,10 @@ msgid "The selected item was deleted."
 msgstr "Seçilen öğe silindi."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3873
-#, fuzzy
 msgid "The file was deleted."
 msgstr "Dosya silindi."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3896
-#, fuzzy
 msgid "Upload File"
 msgstr "Dosya Yükle"
 
@@ -1106,7 +1103,6 @@ msgid "Remove"
 msgstr "Kaldırmak"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:4190
-#, fuzzy
 msgid "Delete File"
 msgstr "Dosya Silme"
 
@@ -1251,12 +1247,10 @@ msgid "Description"
 msgstr "Açıklama"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:174
-#, fuzzy
 msgid "Unable to upload the file."
 msgstr "Dosya yüklenemiyor."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:199
-#, fuzzy
 msgid "File upload is not available in the KM editor."
 msgstr "KM editöründe dosya yükleme mevcut değildir."
 
@@ -1268,12 +1262,10 @@ msgid "Upload"
 msgstr "Yükle"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:237
-#, fuzzy
 msgid "Upload a file"
 msgstr "Bir dosya yükleyin"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:275
-#, fuzzy
 msgid ""
 "**The file type is not allowed for this question.**\n"
 "\n"
@@ -1281,7 +1273,6 @@ msgid ""
 msgstr "**Bu soru için dosya türüne izin verilmiyor.**\n\nAşağıdakilerden birini seçin: %s"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/FileUploadModal.elm:288
-#, fuzzy
 msgid "The file cannot be larger than %s."
 msgstr "Dosya %s'den büyük olamaz."
 
@@ -1328,7 +1319,6 @@ msgid "Revert to this version"
 msgstr "Bu sürüme geri dönün"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire/History.elm:498
-#, fuzzy
 msgid "Deleted file"
 msgstr "Silinmiş dosya"
 
@@ -3405,22 +3395,18 @@ msgid "Go to list question"
 msgstr "Liste sorusuna git"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1229
-#, fuzzy
 msgid "File Types"
 msgstr "Dosya Türleri"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1237
-#, fuzzy
 msgid "Max Size (bytes)"
 msgstr "Maksimum Boyut (bayt)"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1244
-#, fuzzy
 msgid "You can limit file type selection by providing comma separated list of extensions, mime types, or combination. For example, `application/pdf` or `.xls,.xlsx`."
 msgstr "Dosya türü seçimini, virgülle ayrılmış uzantılar, mim türleri veya kombinasyon listesi sağlayarak sınırlayabilirsiniz. Örneğin, `application/pdf` veya `.xls,.xlsx`."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1246
-#, fuzzy
 msgid "Uploaded files cannot be larger than %s, but you can set a smaller limit."
 msgstr "Yüklenen dosyalar %s'den büyük olamaz, ancak daha küçük bir sınır belirleyebilirsiniz."
 
@@ -4493,48 +4479,40 @@ msgstr "etkin"
 
 #: engine-wizard/elm/Wizard/ProjectFiles/Index/Update.elm:64
 #: engine-wizard/elm/Wizard/Projects/Detail/Files/Update.elm:66
-#, fuzzy
 msgid "File could not be deleted."
 msgstr "Dosya silinemedi."
 
 #: engine-wizard/elm/Wizard/ProjectFiles/Index/Update.elm:83
 #: engine-wizard/elm/Wizard/Projects/Detail/Files/Update.elm:85
-#, fuzzy
 msgid "Unable to get project files."
 msgstr "Proje dosyaları alınamıyor."
 
 #: engine-wizard/elm/Wizard/ProjectFiles/Index/View.elm:31
-#, fuzzy
 msgid "Project Files"
 msgstr "Proje Dosyaları"
 
 #: engine-wizard/elm/Wizard/ProjectFiles/Index/View.elm:44
 #: engine-wizard/elm/Wizard/Projects/Detail/Files/View.elm:45
-#, fuzzy
 msgid "There are no project files."
 msgstr "Proje dosyası yoktur."
 
 #: engine-wizard/elm/Wizard/ProjectFiles/Index/View.elm:52
 #: engine-wizard/elm/Wizard/Projects/Detail/Files/View.elm:53
-#, fuzzy
 msgid "Search files..."
 msgstr "Dosyaları ara..."
 
 #: engine-wizard/elm/Wizard/ProjectFiles/Index/View.elm:55
 #: engine-wizard/elm/Wizard/Projects/Detail/Files/View.elm:56
-#, fuzzy
 msgid "File name"
 msgstr "Dosya adı"
 
 #: engine-wizard/elm/Wizard/ProjectFiles/Index/View.elm:56
 #: engine-wizard/elm/Wizard/Projects/Detail/Files/View.elm:57
-#, fuzzy
 msgid "File size"
 msgstr "Dosya boyutu"
 
 #: engine-wizard/elm/Wizard/ProjectFiles/Index/View.elm:158
 #: engine-wizard/elm/Wizard/Projects/Detail/Files/View.elm:162
-#, fuzzy
 msgid "Delete file"
 msgstr "Dosya silme"
 
@@ -4856,7 +4834,6 @@ msgid "Unable to get project tags."
 msgstr "Proje etiketleri alınamıyor."
 
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/Settings.elm:341
-#, fuzzy
 msgid "The used version of the document template is no longer supported. Select a newer version or another supported template."
 msgstr "Belge şablonunun kullanılan sürümü artık desteklenmiyor. Daha yeni bir sürüm veya desteklenen başka bir şablon seçin."
 
@@ -4984,27 +4961,22 @@ msgid "You are not allowed to view this page."
 msgstr "Bu sayfayı görüntülemenize izin verilmiyor."
 
 #: engine-wizard/elm/Wizard/Projects/FileDownload/Update.elm:50
-#, fuzzy
 msgid "You do not have permission to access this file"
 msgstr "Bu dosyaya erişim izniniz yok"
 
 #: engine-wizard/elm/Wizard/Projects/FileDownload/Update.elm:53
-#, fuzzy
 msgid "File not found"
 msgstr "Dosya bulunamadı"
 
 #: engine-wizard/elm/Wizard/Projects/FileDownload/Update.elm:56
-#, fuzzy
 msgid "Unable to get file"
 msgstr "Dosya alınamıyor"
 
 #: engine-wizard/elm/Wizard/Projects/FileDownload/View.elm:21
-#, fuzzy
 msgid "Downloading"
 msgstr "İndirme"
 
 #: engine-wizard/elm/Wizard/Projects/FileDownload/View.elm:22
-#, fuzzy
 msgid "Your download should start shortly."
 msgstr "İndirme işleminiz kısa süre içinde başlayacaktır."
 
@@ -5058,7 +5030,6 @@ msgid "Added item"
 msgstr "Eklenen öğe"
 
 #: engine-wizard/elm/Wizard/Projects/Import/View.elm:286
-#, fuzzy
 msgid "Added file"
 msgstr "Dosya eklendi"
 
