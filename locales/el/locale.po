@@ -1,17 +1,7 @@
 # Jana Martínková <j.martinkova@outlook.com>, 2024.
 # Georgia Koutentaki <koutegeo@cvut.cz>, 2024.
 msgid ""
-msgstr ""
-"Project-Id-Version: wizard-client:4.9.0\n"
-"POT-Creation-Date: 2024-12-05T08:08:31.933Z \n"
-"PO-Revision-Date: 2024-11-09 10:47+0000\n"
-"Last-Translator: Georgia Koutentaki <koutegeo@cvut.cz>\n"
-"Language-Team: Greek <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-12-0/el/>\n"
-"Language: el\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.18.2\n"
+msgstr "Project-Id-Version: wizard-client:4.9.0\nPOT-Creation-Date: 2024-12-05T08:08:31.933Z\nPO-Revision-Date: 2024-12-06 07:41+0000\nLast-Translator: Anonymous <noreply@weblate.org>\nLanguage-Team: Greek <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-13-0/el/>\nLanguage: el\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 4.18.2\n"
 
 #: engine-shared/elm/Shared/Auth/Role.elm:29
 msgid "Admin"
@@ -74,12 +64,14 @@ msgid "December"
 msgstr "Δεκέμβριος"
 
 #: engine-shared/elm/Shared/Data/KnowledgeModel/Question/QuestionValidation.elm:332
+#, fuzzy
 msgid "Answer must be a valid ORCID."
-msgstr ""
+msgstr "Η απάντηση πρέπει να είναι ένα έγκυρο ORCID."
 
 #: engine-shared/elm/Shared/Data/KnowledgeModel/Question/QuestionValidation.elm:339
+#, fuzzy
 msgid "Answer must be a valid DOI."
-msgstr ""
+msgstr "Η απάντηση πρέπει να είναι έγκυρη DOI."
 
 #: engine-shared/elm/Shared/Data/Questionnaire/QuestionnaireCreation.elm:116
 msgid "Templates & Custom"
@@ -883,8 +875,9 @@ msgid "This chapter contains no questions."
 msgstr "Αυτό το κεφάλαιο δεν περιέχει ερωτήσεις."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2979
+#, fuzzy
 msgid "There are no questions matching the selected question tags."
-msgstr ""
+msgstr "Δεν υπάρχουν ερωτήσεις που να ταιριάζουν με τις επιλεγμένες ετικέτες ερωτήσεων."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2992
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3455
@@ -1572,8 +1565,9 @@ msgid "Storage"
 msgstr "Αποθήκη"
 
 #: engine-wizard/elm/Wizard/Common/Components/UsageTable.elm:80
+#, fuzzy
 msgid "Unlimited"
-msgstr ""
+msgstr "Απεριόριστα"
 
 #: engine-wizard/elm/Wizard/Common/Menu/Update.elm:43
 #: engine-wizard/elm/Wizard/Common/Menu/View.elm:856
@@ -2401,8 +2395,9 @@ msgstr "Αρχείο"
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1067
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor/RenameModal.elm:236
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor/RenameModal.elm:240
+#, fuzzy
 msgid "Rename"
-msgstr ""
+msgstr "Μετονομασία"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1081
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor/MoveModal.elm:204
@@ -2462,20 +2457,24 @@ msgid "Or just drop them here"
 msgstr "Ή απλά σύρετε τα εδώ"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor/MoveModal.elm:188
+#, fuzzy
 msgid "Move failed"
-msgstr ""
+msgstr "Η μετακίνηση απέτυχε"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor/MoveModal.elm:197
+#, fuzzy
 msgid "Select a new folder"
-msgstr ""
+msgstr "Επιλέξτε ένα νέο φάκελο"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor/RenameModal.elm:206
+#, fuzzy
 msgid "Rename failed."
-msgstr ""
+msgstr "Η μετονομασία απέτυχε."
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor/RenameModal.elm:231
+#, fuzzy
 msgid "Name cannot be empty."
-msgstr ""
+msgstr "Το όνομα δεν μπορεί να είναι κενό."
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/Preview.elm:201
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/Preview.elm:105
@@ -3399,8 +3398,9 @@ msgid "Value Type"
 msgstr "Τύπος τιμής"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1081
+#, fuzzy
 msgid "Validations"
-msgstr ""
+msgstr "Επικυρώσεις"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1103
 msgid "- select integration -"
@@ -3834,72 +3834,89 @@ msgid "Annotations"
 msgstr "Σχολιασμοί"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:767
+#, fuzzy
 msgid "Remove validation"
-msgstr ""
+msgstr "Κατάργηση επικύρωσης"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:771
+#, fuzzy
 msgid "Validation type"
-msgstr ""
+msgstr "Τύπος επικύρωσης"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:799
+#, fuzzy
 msgid "Add validation"
-msgstr ""
+msgstr "Προσθήκη επικύρωσης"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:818
+#, fuzzy
 msgid "Min Length"
-msgstr ""
+msgstr "Ελάχιστο μήκος"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:825
+#, fuzzy
 msgid "Max Length"
-msgstr ""
+msgstr "Μέγιστο μήκος"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:832
+#, fuzzy
 msgid "Regex"
-msgstr ""
+msgstr "Regex"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:841
+#, fuzzy
 msgid "ORCID"
-msgstr ""
+msgstr "ORCID"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:847
+#, fuzzy
 msgid "DOI"
-msgstr ""
+msgstr "DOI"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:853
+#, fuzzy
 msgid "Min Number"
-msgstr ""
+msgstr "Ελάχιστος αριθμός"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:859
+#, fuzzy
 msgid "Max Number"
-msgstr ""
+msgstr "Μέγιστος αριθμός"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:865
+#, fuzzy
 msgid "From Date"
-msgstr ""
+msgstr "Από Ημερομηνία"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:871
+#, fuzzy
 msgid "To Date"
-msgstr ""
+msgstr "Μέχρι σήμερα"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:877
+#, fuzzy
 msgid "From Date Time"
-msgstr ""
+msgstr "Από Ημερομηνία Ώρα"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:883
+#, fuzzy
 msgid "To Date Time"
-msgstr ""
+msgstr "Μέχρι Ημερομηνία Ώρα"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:889
+#, fuzzy
 msgid "From Time"
-msgstr ""
+msgstr "Από το χρόνο"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:895
+#, fuzzy
 msgid "To Time"
-msgstr ""
+msgstr "Στο χρόνο"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:901
+#, fuzzy
 msgid "Domain"
-msgstr ""
+msgstr "Τομέας"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:994
 msgid "Weight"
@@ -5997,13 +6014,15 @@ msgid "Tenant could not be saved."
 msgstr "Ο ενοικιαστής δεν μπόρεσε να σωθεί."
 
 #: engine-wizard/elm/Wizard/Tenants/Detail/Update.elm:144
+#, fuzzy
 msgid "Tenant limits could not be saved."
-msgstr ""
+msgstr "Τα όρια των ενοικιαστών δεν μπορούσαν να σωθούν."
 
 #: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:68
 #: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:214
+#, fuzzy
 msgid "Edit limits"
-msgstr ""
+msgstr "Επεξεργασία ορίων"
 
 #: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:127
 #: engine-wizard/elm/Wizard/Tenants/Index/View.elm:71
