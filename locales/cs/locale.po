@@ -3,17 +3,7 @@
 # Jan Slifka <jan.slifka@ds-wizard.org>, 2023.
 # Jana Martínková <j.martinkova@outlook.com>, 2024.
 msgid ""
-msgstr ""
-"Project-Id-Version: wizard-client:3.17.1\n"
-"POT-Creation-Date: 2024-12-05T08:08:31.933Z \n"
-"PO-Revision-Date: 2024-12-03 09:34+0000\n"
-"Last-Translator: Jana Martínková <j.martinkova@outlook.com>\n"
-"Language-Team: Czech <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-12-0/cs/>\n"
-"Language: cs\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.18.2\n"
+msgstr "Project-Id-Version: wizard-client:3.17.1\nPOT-Creation-Date: 2024-12-05T08:08:31.933Z\nPO-Revision-Date: 2024-12-06 07:41+0000\nLast-Translator: Anonymous <noreply@weblate.org>\nLanguage-Team: Czech <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-13-0/cs/>\nLanguage: cs\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\nX-Generator: Weblate 4.18.2\n"
 
 #: engine-shared/elm/Shared/Auth/Role.elm:29
 msgid "Admin"
@@ -76,12 +66,14 @@ msgid "December"
 msgstr "prosinec"
 
 #: engine-shared/elm/Shared/Data/KnowledgeModel/Question/QuestionValidation.elm:332
+#, fuzzy
 msgid "Answer must be a valid ORCID."
-msgstr ""
+msgstr "Odpověď musí být platný ORCID."
 
 #: engine-shared/elm/Shared/Data/KnowledgeModel/Question/QuestionValidation.elm:339
+#, fuzzy
 msgid "Answer must be a valid DOI."
-msgstr ""
+msgstr "Odpovědí musí být platné DOI."
 
 #: engine-shared/elm/Shared/Data/Questionnaire/QuestionnaireCreation.elm:116
 msgid "Templates & Custom"
@@ -885,8 +877,9 @@ msgid "This chapter contains no questions."
 msgstr "Tato kapitola neobsahuje žádné otázky."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2979
+#, fuzzy
 msgid "There are no questions matching the selected question tags."
-msgstr ""
+msgstr "Neexistují žádné otázky, které by odpovídaly vybraným značkám otázek."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2992
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:3455
@@ -1576,8 +1569,9 @@ msgid "Storage"
 msgstr "Úložiště"
 
 #: engine-wizard/elm/Wizard/Common/Components/UsageTable.elm:80
+#, fuzzy
 msgid "Unlimited"
-msgstr ""
+msgstr "Neomezené"
 
 #: engine-wizard/elm/Wizard/Common/Menu/Update.elm:43
 #: engine-wizard/elm/Wizard/Common/Menu/View.elm:856
@@ -2414,8 +2408,9 @@ msgstr "Soubor"
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1067
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor/RenameModal.elm:236
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor/RenameModal.elm:240
+#, fuzzy
 msgid "Rename"
-msgstr ""
+msgstr "Přejmenování"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1081
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor/MoveModal.elm:204
@@ -2475,20 +2470,24 @@ msgid "Or just drop them here"
 msgstr "Nebo je prostě přetáhněte sem"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor/MoveModal.elm:188
+#, fuzzy
 msgid "Move failed"
-msgstr ""
+msgstr "Přesun se nezdařil"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor/MoveModal.elm:197
+#, fuzzy
 msgid "Select a new folder"
-msgstr ""
+msgstr "Výběr nové složky"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor/RenameModal.elm:206
+#, fuzzy
 msgid "Rename failed."
-msgstr ""
+msgstr "Přejmenování se nezdařilo."
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor/RenameModal.elm:231
+#, fuzzy
 msgid "Name cannot be empty."
-msgstr ""
+msgstr "Název nesmí být prázdný."
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/Preview.elm:201
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/Preview.elm:105
@@ -3412,8 +3411,9 @@ msgid "Value Type"
 msgstr "Typ hodnoty"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1081
+#, fuzzy
 msgid "Validations"
-msgstr ""
+msgstr "Ověření platnosti"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1103
 msgid "- select integration -"
@@ -3847,72 +3847,89 @@ msgid "Annotations"
 msgstr "Anotace"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:767
+#, fuzzy
 msgid "Remove validation"
-msgstr ""
+msgstr "Odstranění validace"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:771
+#, fuzzy
 msgid "Validation type"
-msgstr ""
+msgstr "Typ ověření"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:799
+#, fuzzy
 msgid "Add validation"
-msgstr ""
+msgstr "Přidání ověření"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:818
+#, fuzzy
 msgid "Min Length"
-msgstr ""
+msgstr "Minimální délka"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:825
+#, fuzzy
 msgid "Max Length"
-msgstr ""
+msgstr "Maximální délka"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:832
+#, fuzzy
 msgid "Regex"
-msgstr ""
+msgstr "Regex"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:841
+#, fuzzy
 msgid "ORCID"
-msgstr ""
+msgstr "ORCID"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:847
+#, fuzzy
 msgid "DOI"
-msgstr ""
+msgstr "DOI"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:853
+#, fuzzy
 msgid "Min Number"
-msgstr ""
+msgstr "Minimální počet"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:859
+#, fuzzy
 msgid "Max Number"
-msgstr ""
+msgstr "Maximální počet"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:865
+#, fuzzy
 msgid "From Date"
-msgstr ""
+msgstr "Od data"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:871
+#, fuzzy
 msgid "To Date"
-msgstr ""
+msgstr "K dnešnímu dni"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:877
+#, fuzzy
 msgid "From Date Time"
-msgstr ""
+msgstr "Od Datum Čas"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:883
+#, fuzzy
 msgid "To Date Time"
-msgstr ""
+msgstr "Do Datum Čas"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:889
+#, fuzzy
 msgid "From Time"
-msgstr ""
+msgstr "Od Time"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:895
+#, fuzzy
 msgid "To Time"
-msgstr ""
+msgstr "Na čas"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:901
+#, fuzzy
 msgid "Domain"
-msgstr ""
+msgstr "Doména"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:994
 msgid "Weight"
@@ -6016,13 +6033,15 @@ msgid "Tenant could not be saved."
 msgstr "Tenanta se nepodařilo uložit."
 
 #: engine-wizard/elm/Wizard/Tenants/Detail/Update.elm:144
+#, fuzzy
 msgid "Tenant limits could not be saved."
-msgstr ""
+msgstr "Limity pro nájemce nebylo možné zachránit."
 
 #: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:68
 #: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:214
+#, fuzzy
 msgid "Edit limits"
-msgstr ""
+msgstr "Úprava limitů"
 
 #: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:127
 #: engine-wizard/elm/Wizard/Tenants/Index/View.elm:71
