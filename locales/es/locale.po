@@ -1,6 +1,6 @@
 # Remedios Melero <rmelero@iata.csic.es>, 2023.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2024-11-07T09:32:42.414Z\nPO-Revision-Date: 2024-12-02 04:47+0000\nLast-Translator: Anonymous <noreply@weblate.org>\nLanguage-Team: Spanish <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-12-0/es/>\nLanguage: es\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 4.18.2\n"
+msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2024-11-07T09:32:42.414Z\nPO-Revision-Date: 2025-01-02 04:48+0000\nLast-Translator: Anonymous <noreply@weblate.org>\nLanguage-Team: Spanish <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-12-0/es/>\nLanguage: es\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 4.18.2\n"
 
 #: engine-shared/elm/Shared/Auth/Role.elm:29
 msgid "Admin"
@@ -2462,7 +2462,7 @@ msgstr "Bienvenido."
 #: engine-wizard/elm/Wizard/Dashboard/Widgets/WelcomeWidget.elm:25
 #, fuzzy
 msgid "As an admin, you configure the instance and manage user accounts."
-msgstr "Como administrador, configuras la instancia y gestionas las cuentas de usuario."
+msgstr "Como administrador, configura la instancia y gestiona las cuentas de usuario."
 
 #: engine-wizard/elm/Wizard/Dashboard/Widgets/WelcomeWidget.elm:26
 #, fuzzy
@@ -3913,7 +3913,7 @@ msgstr "Ir a la pregunta de la lista"
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1229
 #, fuzzy
 msgid "File Types"
-msgstr "Tipos de ficheros"
+msgstr "Tipos de archivos"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1237
 #, fuzzy
@@ -4157,7 +4157,7 @@ msgstr "El logotipo se muestra junto al enlace al elemento seleccionado en los c
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1807
 #, fuzzy
 msgid "Props can be used to parametrize the integration for each question. Use this to define the props whose value can be filled on the questions using this integration. The props can then be used in the URL configuration. For example, if you define prop named *type*, you can use it as `${type}`, such as *ht&#8203;tps://example.com/${type}*."
-msgstr "Los accesorios pueden usarse para parametrizar la integración para cada pregunta. Use esto para definir los props cuyo valor puede ser rellenado en las preguntas usando esta integración. Los props pueden usarse entonces en la configuración de la URL. Por ejemplo, si define un prop llamado *tipo*, puede utilizarlo como `${tipo}`, como *https://ejemplo.com/${tipo}*."
+msgstr "Los accesorios pueden usarse para parametrizar la integración para cada pregunta. Use esto para definir los props cuyo valor puede ser rellenado en las preguntas usando esta integración. Los props pueden usarse en la configuración de la URL. Por ejemplo, si define un prop llamado *tipo*, puede utilizarlo como `${tipo}`, como *https://ejemplo.com/${tipo}*."
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1811
 #, fuzzy
