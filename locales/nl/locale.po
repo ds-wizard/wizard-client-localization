@@ -1,8 +1,8 @@
 # Rob Hooft <rob.hooft@health-ri.nl>, 2023, 2024.
 # Marek Suchánek <marek.suchanek@ds-wizard.org>, 2023, 2024.
-# Jana Martínková <j.martinkova@outlook.com>, 2024.
+# Jana Martínková <j.martinkova@outlook.com>, 2024, 2025.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2024-12-05T08:08:31.933Z\nPO-Revision-Date: 2024-12-06 07:46+0000\nLast-Translator: Anonymous <noreply@weblate.org>\nLanguage-Team: Dutch <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-13-0/nl/>\nLanguage: nl\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 4.18.2\n"
+msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2024-12-05T08:08:31.933Z\nPO-Revision-Date: 2025-01-02 10:05+0000\nLast-Translator: Jana Martínková <j.martinkova@outlook.com>\nLanguage-Team: Dutch <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-13-0/nl/>\nLanguage: nl\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 4.18.2\n"
 
 #: engine-shared/elm/Shared/Auth/Role.elm:29
 msgid "Admin"
@@ -65,12 +65,10 @@ msgid "December"
 msgstr "december"
 
 #: engine-shared/elm/Shared/Data/KnowledgeModel/Question/QuestionValidation.elm:332
-#, fuzzy
 msgid "Answer must be a valid ORCID."
 msgstr "Antwoord moet een geldige ORCID zijn."
 
 #: engine-shared/elm/Shared/Data/KnowledgeModel/Question/QuestionValidation.elm:339
-#, fuzzy
 msgid "Answer must be a valid DOI."
 msgstr "Antwoord moet een geldige DOI zijn."
 
@@ -876,7 +874,6 @@ msgid "This chapter contains no questions."
 msgstr "Dit hoofdstuk bevat geen vragen."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2979
-#, fuzzy
 msgid "There are no questions matching the selected question tags."
 msgstr "Er zijn geen vragen die overeenkomen met de geselecteerde vraagtags."
 
@@ -1566,7 +1563,6 @@ msgid "Storage"
 msgstr "Opslag"
 
 #: engine-wizard/elm/Wizard/Common/Components/UsageTable.elm:80
-#, fuzzy
 msgid "Unlimited"
 msgstr "Onbeperkt"
 
@@ -2396,7 +2392,6 @@ msgstr "Bestand"
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1067
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor/RenameModal.elm:236
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor/RenameModal.elm:240
-#, fuzzy
 msgid "Rename"
 msgstr "Hernoem"
 
@@ -2458,22 +2453,18 @@ msgid "Or just drop them here"
 msgstr "Of drop ze hier"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor/MoveModal.elm:188
-#, fuzzy
 msgid "Move failed"
 msgstr "Verhuizing mislukt"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor/MoveModal.elm:197
-#, fuzzy
 msgid "Select a new folder"
 msgstr "Selecteer een nieuwe map"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor/RenameModal.elm:206
-#, fuzzy
 msgid "Rename failed."
 msgstr "Hernoemen mislukt."
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor/RenameModal.elm:231
-#, fuzzy
 msgid "Name cannot be empty."
 msgstr "Naam kan niet leeg zijn."
 
@@ -3399,7 +3390,6 @@ msgid "Value Type"
 msgstr "Type van de waarde"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor.elm:1081
-#, fuzzy
 msgid "Validations"
 msgstr "Validaties"
 
@@ -3835,87 +3825,70 @@ msgid "Annotations"
 msgstr "Annotaties"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:767
-#, fuzzy
 msgid "Remove validation"
 msgstr "Validatie verwijderen"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:771
-#, fuzzy
 msgid "Validation type"
 msgstr "Type bevestiging"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:799
-#, fuzzy
 msgid "Add validation"
 msgstr "Validatie toevoegen"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:818
-#, fuzzy
 msgid "Min Length"
 msgstr "Min Lengte"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:825
-#, fuzzy
 msgid "Max Length"
 msgstr "Maximale lengte"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:832
-#, fuzzy
 msgid "Regex"
 msgstr "Regex"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:841
-#, fuzzy
 msgid "ORCID"
 msgstr "ORCID"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:847
-#, fuzzy
 msgid "DOI"
 msgstr "DOI"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:853
-#, fuzzy
 msgid "Min Number"
 msgstr "Min Aantal"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:859
-#, fuzzy
 msgid "Max Number"
 msgstr "Max Aantal"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:865
-#, fuzzy
 msgid "From Date"
 msgstr "Van Datum"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:871
-#, fuzzy
 msgid "To Date"
 msgstr "Tot op heden"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:877
-#, fuzzy
 msgid "From Date Time"
 msgstr "Van Datum Tijd"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:883
-#, fuzzy
 msgid "To Date Time"
 msgstr "Naar Datum Tijd"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:889
-#, fuzzy
 msgid "From Time"
 msgstr "Uit de tijd"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:895
-#, fuzzy
 msgid "To Time"
 msgstr "Naar de tijd"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/KMEditor/Input.elm:901
-#, fuzzy
 msgid "Domain"
 msgstr "Domein"
 
@@ -6015,13 +5988,11 @@ msgid "Tenant could not be saved."
 msgstr "Huurder kon niet worden gered."
 
 #: engine-wizard/elm/Wizard/Tenants/Detail/Update.elm:144
-#, fuzzy
 msgid "Tenant limits could not be saved."
 msgstr "Huurderslimieten konden niet worden gered."
 
 #: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:68
 #: engine-wizard/elm/Wizard/Tenants/Detail/View.elm:214
-#, fuzzy
 msgid "Edit limits"
 msgstr "Grenzen bewerken"
 
