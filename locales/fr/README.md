@@ -3,7 +3,7 @@
 [![LICENSE](https://img.shields.io/github/license/ds-wizard/wizard-client-locales)](LICENSE)
 [![Language](https://img.shields.io/badge/ISO%20639--1-fr-blue)](https://en.wikipedia.org/wiki/French_language)
 [![Translation status](https://img.shields.io/badge/translated-100%25-brightgreen)](https://localize.ds-wizard.org/engage/wizard-client/fr/)
-[![Translation status](https://localize.ds-wizard.org/widgets/wizard-client/fr/wizard-client-4-12-0/svg-badge.svg)](https://localize.ds-wizard.org/engage/wizard-client/fr/)
+[![Translation status](https://localize.ds-wizard.org/widgets/wizard-client/fr/wizard-client-4-13-0/svg-badge.svg)](https://localize.ds-wizard.org/engage/wizard-client/fr/)
 
 ## Contributors
 
@@ -13,9 +13,16 @@
 * **Marek Suchánek** <[marek.suchanek@ds-wizard.org](mailto:marek.suchanek@ds-wizard.org)>
   * ORCID: [0000-0001-7525-9218](https://orcid.org/0000-0001-7525-9218)
   * GitHub: [@MarekSuchanek](https://github.com/MarekSuchanek)
+* **Jana Martínková** <[jana.martinkova@ds-wizard.org](mailto:jana.martinkova@ds-wizard.org)>
+  * ORCID: [0000-0001-8575-6533](https://orcid.org/0000-0001-8575-6533)
+  * GitHub: [@jmartinkova](https://github.com/jmartinkova)
 
 
 ## Changelog
+
+### 4.13.0
+
+* Updated for version 4.13.0
 
 ### 4.12.0
 
