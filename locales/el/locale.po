@@ -1,7 +1,7 @@
 # Jana Martínková <j.martinkova@outlook.com>, 2024.
-# Georgia Koutentaki <koutegeo@cvut.cz>, 2024.
+# Georgia Koutentaki <koutegeo@cvut.cz>, 2024, 2025.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:4.9.0\nPOT-Creation-Date: 2025-01-07T08:22:34.251Z\nPO-Revision-Date: 2025-01-07 09:14+0000\nLast-Translator: Anonymous <noreply@weblate.org>\nLanguage-Team: Greek <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-14-0/el/>\nLanguage: el\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 4.18.2\n"
+msgstr "Project-Id-Version: wizard-client:4.9.0\nPOT-Creation-Date: 2025-01-07T08:22:34.251Z\nPO-Revision-Date: 2025-01-09 16:48+0000\nLast-Translator: Georgia Koutentaki <koutegeo@cvut.cz>\nLanguage-Team: Greek <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-14-0/el/>\nLanguage: el\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 4.18.2\n"
 
 #: engine-shared/elm/Shared/Auth/Role.elm:29
 msgid "Admin"
@@ -731,22 +731,18 @@ msgid "Click the %s icon to add new comments to a question."
 msgstr "Κάντε κλικ στο εικονίδιο %s για να προσθέσετε νέα σχόλια σε μια ερώτηση."
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2436
-#, fuzzy
 msgid "View resolved comments"
 msgstr "Προβολή επιλυμένων σχολίων"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2485
-#, fuzzy
 msgid "Resolved and unresolved comments"
-msgstr "Επιλυμένα και άλυτα σχόλια"
+msgstr "Επιλυμένα και μη σχόλια"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2488
-#, fuzzy
 msgid "Unresolved comments"
-msgstr "Ανοιχτά σχόλια"
+msgstr "Μη επιλυμένα σχόλια"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2512
-#, fuzzy
 msgid "Previous"
 msgstr "Προηγούμενο"
 
@@ -2453,7 +2449,6 @@ msgid "Add folder"
 msgstr "Προσθήκη φακέλου"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1518
-#, fuzzy
 msgid "Are you sure you want to permanently delete %s and all its contents?"
 msgstr "Είστε σίγουροι ότι θέλετε να διαγράψετε οριστικά το %s και όλα τα περιεχόμενά του;"
 
@@ -2490,9 +2485,8 @@ msgid "Name cannot be empty."
 msgstr "Το όνομα δεν μπορεί να είναι κενό."
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/Preview.elm:205
-#, fuzzy
 msgid "Unable to get KM editors."
-msgstr "Δεν είναι δυνατή η πρόσβαση σε συντάκτες KM."
+msgstr "Δεν είναι δυνατή η πρόσβαση σε συντάκτες ΜΓ."
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/Preview.elm:277
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/Preview.elm:105
@@ -2505,14 +2499,12 @@ msgid "Open project"
 msgstr "Ανοίξτε το έργο"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/Preview.elm:349
-#, fuzzy
 msgid "Open KM editor"
-msgstr "Ανοίξτε τον επεξεργαστή KM"
+msgstr "Ανοίξτε τον συντάκτη ΜΓ"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/Preview.elm:383
-#, fuzzy
 msgid "KM editor"
-msgstr "Εκδότης KM"
+msgstr "Συντάκτης ΜΓ"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/Preview.elm:391
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/NewDocument.elm:315
@@ -2525,9 +2517,8 @@ msgid "Preview not set"
 msgstr "Δεν έχει οριστεί προεπισκόπηση"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/Preview.elm:406
-#, fuzzy
 msgid "Select project or KM editor and format you want to preview."
-msgstr "Επιλέξτε το έργο ή τον επεξεργαστή KM και τη μορφή που θέλετε να κάνετε προεπισκόπηση."
+msgstr "Επιλέξτε το έργο ή τον συντάκτη ΜΓ και τη μορφή που θέλετε να κάνετε προεπισκόπηση."
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/Preview.elm:429
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/Preview.elm:163
@@ -3968,7 +3959,6 @@ msgid "Select none"
 msgstr "Μην επιλέξετε κανένα"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/Preview.elm:289
-#, fuzzy
 msgid "Save preview values"
 msgstr "Αποθήκευση τιμών προεπισκόπησης"
 
@@ -5077,17 +5067,14 @@ msgid "There is an ongoing %s. Finish it before you can continue editing this pr
 msgstr "Υπάρχει ένα %s σε εξέλιξη. Ολοκληρώστε τo πριν συνεχίσετε την επεξεργασία του έργου."
 
 #: engine-wizard/elm/Wizard/Projects/Detail/View.elm:150
-#, fuzzy
 msgid "Refresh Required"
 msgstr "Απαιτείται ανανέωση"
 
 #: engine-wizard/elm/Wizard/Projects/Detail/View.elm:152
-#, fuzzy
 msgid "Another user has made significant changes to the questionnaire (e.g., reverting to a previous version). To ensure everyone is using the latest version, you’ve been disconnected."
-msgstr "Ένας άλλος χρήστης έχει προβεί σε σημαντικές αλλαγές στο ερωτηματολόγιο (π.χ. επαναφορά σε προηγούμενη έκδοση). Για να διασφαλιστεί ότι όλοι χρησιμοποιούν την τελευταία έκδοση, έχετε αποσυνδεθεί."
+msgstr "Ένας άλλος χρήστης έχει κάνει σημαντικές αλλαγές στο ερωτηματολόγιο (π.χ. επαναφορά σε προηγούμενη έκδοση). Για να διασφαλιστεί ότι όλοι χρησιμοποιούν την τελευταία έκδοση, έχετε αποσυνδεθεί."
 
 #: engine-wizard/elm/Wizard/Projects/Detail/View.elm:153
-#, fuzzy
 msgid "Refresh the page to reconnect."
 msgstr "Ανανεώστε τη σελίδα για να επανασυνδεθείτε."
 
@@ -5113,19 +5100,16 @@ msgid "You are not allowed to view this page."
 msgstr "Δεν έχετε άδεια προβολής αυτής της σελίδας."
 
 #: engine-wizard/elm/Wizard/Projects/DocumentDownload/Update.elm:50
-#, fuzzy
 msgid "You do not have permission to access this document"
 msgstr "Δεν έχετε άδεια πρόσβασης σε αυτό το έγγραφο"
 
 #: engine-wizard/elm/Wizard/Projects/DocumentDownload/Update.elm:53
-#, fuzzy
 msgid "Document not found"
 msgstr "Το έγγραφο δεν βρέθηκε"
 
 #: engine-wizard/elm/Wizard/Projects/DocumentDownload/Update.elm:56
-#, fuzzy
 msgid "Unable to get document"
-msgstr "Αδυναμία λήψης εγγράφων."
+msgstr "Αδυναμία λήψης εγγράφου."
 
 #: engine-wizard/elm/Wizard/Projects/DocumentDownload/View.elm:21
 #: engine-wizard/elm/Wizard/Projects/FileDownload/View.elm:21
