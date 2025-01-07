@@ -1,16 +1,6 @@
 # Remedios Melero <rmelero@iata.csic.es>, 2023.
 msgid ""
-msgstr ""
-"Project-Id-Version: wizard-client:3.18.3\n"
-"POT-Creation-Date: 2025-01-07T08:22:34.251Z \n"
-"PO-Revision-Date: 2025-01-02 10:05+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: Spanish <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-13-0/es/>\n"
-"Language: es\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.18.2\n"
+msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2025-01-07T08:22:34.251Z\nPO-Revision-Date: 2025-01-07 09:14+0000\nLast-Translator: Anonymous <noreply@weblate.org>\nLanguage-Team: Spanish <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-14-0/es/>\nLanguage: es\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 4.18.2\n"
 
 #: engine-shared/elm/Shared/Auth/Role.elm:29
 msgid "Admin"
@@ -808,16 +798,19 @@ msgid "View resolved comments"
 msgstr "Ver comentarios resueltos"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2485
+#, fuzzy
 msgid "Resolved and unresolved comments"
-msgstr ""
+msgstr "Comentarios resueltos y no resueltos"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2488
+#, fuzzy
 msgid "Unresolved comments"
-msgstr ""
+msgstr "Comentarios sin resolver"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2512
+#, fuzzy
 msgid "Previous"
-msgstr ""
+msgstr "Anterior"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2541
 #, fuzzy
@@ -2811,8 +2804,9 @@ msgid "Add folder"
 msgstr "Añadir carpeta"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1518
+#, fuzzy
 msgid "Are you sure you want to permanently delete %s and all its contents?"
-msgstr ""
+msgstr "¿Estás seguro de que quieres borrar permanentemente %s y todo su contenido?"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor/AssetUploadModal.elm:180
 #, fuzzy
@@ -2855,8 +2849,9 @@ msgid "Name cannot be empty."
 msgstr "El nombre no puede estar vacío."
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/Preview.elm:205
+#, fuzzy
 msgid "Unable to get KM editors."
-msgstr ""
+msgstr "Imposible conseguir editores KM."
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/Preview.elm:277
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/Preview.elm:105
@@ -2871,12 +2866,14 @@ msgid "Open project"
 msgstr "Proyecto abierto"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/Preview.elm:349
+#, fuzzy
 msgid "Open KM editor"
-msgstr ""
+msgstr "Abrir el editor KM"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/Preview.elm:383
+#, fuzzy
 msgid "KM editor"
-msgstr ""
+msgstr "Editor de KM"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/Preview.elm:391
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/NewDocument.elm:315
@@ -2891,8 +2888,9 @@ msgid "Preview not set"
 msgstr "Vista previa no fijada"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/Preview.elm:406
+#, fuzzy
 msgid "Select project or KM editor and format you want to preview."
-msgstr ""
+msgstr "Seleccione el proyecto o el editor de KM y el formato que desea previsualizar."
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/Preview.elm:429
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/Preview.elm:163
@@ -4599,8 +4597,9 @@ msgid "Select none"
 msgstr "Seleccione ninguno"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/Preview.elm:289
+#, fuzzy
 msgid "Save preview values"
-msgstr ""
+msgstr "Guardar valores de previsualización"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/PublishModal.elm:93
 #, fuzzy
@@ -5957,16 +5956,19 @@ msgid "There is an ongoing %s. Finish it before you can continue editing this pr
 msgstr "Hay un %s en curso. Termínala antes de poder seguir editando este proyecto."
 
 #: engine-wizard/elm/Wizard/Projects/Detail/View.elm:150
+#, fuzzy
 msgid "Refresh Required"
-msgstr ""
+msgstr "Actualización necesaria"
 
 #: engine-wizard/elm/Wizard/Projects/Detail/View.elm:152
+#, fuzzy
 msgid "Another user has made significant changes to the questionnaire (e.g., reverting to a previous version). To ensure everyone is using the latest version, you’ve been disconnected."
-msgstr ""
+msgstr "Otro usuario ha realizado cambios significativos en el cuestionario (por ejemplo, volver a una versión anterior). Para asegurarse de que todo el mundo utiliza la última versión, se le ha desconectado."
 
 #: engine-wizard/elm/Wizard/Projects/Detail/View.elm:153
+#, fuzzy
 msgid "Refresh the page to reconnect."
-msgstr ""
+msgstr "Actualiza la página para volver a conectarte."
 
 #: engine-wizard/elm/Wizard/Projects/Detail/View.elm:203
 #: engine-wizard/elm/Wizard/Projects/Index/View.elm:717
@@ -5995,16 +5997,19 @@ msgid "You are not allowed to view this page."
 msgstr "No tiene permiso para ver esta página."
 
 #: engine-wizard/elm/Wizard/Projects/DocumentDownload/Update.elm:50
+#, fuzzy
 msgid "You do not have permission to access this document"
-msgstr ""
+msgstr "No tiene permiso para acceder a este documento"
 
 #: engine-wizard/elm/Wizard/Projects/DocumentDownload/Update.elm:53
+#, fuzzy
 msgid "Document not found"
-msgstr ""
+msgstr "Documento no encontrado"
 
 #: engine-wizard/elm/Wizard/Projects/DocumentDownload/Update.elm:56
+#, fuzzy
 msgid "Unable to get document"
-msgstr ""
+msgstr "No se puede obtener el documento"
 
 #: engine-wizard/elm/Wizard/Projects/DocumentDownload/View.elm:21
 #: engine-wizard/elm/Wizard/Projects/FileDownload/View.elm:21
