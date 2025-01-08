@@ -1,8 +1,8 @@
-# Rob Hooft <rob.hooft@health-ri.nl>, 2023, 2024.
+# Rob Hooft <rob.hooft@health-ri.nl>, 2023, 2024, 2025.
 # Marek Suchánek <marek.suchanek@ds-wizard.org>, 2023, 2024.
 # Jana Martínková <j.martinkova@outlook.com>, 2024, 2025.
 msgid ""
-msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2025-01-07T08:22:34.251Z\nPO-Revision-Date: 2025-01-07 09:20+0000\nLast-Translator: Anonymous <noreply@weblate.org>\nLanguage-Team: Dutch <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-14-0/nl/>\nLanguage: nl\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 4.18.2\n"
+msgstr "Project-Id-Version: wizard-client:3.18.3\nPOT-Creation-Date: 2025-01-07T08:22:34.251Z\nPO-Revision-Date: 2025-01-09 16:48+0000\nLast-Translator: Rob Hooft <rob.hooft@health-ri.nl>\nLanguage-Team: Dutch <https://localize.ds-wizard.org/projects/wizard-client/wizard-client-4-14-0/nl/>\nLanguage: nl\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 4.18.2\n"
 
 #: engine-shared/elm/Shared/Auth/Role.elm:29
 msgid "Admin"
@@ -736,17 +736,14 @@ msgid "View resolved comments"
 msgstr "Bekijk opgeloste commentaren"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2485
-#, fuzzy
 msgid "Resolved and unresolved comments"
 msgstr "Opgeloste en onopgeloste opmerkingen"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2488
-#, fuzzy
 msgid "Unresolved comments"
 msgstr "Onopgeloste opmerkingen"
 
 #: engine-wizard/elm/Wizard/Common/Components/Questionnaire.elm:2512
-#, fuzzy
 msgid "Previous"
 msgstr "Vorige"
 
@@ -2453,9 +2450,8 @@ msgid "Add folder"
 msgstr "Map toevoegen"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor.elm:1518
-#, fuzzy
 msgid "Are you sure you want to permanently delete %s and all its contents?"
-msgstr "Weet je zeker dat je %s en al zijn inhoud permanent wilt verwijderen?"
+msgstr "Weet je zeker dat je %s met alle inhoud permanent wilt verwijderen?"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/FileEditor/AssetUploadModal.elm:180
 msgid "Unable to upload file."
@@ -2490,9 +2486,8 @@ msgid "Name cannot be empty."
 msgstr "Naam kan niet leeg zijn."
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/Preview.elm:205
-#, fuzzy
 msgid "Unable to get KM editors."
-msgstr "Kan KM-editors niet krijgen."
+msgstr "Kan KM-editors niet ophalen."
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/Preview.elm:277
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/Preview.elm:105
@@ -2505,14 +2500,12 @@ msgid "Open project"
 msgstr "Open project"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/Preview.elm:349
-#, fuzzy
 msgid "Open KM editor"
 msgstr "KM-editor openen"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/Preview.elm:383
-#, fuzzy
 msgid "KM editor"
-msgstr "KM-redacteur"
+msgstr "KM-editor"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/Preview.elm:391
 #: engine-wizard/elm/Wizard/Projects/Detail/Components/NewDocument.elm:315
@@ -2525,7 +2518,6 @@ msgid "Preview not set"
 msgstr "Voorvertoning niet ingesteld"
 
 #: engine-wizard/elm/Wizard/DocumentTemplateEditors/Editor/Components/Preview.elm:406
-#, fuzzy
 msgid "Select project or KM editor and format you want to preview."
 msgstr "Selecteer het project of de KM-editor en het formaat dat je wilt bekijken."
 
@@ -3968,7 +3960,6 @@ msgid "Select none"
 msgstr "Selecteer niets"
 
 #: engine-wizard/elm/Wizard/KMEditor/Editor/Components/Preview.elm:289
-#, fuzzy
 msgid "Save preview values"
 msgstr "Voorbeeldwaarden opslaan"
 
@@ -4846,7 +4837,7 @@ msgstr "Kon de projectmigratie niet aanmaken."
 
 #: engine-wizard/elm/Wizard/Projects/CreateMigration/Update.elm:239
 msgid "Unable to get question tags for the Knowledge Model."
-msgstr "Kan de vraagtags voor het kennismodel niet laden."
+msgstr "Kan de vraagtags voor het Kennismodel niet laden."
 
 #: engine-wizard/elm/Wizard/Projects/CreateMigration/View.elm:52
 msgid "Original question tags"
@@ -5077,19 +5068,16 @@ msgid "There is an ongoing %s. Finish it before you can continue editing this pr
 msgstr "Er is een %s onderweg. Pas als dat is afgemaakt kan dit project gewijzigd worden."
 
 #: engine-wizard/elm/Wizard/Projects/Detail/View.elm:150
-#, fuzzy
 msgid "Refresh Required"
-msgstr "Vernieuwen vereist"
+msgstr "Moet worden ververst"
 
 #: engine-wizard/elm/Wizard/Projects/Detail/View.elm:152
-#, fuzzy
 msgid "Another user has made significant changes to the questionnaire (e.g., reverting to a previous version). To ensure everyone is using the latest version, you’ve been disconnected."
-msgstr "Een andere gebruiker heeft belangrijke wijzigingen aangebracht in de vragenlijst (bijv. teruggaan naar een vorige versie). Om er zeker van te zijn dat iedereen de laatste versie gebruikt, is de verbinding verbroken."
+msgstr "Een andere gebruiker heeft grotere wijzigingen aangebracht in de vragenlijst (bijv. teruggegaan naar een vorige versie). Om er zeker van te zijn dat iedereen de nieuwste versie gebruikt, is je verbinding verbroken."
 
 #: engine-wizard/elm/Wizard/Projects/Detail/View.elm:153
-#, fuzzy
 msgid "Refresh the page to reconnect."
-msgstr "Vernieuw de pagina om opnieuw verbinding te maken."
+msgstr "Ververs de pagina om opnieuw verbinding te maken."
 
 #: engine-wizard/elm/Wizard/Projects/Detail/View.elm:203
 #: engine-wizard/elm/Wizard/Projects/Index/View.elm:717
@@ -5113,19 +5101,16 @@ msgid "You are not allowed to view this page."
 msgstr "Deze pagina mag je niet bekijken."
 
 #: engine-wizard/elm/Wizard/Projects/DocumentDownload/Update.elm:50
-#, fuzzy
 msgid "You do not have permission to access this document"
-msgstr "Je hebt geen toestemming om dit document te openen"
+msgstr "Je hebt geen toegang tot dit document"
 
 #: engine-wizard/elm/Wizard/Projects/DocumentDownload/Update.elm:53
-#, fuzzy
 msgid "Document not found"
 msgstr "Document niet gevonden"
 
 #: engine-wizard/elm/Wizard/Projects/DocumentDownload/Update.elm:56
-#, fuzzy
 msgid "Unable to get document"
-msgstr "Kan documenten niet ophalen."
+msgstr "Kan document niet ophalen"
 
 #: engine-wizard/elm/Wizard/Projects/DocumentDownload/View.elm:21
 #: engine-wizard/elm/Wizard/Projects/FileDownload/View.elm:21
